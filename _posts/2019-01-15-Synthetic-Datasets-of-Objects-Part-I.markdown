@@ -14,7 +14,7 @@ Desirable properties for any object dataset
 -  Parametric representation 
 -  High Entropy (balance in the classes) 
 
-Synthetic Datasets
+### Synthetic Datasets
 
 |   Dataset   | Year |    Articulations   |                                Source Link                               |
 |:-----------:|:----:|:------------------:|:------------------------------------------------------------------------:|
@@ -33,9 +33,7 @@ Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
-<!--![Graph](/assets/img/2019-01-15/object_datasets.jpg)-->
-
-Real World Datasets
+### Real World Datasets
 
 | Dataset | Year |    Articulations   |                          Source Link                          |
 |:-------:|:----:|:------------------:|:-------------------------------------------------------------:|

@@ -28,6 +28,6 @@ Desirable properties for any object dataset
 | PartNet     | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |     ABC     | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 
-> Somewhere, something incredible is waiting to be known
+> For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. is important.
 
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects

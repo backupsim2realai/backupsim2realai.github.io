@@ -31,6 +31,7 @@ Synthetic Datasets
 
 Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
+![](/assets
 
 Real World Datasets
 
@@ -43,6 +44,9 @@ Real World Datasets
 |  3DScan | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
 |  T-LESS | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
 |   RBO   | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
+
+
+
 
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.

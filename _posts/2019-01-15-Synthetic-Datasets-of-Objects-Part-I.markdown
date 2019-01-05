@@ -36,6 +36,7 @@ Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 |   B3DO  | 2011 |         :x:        |                     http://kinectdata.com/                    |
 |   KIT   | 2012 |         :x:        | https://journals.sagepub.com/doi/abs/10.1177/0278364912445831 |
 | BigBird | 2014 |         :x:        |                http://rll.berkeley.edu/bigbird/               |
+|   YCB   | 2015 |         :x:        |                 http://www.ycbbenchmarks.com/                 |
 |  3DScan | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
 |  T-LESS | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
 |   RBO   | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |

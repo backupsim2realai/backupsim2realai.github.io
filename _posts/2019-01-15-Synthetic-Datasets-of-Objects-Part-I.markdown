@@ -42,6 +42,6 @@ Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 |   RBO   | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
 
-> For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. is important.
+> For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects

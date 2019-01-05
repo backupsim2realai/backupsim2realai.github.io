@@ -16,6 +16,6 @@ img:  # Add image post (optional)
 |  Thingi10K  | 2016 |         :x:        |                 https://ten-thousand-models.appspot.com/                 |
 | ObjectNet3D | 2016 |         :x:        |              http://cvgl.stanford.edu/projects/objectnet3d/              |
 |   ShapeNet  | 2016 |         :x:        |                         https://www.shapenet.org/                        |
-| PartNet     | 2018 | :heavy_check_mark  |                 https://cs.stanford.edu/~kaichun/partnet/                |
+| PartNet     | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |     ABC     | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 

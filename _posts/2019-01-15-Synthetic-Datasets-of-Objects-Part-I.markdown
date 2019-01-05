@@ -31,7 +31,7 @@ Synthetic Datasets
 
 Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
-<img src="/assets/img/2019-01-15/object_datasets.jpg" width="640">
+<img src="/assets/img/2019-01-15/object_datasets.jpg" width="640" align="middle">
 
 <!--![Graph](/assets/img/2019-01-15/object_datasets.jpg)-->
 

@@ -6,6 +6,15 @@ description: Cataloguing datasets of object models # Add post description (optio
 img:  # Add image post (optional)
 ---
 
+Desirable properties for any object dataset
+
+-  Large size
+-  Variation 
+-  Diversity 
+-  Parametric representation 
+-  High Entropy (balance in the classes) 
+
+
 |   Dataset   | Year |    Articulations   |                                Source Link                               |
 |:-----------:|:----:|:------------------:|:------------------------------------------------------------------------:|
 | PrincetonSB | 2004 |         :x:        |                 http://shape.cs.princeton.edu/benchmark/                 |

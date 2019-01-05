@@ -21,7 +21,7 @@ Desirable properties for any object dataset
 |     IKEA    | 2013 |         :x:        |                        http://ikea.csail.mit.edu/                        |
 |  PASCAL3D+  | 2014 |         :x:        |              http://cvgl.stanford.edu/projects/pascal3d.html             |
 |   ModelNet  | 2015 |         :x:        |                     http://modelnet.cs.princeton.edu/                    |
-|     NIST    | 2016 |         :x:        | https://catalog.data.gov/dataset/nist-cad-models-and-step-files-with-pmi |
+|     NIST    | 2016 |  :heav_check_mark: | https://catalog.data.gov/dataset/nist-cad-models-and-step-files-with-pmi |
 |  Thingi10K  | 2016 |         :x:        |                 https://ten-thousand-models.appspot.com/                 |
 | ObjectNet3D | 2016 |         :x:        |              http://cvgl.stanford.edu/projects/objectnet3d/              |
 |   ShapeNet  | 2016 |         :x:        |                         https://www.shapenet.org/                        |

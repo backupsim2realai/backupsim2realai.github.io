@@ -28,6 +28,19 @@ Desirable properties for any object dataset
 | PartNet     | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |     ABC     | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 
+Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
+
+
+| Dataset | Year |    Articulations   |                          Source Link                          |
+|:-------:|:----:|:------------------:|:-------------------------------------------------------------:|
+|   B3DO  | 2011 |         :x:        |                     http://kinectdata.com/                    |
+|   KIT   | 2012 |         :x:        | https://journals.sagepub.com/doi/abs/10.1177/0278364912445831 |
+| BigBird | 2014 |         :x:        |                http://rll.berkeley.edu/bigbird/               |
+|  3DScan | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
+|  T-LESS | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
+|   RBO   | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
+
+
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. is important.
 
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects

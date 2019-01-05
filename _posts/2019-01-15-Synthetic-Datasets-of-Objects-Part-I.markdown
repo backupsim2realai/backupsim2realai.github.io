@@ -20,6 +20,8 @@ Desirable properties for any object dataset
 
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
 
+STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
+
 ### Synthetic Datasets
 
 |   Dataset   | Year |    Articulations   |                                Source Link                               |

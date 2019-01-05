@@ -14,6 +14,11 @@ Desirable properties for any object dataset
 -  Parametric representation 
 -  High Entropy (balance in the classes) 
 
+### Historic Perspective 
+
+<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>
+
+
 ### Synthetic Datasets
 
 |   Dataset   | Year |    Articulations   |                                Source Link                               |

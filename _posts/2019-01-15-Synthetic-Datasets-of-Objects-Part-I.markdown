@@ -57,6 +57,8 @@ CAPOD dataset: https://sites.google.com/site/pgpapadakis/home/CAPOD
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
 
+![](/assets/img/2019-01-15/rbo_merged.gif)
+
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 
 

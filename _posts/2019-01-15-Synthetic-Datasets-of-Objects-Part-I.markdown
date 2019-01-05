@@ -31,7 +31,7 @@ Synthetic Datasets
 
 Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
-![Graph](/assets/img/2019-01-15/object_datasets.png)
+![Graph](/assets/img/2019-01-15/object_datasets.jpg)
 
 Real World Datasets
 

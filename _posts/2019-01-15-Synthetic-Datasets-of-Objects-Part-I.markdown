@@ -39,19 +39,22 @@ STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-p
 
 Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
+CAPOD dataset: https://sites.google.com/site/pgpapadakis/home/CAPOD
+
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
 ### Real World Datasets
 
-| Dataset | Year |    Articulations   |                          Source Link                          |
-|:-------:|:----:|:------------------:|:-------------------------------------------------------------:|
-|   B3DO  | 2011 |         :x:        |                     http://kinectdata.com/                    |
-|   KIT   | 2012 |         :x:        | https://journals.sagepub.com/doi/abs/10.1177/0278364912445831 |
-| BigBird | 2014 |         :x:        |                http://rll.berkeley.edu/bigbird/               |
-|   YCB   | 2015 |         :x:        |                 http://www.ycbbenchmarks.com/                 |
-|  3DScan | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
-|  T-LESS | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
-|   RBO   | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
+|        Dataset       | Year |    Articulations   |                          Source Link                          |
+|:--------------------:|:----:|:------------------:|:-------------------------------------------------------------:|
+|         B3DO         | 2011 |         :x:        |                     http://kinectdata.com/                    |
+| RGB-D Object Dataset | 2011 |         :x:        |        http://rgbd-dataset.cs.washington.edu/index.html       |
+|          KIT         | 2012 |         :x:        | https://journals.sagepub.com/doi/abs/10.1177/0278364912445831 |
+|        BigBird       | 2014 |         :x:        |                http://rll.berkeley.edu/bigbird/               |
+|          YCB         | 2015 |         :x:        |                 http://www.ycbbenchmarks.com/                 |
+|        3DScan        | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
+|        T-LESS        | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
+|          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
 
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf

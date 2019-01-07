@@ -1479,3 +1479,9 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+
+.myfoo {
+  text-align: center;
+  width: 100px;
+}

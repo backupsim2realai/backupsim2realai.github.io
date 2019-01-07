@@ -23,7 +23,7 @@ Desirable properties for any object dataset
 
 myZoom
 
-![image-title-here](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:class="myzoom"}
+![image-title-here](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:class="myzoom-wrapper"}
 
 
 <!--<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>

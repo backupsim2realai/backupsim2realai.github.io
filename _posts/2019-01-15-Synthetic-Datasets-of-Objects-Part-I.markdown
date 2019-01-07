@@ -23,7 +23,7 @@ Desirable properties for any object dataset
 
 Responsive
 
-![image-title-here](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:class="img-responsive"}
+![image-title-here](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:class="myzoom"}
 
 
 <!--<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>

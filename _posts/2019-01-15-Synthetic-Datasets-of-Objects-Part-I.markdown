@@ -18,7 +18,7 @@ Desirable properties for any object dataset
 
 
 Image zooming
-[![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width=320}
+[![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 
 <!--<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>
 -->

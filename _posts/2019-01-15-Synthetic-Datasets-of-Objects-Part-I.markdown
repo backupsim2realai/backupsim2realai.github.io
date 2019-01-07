@@ -16,9 +16,12 @@ Desirable properties for any object dataset
 
 ### Historic Perspective 
 
-Image zooming
 
-[![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)
+<!--[![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)
+-->
+
+Sizing image
+![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:height="50%" width="50%"}
 
 <!--<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>
 -->

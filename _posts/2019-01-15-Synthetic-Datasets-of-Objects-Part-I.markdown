@@ -21,8 +21,8 @@ Desirable properties for any object dataset
 [![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 -->
 
-MyFoo
-{.myfoo}![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)
+MyFUU
+![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){: .myfoo}
 
 <!--<center><img src="/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg" width="1024"></center>
 -->

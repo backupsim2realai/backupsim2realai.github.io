@@ -55,7 +55,7 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 OBJ format also supports colour and texture in an accompanying file with `.MTL` extension which allows the end-user to render a multi-coloured textured model. The MTL file encodes the [BRDF]() properties as well as texture maps that  
 
 <!--<center><img src="/assets/img/2019-01-15/texture_map.jpg" width="70%"></center>-->
-<center><img src="/assets/img/2019-01-15/texture_mapping.gif" width="60%"></center>
+<center><img src="/assets/img/2019-01-15/texture_mapping.gif" width="50%"></center>
 
 
 https://all3dp.com/1/obj-file-format-3d-printing-cad/

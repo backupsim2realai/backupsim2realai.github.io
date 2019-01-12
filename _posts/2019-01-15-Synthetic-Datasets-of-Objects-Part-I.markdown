@@ -41,7 +41,7 @@ The format only describes the 3D surface geometry of the object *i.e.* informati
 STL files come in two different flavours namely ASCII and Binary. 
 
 ##### ASCII 
-The first line is a description line that must start with the word "solid" in lower case, it then normally contains the file name, author, date etc. The last line should be the keyword "endsolid". The lines between the above contain descriptions of 3 vertex facets including their normals, the ordering of the vertices should comply with the right hand rule. As an example consider the following except from a STL file
+The first line starts with the word "solid" in lower case and the last line should be the keyword "endsolid". The lines between the above contain descriptions of 3 vertex facets including their normals, the ordering of the vertices should comply with the right hand rule. A sample ASCII STL file looks like the following\: 
 
 ~~~~
 solid

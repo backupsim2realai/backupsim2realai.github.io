@@ -36,7 +36,7 @@ STL files come in two different flavours namely ASCII and Binary and contain des
 
 <div align="center">
     <iframe width="620" height="315"
-        src="https://www.youtube.com/embed/OhlVBpEnjig">
+        src="https://youtu.be/6orsmFndx_o?t=343">
     </iframe>
 </div>
 

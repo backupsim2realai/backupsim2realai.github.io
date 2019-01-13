@@ -98,7 +98,7 @@ More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 
 
-### What should an ideal object dataset look like? 
+### What should an ideal object dataset look like then? 
 
 - Should contain large variety of objects and intra-class variability. 
 - Preferably synthetic as collecting water-tight models of real world objects still remains very challenging. 

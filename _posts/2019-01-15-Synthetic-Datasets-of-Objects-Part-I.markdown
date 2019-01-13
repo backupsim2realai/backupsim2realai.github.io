@@ -93,9 +93,10 @@ More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 
+
+### What should an ideal object dataset look like? 
+
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects
-
-
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
 
 #### Authors 

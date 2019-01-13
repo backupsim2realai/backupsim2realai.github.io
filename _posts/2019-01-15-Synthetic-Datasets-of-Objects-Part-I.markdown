@@ -18,6 +18,11 @@ Desirable properties for any object dataset
 
 #### CAD models
 
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6orsmFndx_o?start=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
 [![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
 
@@ -33,10 +38,6 @@ The format only describes the 3D surface geometry of the object *i.e.* informati
 
 STL files come in two different flavours namely ASCII and Binary and contain descriptions of 3 vertex facets including their normals. The ordering of the vertices complies with the right hand rule. The main restriction placed upon the facets in STL files is that all adjacent facets must share two common vertices. 
 
-
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6orsmFndx_o?start=343" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 #### OBJ format 
 

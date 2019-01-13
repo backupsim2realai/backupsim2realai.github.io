@@ -45,7 +45,6 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 <div><figure><img align="left" src="/assets/img/2019-01-15/texture_mapping.gif" width="25%"></figure> OBJ format supports colour and texture in an accompanying file with `.MTL` extension which allows the end-user to render a multi-coloured textured model. The MTL file encodes various intrinsic properties of object (<i>e.g.</i> ambient color, diffuse color, specular color, transparency etc.) as well as texture maps that allow mapping an image onto a 3D surface <i>e.g.</i> in the animation on the left, the 2D textured image is wrapped around the 3D cube where vertices of cube are projected on the 2D atlas and their colours are interpolated from the image. </div>
 
-https://all3dp.com/1/obj-file-format-3d-printing-cad/
 
 ### Synthetic Datasets
 
@@ -108,6 +107,7 @@ More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
+OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/
 
 #### Authors 
 Ankur Handa and Miles Brundage

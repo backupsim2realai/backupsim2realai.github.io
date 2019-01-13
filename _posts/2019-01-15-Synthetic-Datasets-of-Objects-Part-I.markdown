@@ -72,8 +72,6 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
-CAPOD dataset: https://sites.google.com/site/pgpapadakis/home/CAPOD
-
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
 ### Real World Datasets

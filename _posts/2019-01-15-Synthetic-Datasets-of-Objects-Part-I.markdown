@@ -96,6 +96,11 @@ More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 
 ### What should an ideal object dataset look like? 
 
+- Should contain large variety of objects and intra-class variability. 
+- Preferably synthetic as collecting water-tight models of real world objects still remains very challenging. 
+- Preferably CAD models so they can be downsampled/upsampled to any arbitrary resolution without any loss of data. 
+- Should come with collision shapes as well as articulation information so they can be used directly into a physics engine. 
+
 Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
 

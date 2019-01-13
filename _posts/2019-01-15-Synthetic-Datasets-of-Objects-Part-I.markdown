@@ -35,9 +35,8 @@ STL files come in two different flavours namely ASCII and Binary and contain des
 
 
 <div align="center">
-    <iframe width="620" height="315"
-        src="https://youtu.be/6orsmFndx_o?t=343">
-    </iframe>
+	<iframe width="848" height="480" src="https://www.youtube.com/embed/6orsmFndx_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe>
 </div>
 
 #### OBJ format 

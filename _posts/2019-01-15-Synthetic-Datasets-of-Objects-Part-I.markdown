@@ -33,7 +33,12 @@ The format only describes the 3D surface geometry of the object *i.e.* informati
 
 STL files come in two different flavours namely ASCII and Binary and contain descriptions of 3 vertex facets including their normals. The ordering of the vertices complies with the right hand rule. The main restriction placed upon the facets in STL files is that all adjacent facets must share two common vertices. 
 
-<!--<center><img src="/assets/img/2019-01-15/stl1.jpg" width="50%"></center>-->
+
+<div align="center">
+    <iframe width="620" height="315"
+        src="https://www.youtube.com/embed/OhlVBpEnjig">
+    </iframe>
+</div>
 
 #### OBJ format 
 

@@ -72,7 +72,17 @@ Synthetic object datasets have remained popular particularly among researchers i
 |           PartNet          | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |             ABC            | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 
-Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of 10. 
+Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of objects. 
+
+ModelNet10
+* VoxNet https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf
+* OctNet http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf
+
+Grasping
+* using ShapeNet https://arxiv.org/abs/1803.11469, https://jacquard.liris.cnrs.fr/
+* Tobin et al. https://arxiv.org/abs/1710.06425
+* Konstantinos GraspGAN https://arxiv.org/pdf/1709.07857.pdf
+* James https://arxiv.org/pdf/1812.07252
 
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 

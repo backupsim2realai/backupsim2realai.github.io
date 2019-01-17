@@ -48,7 +48,7 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 ### Synthetic Datasets
 
-Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We list some of the popular datasets since 2003 until 2018 in the table below. Both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
+Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
 
 |           Dataset          | Year |    Articulations   |                                Source Link                               |
 |:--------------------------:|:----:|:------------------:|:------------------------------------------------------------------------:|
@@ -72,9 +72,11 @@ Synthetic object datasets have remained popular particularly among researchers i
 |           PartNet          | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |             ABC            | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 
-Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
+Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of 10. 
 
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
+
+Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
 ### Real World Datasets
 
@@ -93,7 +95,6 @@ Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
-
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 

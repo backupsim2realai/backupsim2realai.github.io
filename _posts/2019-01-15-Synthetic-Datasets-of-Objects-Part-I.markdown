@@ -128,6 +128,18 @@ We note that despite availability of large scale of 3D models of objects, there 
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
 OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/-->
 
+---
+output: pdf_document
+---
+
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+
+Table: Your Caption
+
 
 #### Authors 
 Ankur Handa and Miles Brundage

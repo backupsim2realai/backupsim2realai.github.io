@@ -120,5 +120,13 @@ Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collisi
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
 OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/
 
+
+#### Notes
+- CAD models are essential as they are metrically accurate and can be converted to STL or OBJ format (vice-versa is lossy). Additionally, if you are stiching different CAD models together the relative rotation and translation can be easily obtained via a CAD software. This avoids the calibration/registration process that one has to do on the real world data. Furthermore, they can be 3D printed and therefore provide a perfect simulation to real world match of the 3D model.
+
+- Real world data object model reconstruction still remains a challenging task. Not because it requires labourious scanning of the object from multiple views but it requires the intent of the reconstruction to be conveyed to the robot or user. This is more relevant when scanning objects that have hinges and joints *e.g.* one needs to open the cabinet (the intent here is to open) to see what is inside and how to scan it and ensure that the scans are registered appropriately with the previously collected ones.
+
+- Despite availability of large scale of 3D models of objects finding bespoke 3D objects requires artists and designers to come together to create those assets --- a term often called content creation. This is time consuming and requires multiple iterations between the client and the designer. 
+
 #### Authors 
 Ankur Handa and Miles Brundage

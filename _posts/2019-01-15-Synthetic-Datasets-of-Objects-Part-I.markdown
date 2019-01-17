@@ -77,6 +77,7 @@ Synthetic object datasets have remained popular particularly among researchers i
 |          ShapeNet          | 2016 |         :x:        |                         https://www.shapenet.org/                        |
 |           PartNet          | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
 |             ABC            | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
+Note that some of the links may be outdated now but we added them anyway as this is where the original datasets were uploaded first.
 
 Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of objects. 
 
@@ -128,17 +129,6 @@ We note that despite availability of large scale of 3D models of objects, there 
 STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
 OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/-->
 
----
-output: pdf_document
----
-
-| First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
-
-Table: Your Caption
 
 
 #### Authors 

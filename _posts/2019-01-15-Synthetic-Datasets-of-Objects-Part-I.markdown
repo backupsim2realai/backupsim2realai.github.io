@@ -28,6 +28,7 @@ Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh).
 
+[GMSH](http://gmsh.info/) 3D dimentional finite element mesh generator --- converts parametric shapes to meshes. [This link](http://gmsh.info/screencasts/) shows how to use the software.
 
 <center><img src="/assets/img/2019-01-15/onshape_design.gif" width="50%"></center>
 
@@ -49,11 +50,8 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 ### Synthetic Datasets
 
 [Onshape](https://www.onshape.com/) have a large repository of CAD models that are freely available for research purposes.
-
 [Yobi3D](https://www.yobi3d.com/) allows searching 3D models.
-
 [Unity3D](https://www.assetstore.unity3d.com/) has an asset store for the 3D models.
-
 [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) search for any 3D model.
 
 Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 

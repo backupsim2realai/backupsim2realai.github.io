@@ -48,7 +48,7 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 ### Synthetic Datasets
 
-Synthetic datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We tabulate some of the popular datasets since 2003 until 2018. Both graphics and vision researchers have focussed either on the geometry and variation among the classes of shapes and very little about their use within physics engines to do control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
+Synthetic datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We tabulate some of the popular datasets since 2003 until 2018. Both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes and very little about their use within physics engines to do control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
 
 |           Dataset          | Year |    Articulations   |                                Source Link                               |
 |:--------------------------:|:----:|:------------------:|:------------------------------------------------------------------------:|

@@ -16,6 +16,8 @@ This is the first part of the series of posts on consolidating datasets of 3D ob
 
 https://3dprintingforbeginners.com/3d-model-repositories/ 
 
+https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/
+
 ### Data formats
 
 #### CAD models

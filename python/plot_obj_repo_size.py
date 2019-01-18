@@ -49,6 +49,8 @@ ax.set_xticks(ind)
 ax.set_xticklabels(dataset_name)
 ax.legend()
 
+ax.axhline(1000,linestyle='--')#, label='1M models')
+
 plt.xticks(fontsize=_fontsize, rotation=75)
 
 plt.tight_layout()

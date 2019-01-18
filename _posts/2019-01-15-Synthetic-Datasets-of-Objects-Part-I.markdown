@@ -14,6 +14,9 @@ This is the first part of the series of posts on consolidating datasets of 3D ob
 - [Yobi3D](https://www.yobi3d.com/) allows searching 3D models and provide links to the correponsing website where those models can be available. Not all of them are for free.
 - [Unity Asset Store](https://www.assetstore.unity3d.com/) maintain their asset store for 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
 
+![](/assets/img/2019-01-15/object_repos.jpg){:width="70%"}
+
+
 https://3dprintingforbeginners.com/3d-model-repositories/ 
 
 https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/

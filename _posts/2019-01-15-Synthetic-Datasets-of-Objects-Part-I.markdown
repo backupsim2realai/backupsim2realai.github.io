@@ -6,7 +6,14 @@ description: Cataloguing datasets of object models # Add post description (optio
 img:  # Add image post (optional)
 ---
 
-In this post, we will focus on the datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade. These datasets have been curated either via synthesising 3D models in a software or scanning real world 3D objects from multiple views with RGB as well as depth cameras. 
+In this post, we will focus on the datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade. These datasets have been curated either via synthesising 3D models in a software or scanning real world 3D objects from multiple views with RGB as well as depth cameras and have been immensely useful for object detection, segmentation and grasping among other applications. Historically, researchers in computer vision and graphics had a particular interest in 3D shape modelling and understanding and therefore contributed to the growth and evolution of these datasets. Notably, there have been attepmts at curating datasets by the game development community but they have remained within the confines of the community and have largely not been publicly shared or released for free. However, today various companies and websites allow searching 3D models *e.g.*
+
+
+- [Onshape](https://www.onshape.com/) have a large repository of CAD models that are freely available for research purposes.
+- [Yobi3D](https://www.yobi3d.com/) allows searching 3D models.
+- [Unity3D](https://www.assetstore.unity3d.com/) has an asset store for the 3D models.
+- [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) search for any 3D model.
+- [Clara](https://clara.io/library) content create and free 3d library.
 
 
 ### Data formats
@@ -43,16 +50,6 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 
 ### Synthetic Datasets
-
-[Onshape](https://www.onshape.com/) have a large repository of CAD models that are freely available for research purposes.
-
-[Yobi3D](https://www.yobi3d.com/) allows searching 3D models.
-
-[Unity3D](https://www.assetstore.unity3d.com/) has an asset store for the 3D models.
-
-[3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) search for any 3D model.
-
-[Clara](https://clara.io/library) content create and free 3d library.
 
 Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
 

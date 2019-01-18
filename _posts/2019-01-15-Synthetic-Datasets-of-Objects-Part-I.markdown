@@ -97,7 +97,7 @@ Grasping
 
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
-#### Challenges 
+#### Challenges of curating a synthetic dataset
 Mention what ABC dataset do
 
 

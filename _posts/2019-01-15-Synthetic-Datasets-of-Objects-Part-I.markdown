@@ -102,6 +102,8 @@ Grasping
 #### Challenges of curating a synthetic dataset
 Mention what ABC dataset do
 
+[V-HACD](https://github.com/kmammou/v-hacd) https://github.com/kmammou/v-hacd
+
 More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 Mitsuba ShapeNet https://github.com/shi-jian/mitsuba-shapenet
 

@@ -6,7 +6,7 @@ description: Cataloguing datasets of object models # Add post description (optio
 img:  # Add image post (optional)
 ---
 
-In this post, we will focus our attention on datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade.
+In this post, we will focus on the datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade. These datasets have been curated either via synthesising 3D models in a software or scanning real world 3D objects with RGB as well as depth cameras. 
 
 Desirable properties for any object dataset
 

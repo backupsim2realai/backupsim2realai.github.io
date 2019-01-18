@@ -6,6 +6,8 @@ description: Cataloguing datasets of object models # Add post description (optio
 img:  # Add image post (optional)
 ---
 
+In this post, we will focus our attention on datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade.
+
 Desirable properties for any object dataset
 
 -  Large size

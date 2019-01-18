@@ -49,7 +49,9 @@ ax.set_xticks(ind)
 ax.set_xticklabels(dataset_name)
 ax.legend()
 
-ax.axhline(1000,linestyle='--')#, label='1M models')
+ax.axhline(y=1000,linestyle='dotted')
+
+plt.text(4, 1200, '1 million models', fontsize=_fontsize, va='center', ha='center', color='blue')
 
 plt.xticks(fontsize=_fontsize, rotation=75)
 

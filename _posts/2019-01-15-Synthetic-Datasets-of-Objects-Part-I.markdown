@@ -57,6 +57,8 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) search for any 3D model.
 
+[Clara](https://clara.io/library) content create and free 3d library.
+
 Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
 
 |           Dataset          | Year |    Articulations   |                                Source Link                               |

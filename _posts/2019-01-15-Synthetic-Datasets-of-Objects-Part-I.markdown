@@ -6,13 +6,15 @@ description: Cataloguing datasets of object models # Add post description (optio
 img:  # Add image post (optional)
 ---
 
-This is the first part of the series of posts on consolidating datasets of 3D objects and scenes and in this post, we will focus on the datasets of 3D objects. This is our first attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade. These datasets have been curated either via synthesising 3D models in a software or scanning real world 3D objects from multiple views with RGB as well as depth cameras and have been immensely useful for object detection, segmentation and grasping among other applications. Historically, researchers in computer vision and graphics had a particular interest in 3D shape modelling and understanding and therefore contributed to the growth and evolution of these datasets. Notably, there have been attepmts at curating datasets by the game development community but they have remained within the confines of the community and have largely not been publicly shared or released for free. It is worth mentioning that today various companies and websites allow creating, sharing and searching 3D models *e.g.*
+This is the first part of the series of posts on consolidating datasets of 3D objects and scenes and in this post, we will focus on the datasets of 3D objects. This is a modest attempt at covering the breadth of such datasets that have publicly appeared over the past one and a half decade. These datasets have been curated either via synthesising 3D models in a software or scanning real world 3D objects from multiple views with RGB as well as depth cameras. They have been immensely useful for object detection, segmentation and grasping among other applications. Historically, researchers in computer vision and graphics had a particular interest in 3D shape modelling and understanding and therefore contributed to the growth and evolution of these datasets. Notably, there have been attepmts at curating datasets by the game development community but they have remained within the confines of the community and have largely not been publicly shared or released for free. It is worth mentioning that today various companies and websites allow creating, sharing and searching 3D models *e.g.*
 
 - [Onshape](https://www.onshape.com/) have a large repository of CAD models that are freely available for research purposes. They are a cloud based service for designing and sharing CAD models.
 - [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) maintain a large collection of 3D models created in sketchup and also provide a search engine for these. The 3D models can be downloaded for free.
 - [Clara](https://clara.io/library) like onshape is a cloud based 3D content creation software and provides many 3D models for free.
 - [Yobi3D](https://www.yobi3d.com/) allows searching 3D models and provide links to the correponsing website where those models can be available. Not all of them are for free.
-- [Unity Asset Store](https://www.assetstore.unity3d.com/) maintain their asset store for 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge. 
+- [Unity Asset Store](https://www.assetstore.unity3d.com/) maintain their asset store for 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
+
+https://3dprintingforbeginners.com/3d-model-repositories/ 
 
 ### Data formats
 

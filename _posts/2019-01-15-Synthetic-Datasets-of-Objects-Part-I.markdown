@@ -100,6 +100,7 @@ Grasping
 #### Challenges of curating a synthetic dataset
 Mention what ABC dataset do
 
+More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 
 ### Real World Datasets
 

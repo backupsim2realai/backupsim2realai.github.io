@@ -82,6 +82,8 @@ Synthetic object datasets have remained popular particularly among researchers i
 
 Note that some of the links in the table may be outdated now but we added them anyway as this is where the datasets were uploaded first.
 
+![](/assets/img/2019-01-15/time_line.jpg)
+
 Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of objects. 
 
 ModelNet10
@@ -101,6 +103,7 @@ Grasping
 Mention what ABC dataset do
 
 More dataset info here https://github.com/timzhang642/3D-Machine-Learning
+Mitsuba ShapeNet https://github.com/shi-jian/mitsuba-shapenet
 
 ### Real World Datasets
 

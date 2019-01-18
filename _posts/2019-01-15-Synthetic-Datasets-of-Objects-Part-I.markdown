@@ -50,8 +50,11 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 ### Synthetic Datasets
 
 [Onshape](https://www.onshape.com/) have a large repository of CAD models that are freely available for research purposes.
+
 [Yobi3D](https://www.yobi3d.com/) allows searching 3D models.
+
 [Unity3D](https://www.assetstore.unity3d.com/) has an asset store for the 3D models.
+
 [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) search for any 3D model.
 
 Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
@@ -61,7 +64,7 @@ Synthetic object datasets have remained popular particularly among researchers i
 |   NTU 3D Model  Benchmark  | 2003 |         :x:        |                        http://3d.csie.ntu.edu.tw/                        |
 |  Mesh Deformation Dataset  | 2004 |         :x:        |     http://people.csail.mit.edu/sumner/research/deftransfer/data.html    |
 |         PrincetonSB        | 2004 |         :x:        |                 http://shape.cs.princeton.edu/benchmark/                 |
-| AIM@SHAPE shape Repository | 2006 |         :x:        |      http://visionair.ge.imati.cnr.it/ontologies/shapes/releases.jsp     |
+| AIM@SHAPE Shape Repository | 2006 |         :x:        |      http://visionair.ge.imati.cnr.it/ontologies/shapes/releases.jsp     |
 |  McGill 3D Shape Benchmark | 2008 |         :x:        |                http://www.cim.mcgill.ca/~shape/benchMark/                |
 |          SHREC' 08         | 2008 |         :x:        |              https://engineering.purdue.edu/PRECISE/shrec08              |
 |   Columbia Grasp Database  | 2009 |         :x:        |                     http://grasping.cs.columbia.edu/                     |
@@ -91,10 +94,11 @@ Grasping
 * Tobin et al. https://arxiv.org/abs/1710.06425
 * Konstantinos GraspGAN https://arxiv.org/pdf/1709.07857.pdf
 * James https://arxiv.org/pdf/1812.07252
+* Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
-Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
+
 
 ### Real World Datasets
 

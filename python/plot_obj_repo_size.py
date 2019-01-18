@@ -13,7 +13,7 @@ dataset_dict={'3D Warehouse':4000000,
 'Yobi3D': 1000000,
 'IFind3D':  911047,
 'CGTrader': 650000,
-'PrintMeASheep': 100000,
+'Clara': 100000,
 'Free3D': 48000}
 ''',
 'My Mini Factory': 45000,

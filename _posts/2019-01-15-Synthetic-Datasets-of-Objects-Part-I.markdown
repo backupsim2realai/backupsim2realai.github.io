@@ -107,7 +107,7 @@ ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore
 - At the time of publication of this blog, ABC dataset is not released yet and does not contain the CAD models for typical computer vision categories of objects like chairs, tables etc.
 
 <details>
-<summary>CLICK ME
+<summary>CLICK ME</summary>
 <p>
 
 #### yes, even hidden code blocks!
@@ -117,7 +117,6 @@ function test() {
   console.log("notice the blank line before this function?");
 }
 ```
-</summary>
 </p>
 </details>
 

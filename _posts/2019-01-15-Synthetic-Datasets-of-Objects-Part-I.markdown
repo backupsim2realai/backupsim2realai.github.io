@@ -111,8 +111,10 @@ ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore
 
 #### yes, even hidden code blocks!
 
-```python
-print("hello world!")
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
 
 </p>

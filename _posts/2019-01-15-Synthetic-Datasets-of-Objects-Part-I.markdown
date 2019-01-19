@@ -28,16 +28,7 @@ CAD design and modelling have a long history of enabling creation of 3D models o
 
 [![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 
-
-
-<div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Sketchpad was the first of its kind to allow communicating with a computer to design 3D models on a screen with a pen.
-</div>
-
-
-
-
+Sketchpad was the first of its kind to allow communicating with a computer to design 3D models on a screen with a pen. 
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh).
 
@@ -166,3 +157,6 @@ Ankur Handa and Miles Brundage
 
 #### Credits
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

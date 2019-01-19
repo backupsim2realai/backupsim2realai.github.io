@@ -96,7 +96,7 @@ fig, ax = plt.subplots()
 
 ind = np.arange(len(dataset_name))
 
-_fontsize =10
+_fontsize =12
 
 #ax.bar(ind, np.array(datasets_size)/1000.0, width=0.35,
 #       color='aquamarine', #label='datasets'

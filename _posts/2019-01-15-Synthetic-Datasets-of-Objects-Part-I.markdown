@@ -123,6 +123,10 @@ Mitsuba ShapeNet https://github.com/shi-jian/mitsuba-shapenet
 
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
+#### Challenges of curating real world dataset
+
+Projects like KinectAtHome didn't take off https://twitter.com/KinectatHome
+
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.

@@ -100,12 +100,19 @@ Grasping
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
 #### Challenges of curating a synthetic dataset
+Curating a large scale synthetic dataset can be extremely labourious endeavour. Even if the objects are publicly available there are still a lot of challenges involved
+
+- Publicly available 3D models tend to require lot of manual filtering *e.g.* some 3D models have duplicate vertices and normals that violate the CCW (Counter Clock Wise) assumptions, duplicate and sometimes contradicting normals for the same face or broken 3D models to name a few. [Mitasuba-ShapeNet](https://github.com/shi-jian/mitsuba-shapenet) and [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html) have written custom shades to bypass the rendering issues that come with 3D models with duplicate vertices and normals. 
+- Most beginners working on websites that offer cloud services to create 3D models tend to leave their basic or unfinished models in the online shared repositories. Therefore, unless you download and go through the models it is hard to filter them out.
+- Various hobbyists and beginners also create 3D models that do not come with metric information. This requires scaling them back to metric units so they are physically meaninful.
+- It is also important to have all the models registered in a canonical reference frame so they can be arbitrarily rotated if needed for any future purposes. However, this is not always the case.
+
 Mention what ABC dataset do
 
 [V-HACD](https://github.com/kmammou/v-hacd) https://github.com/kmammou/v-hacd
 
 More dataset info here https://github.com/timzhang642/3D-Machine-Learning
-Mitsuba ShapeNet https://github.com/shi-jian/mitsuba-shapenet
+
 
 ### Real World Datasets
 

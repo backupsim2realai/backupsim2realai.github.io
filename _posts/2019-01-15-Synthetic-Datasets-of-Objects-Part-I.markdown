@@ -38,7 +38,7 @@ Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh).
 
-<img src="/assets/img/2019-01-15/onshape_design.gif" align="left" width="50%">
+<center><img src="/assets/img/2019-01-15/onshape_design.gif" width="50%"></center>
 [GMSH](http://gmsh.info/) 3D dimentional finite element mesh generator --- converts parametric shapes to meshes. [This link](http://gmsh.info/screencasts/) shows how to use the software.
 
 

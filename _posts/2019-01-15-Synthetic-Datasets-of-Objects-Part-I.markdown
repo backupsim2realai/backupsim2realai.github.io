@@ -112,7 +112,7 @@ Curating a large scale synthetic dataset can be extremely labourious endeavour. 
 - Various hobbyists and beginners also create 3D models that do not come with metric information. This requires scaling them back to metric units so they are physically meaningful.
 - It is also important to have all the models registered in a canonical reference frame so they can be arbitrarily rotated if needed for any future purposes. However, this is not always the case.
 - If these models are to be used in physics engines or bounding box collisions detection, they require collision shapes (generally a convex hull or convex decomposition of the mesh). Therefore, they require additional processing with external softwares like [V-HACD](https://github.com/kmammou/v-hacd) to decompose the mesh into piecewise convex meshes.
-
+- Rendering time increases as number of points in a mesh increase so need to skeletonise things.
 
 More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 

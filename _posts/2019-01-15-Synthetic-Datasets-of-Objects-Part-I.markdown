@@ -148,6 +148,8 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
 
+![](/assets/img/2019-01-15/time_line_real.jpg)
+
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
 #### Challenges of curating real world dataset

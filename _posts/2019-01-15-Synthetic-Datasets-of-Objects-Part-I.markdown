@@ -28,11 +28,13 @@ CAD design and modelling have a long history of enabling creation of 3D models o
 
 [![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 
-Sketchpad was the first of its kind to allow communicating with a computer to design 3D models on a screen with a pen. 
+When it was introduced first, CAD was not exactly an economic proposition because the machines at those times were very costly. The increasing computer power in the later part of the twentieth century, with the arrival of minicomputer and subsequently the microprocessor, has allowed engineers to use CAD files that are an accurate representation of the dimensions / properties of the object.
+
+<img src="/assets/img/2019-01-15/onshape_design.gif" align="left" width="50%">CAD facilitates the manufacturing process by transferring detailed information about a product in an automated form that can be universally interpreted by trained personnel. It can be used to produce either two-dimensional or three-dimensional diagrams. The use of CAD software tools allow the object to be viewed from any angle, even from the inside looking out. One of the main advantages of a CAD drawing is that the editing is a fast process as compared to manual method. Apart from detailed engineering of 2D or 3D models, CAD is widely used from conceptual design and layout of products to definition of manufacturing of components. CAD reduces design time by allowing precise simulation rather than build and test physical prototypes. Integrating CAD with CAM (Computer Aided Manufacturing) streamlines the product development even more.
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh).
 
-<center><img src="/assets/img/2019-01-15/onshape_design.gif" width="50%"></center>
+
 [GMSH](http://gmsh.info/) 3D dimentional finite element mesh generator --- converts parametric shapes to meshes. [This link](http://gmsh.info/screencasts/) shows how to use the software.
 
 

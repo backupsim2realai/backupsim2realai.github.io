@@ -106,6 +106,18 @@ ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore
 - PartNet builds on top of ShapeNet (therefore a subset) and adds part based annotations so we have omitted it from the graph. Does it provide articulations?
 - At the time of publication of this blog, ABC dataset is not released yet and does not contain the CAD models for typical computer vision categories of objects like chairs, tables etc.
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 
 #### Challenges of curating a synthetic dataset

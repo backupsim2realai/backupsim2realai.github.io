@@ -24,7 +24,7 @@ https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-print
 ### Data formats
 
 #### CAD models
-
+CAD design and modelling have a long history of enabling creation of 3D models of complicated objects on a computer. This has been extremely powerful in manufacturing, design and architectures of building and bridges.
 
 [![](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg)](/assets/img/2019-01-15/The-history-of-CAD_CADENAS_R3.jpg){:width="70%"}
 
@@ -32,7 +32,7 @@ https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-print
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
+
 
 
 
@@ -159,3 +159,7 @@ OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/-->
 
 #### Authors 
 Ankur Handa and Miles Brundage
+
+
+#### Credits
+Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png

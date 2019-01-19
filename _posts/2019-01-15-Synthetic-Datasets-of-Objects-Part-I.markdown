@@ -100,6 +100,9 @@ ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-ol
 ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
+
+![](/assets/img/2019-01-15/ShapeNetCore.jpg)
+
 #### Challenges of curating a synthetic dataset
 Curating a large scale synthetic dataset can be extremely labourious endeavour. Even if the objects are publicly available there are still a lot of challenges involved
 

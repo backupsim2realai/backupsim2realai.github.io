@@ -95,6 +95,9 @@ Grasping
 * James https://arxiv.org/pdf/1812.07252
 * Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
+ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
+
+ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 <center><img src="/assets/img/2019-01-15/object_datasets.jpg" width="640"></center>
 
 #### Challenges of curating a synthetic dataset

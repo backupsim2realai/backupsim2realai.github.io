@@ -99,11 +99,11 @@ ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-ol
 
 ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 <img src="/assets/img/2019-01-15/object_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px">
+It is worth emphasising that 
 
-
-- I'm here
-- I was there
-- I will be gone
+- Though ShapeNet contains 3M models, only 50K models have been cleaned and released publicly. Hence a lighter colour on the ShapeNet bar in the image.
+- PartNet builds on top of ShapeNet and adds part based annotations so we have omitted it from the graph.
+- At the time of publication of this blog, ABC dataset is not released yet and does not contain the CAD models for typical computer vision categories of objects like chairs, tables etc.
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

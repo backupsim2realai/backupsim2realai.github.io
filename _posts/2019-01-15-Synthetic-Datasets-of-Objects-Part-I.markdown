@@ -107,10 +107,8 @@ Curating a large scale synthetic dataset can be extremely labourious endeavour. 
 - Most beginners working on websites that offer cloud services to create 3D models tend to leave their basic or unfinished models in the online shared repositories. Therefore, unless you download and go through the models it is hard to filter them out.
 - Various hobbyists and beginners also create 3D models that do not come with metric information. This requires scaling them back to metric units so they are physically meaningful.
 - It is also important to have all the models registered in a canonical reference frame so they can be arbitrarily rotated if needed for any future purposes. However, this is not always the case.
+- If these models are to be used in physics engines they require collision shapes (generally a convex hull or convex decomposition of the mesh). Therefore, they require additional processing with external softwares like [V-HACD](https://github.com/kmammou/v-hacd) to decompose the mesh into piecewise convex meshes.
 
-Mention what ABC dataset do
-
-[V-HACD](https://github.com/kmammou/v-hacd) https://github.com/kmammou/v-hacd
 
 More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 

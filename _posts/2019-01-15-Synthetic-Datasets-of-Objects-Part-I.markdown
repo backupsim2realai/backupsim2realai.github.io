@@ -86,12 +86,6 @@ Note that some of the links in the table may be outdated now but we added them a
 
 Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of mechanical parts. 
 
-Datasets like ModelNet and ShapeNet have been extremely valuable in computer vision and robotics. For instance, ModelNet10 has been used in [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) and [OctNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf) while ShapeNet has been particularly useful in benchmarking robotics grasping. The popular [DexNet](https://berkeleyautomation.github.io/dex-net/) has evolved our the years using models from ShapeNet. The work of [Bousmalis et al.](https://arxiv.org/abs/1709.07857), GraspGAN, [Tobin et al.](https://arxiv.org/abs/1710.06425) and recently [James et al.](https://arxiv.org/pdf/1812.07252) have all trained large scale models on grasping using freely available ShapeNet models.
-
-
-ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
-
-ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 <img src="/assets/img/2019-01-15/object_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px">
 
 <p>It is worth emphasising that</p>
@@ -113,6 +107,13 @@ function test() {
 </details>-->
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
+
+Datasets like ModelNet and ShapeNet have been extremely valuable in computer vision and robotics. For instance, ModelNet10 has been used in [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) and [OctNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf) while ShapeNet has been particularly useful in benchmarking robotics grasping. The popular [DexNet](https://berkeleyautomation.github.io/dex-net/) has evolved our the years using models from ShapeNet. The work of [Bousmalis et al.](https://arxiv.org/abs/1709.07857), GraspGAN, [Tobin et al.](https://arxiv.org/abs/1710.06425) and recently [James et al.](https://arxiv.org/pdf/1812.07252) have all trained large scale models on grasping using freely available ShapeNet models.
+
+
+ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
+
+ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 
 #### Challenges of curating a synthetic dataset
 Curating a large scale synthetic dataset can be extremely labourious endeavour. Even if the objects are publicly available there are still a lot of challenges involved

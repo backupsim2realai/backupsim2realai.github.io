@@ -113,7 +113,7 @@ function test() {
 </details>-->
 
 <br>
-The biggest dataset of 3D objects, ShapeNet, is particularly biased towards categories like chairs, tables, sofas, cabinets etc. -- there is a huge class imbalance that has contributed to only the understanding of highly frequent classes among researchers in computer vision. The image below shows the breakdown of ShapeNetCore that has ~57K publicly released models.
+The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K publicly released models. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets etc. -- there is a huge class imbalance that has resluted in 3D understanding of highly frequent classes among researchers in computer vision. 
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

@@ -78,7 +78,7 @@ Synthetic object datasets have remained popular particularly among researchers i
 |         ObjectNet3D        | 2016 |         :x:        |              http://cvgl.stanford.edu/projects/objectnet3d/              |
 |          ShapeNet          | 2016 |         :x:        |                         https://www.shapenet.org/                        |
 |           PartNet          | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
-|             ABC            | 2018 | :heavy_check_mark: |                   https://arxiv.org/pdf/1812.06216.pdf                   |
+|             ABC            | 2018 |         -          |                   https://arxiv.org/pdf/1812.06216.pdf                   |
 
 Note that some of the links in the table may be outdated now but we added them anyway as this is where the datasets were uploaded first.
 

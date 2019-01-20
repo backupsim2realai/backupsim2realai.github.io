@@ -120,10 +120,6 @@ The biggest dataset of 3D objects, ShapeNet, is particularly biased towards cate
 Overall, datasets like ModelNet and ShapeNet have been extremely valuable in computer vision and robotics. For instance, ModelNet10 has been used in [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) and [OctNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf), ModelNet40 for 3D object detection from raw point cloud in [PointNet](https://arxiv.org/pdf/1612.00593.pdf) and [PointNet++](https://arxiv.org/pdf/1706.02413.pdf) while ShapeNet has been particularly useful in benchmarking robotic grasping. The popular [DexNet](https://berkeleyautomation.github.io/dex-net/) has evolved over the years benchmarking grasping using models from ShapeNet. The work of [Bousmalis et al.](https://arxiv.org/abs/1709.07857), GraspGAN, [Tobin et al.](https://arxiv.org/abs/1710.06425) and recently [James et al.](https://arxiv.org/pdf/1812.07252) have all trained large scale models on grasping using freely available ShapeNet models.
 
 
-ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
-
-ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
-
 #### Challenges of curating a synthetic dataset
 Curating a large scale synthetic dataset can be extremely labourious endeavour. Even if the objects are publicly available there are still a lot of challenges involved
 
@@ -186,6 +182,11 @@ Ankur Handa and Miles Brundage
 
 #### Credits
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
+
+ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
+
+ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
+
 <div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -84,7 +84,7 @@ Note that some of the links in the table may be outdated now but we added them a
 
 ![](/assets/img/2019-01-15/time_line.jpg)
 
-Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of mechanical parts. 
+Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10 with particular interest from the researchers working on deep learning that allowed the algorithms to scale to that enormity of data. We also observe that most of the researchers have focussed on a particular set of 3D objects *e.g.* chairs, tables and sofas.
 
 <img src="/assets/img/2019-01-15/object_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px">
 
@@ -92,7 +92,7 @@ Moreover, we have observed that the size of the publicly available datasets of s
 
 - Though ShapeNet contains 3M models, only 50K models have been cleaned and released publicly. Hence a lighter colour on the ShapeNet bar in the graph.
 - PartNet builds on top of ShapeNet (therefore a subset) and adds part based annotations so we have omitted it from the graph. However, PartNet specifically provides object articulation information that could be useful for robot learning.
-- ABC dataset is not publicly available yet (at the time of publication of this post). The majority of the models in ABC are mechanical parts and and not typical computer vision categories of objects like chairs, tables etc.
+- ABC dataset is not publicly available yet (at the time of writing this post). The majority of the models in ABC are mechanical parts and and not typical computer vision categories of objects like chairs, tables etc.
 
 <!--<details><summary>CLICK ME</summary><p>
 
@@ -105,6 +105,8 @@ function test() {
 ```
 </p>
 </details>-->
+
+The biggest dataset of 3D objects, ShapeNet, is particularly biased towards categories like chairs, tables, sofas, cabinets etc. --- there is a huge class imbalance that has contributed to only the understanding of highly frequent classes among researchers in computer vision.
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

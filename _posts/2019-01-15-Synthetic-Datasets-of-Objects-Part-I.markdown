@@ -84,18 +84,10 @@ Note that some of the links in the table may be outdated now but we added them a
 
 ![](/assets/img/2019-01-15/time_line.jpg)
 
-Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of objects. 
+Moreover, we have observed that the size of the publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e* the size of the biggest dataset has increased by a factor of ~10. Though ShapeNets remains as the biggest dataset but not all the models are publicly available. Recently, ABC dataset have collected 1M high quality CAD models of large variety of mechanical parts. 
 
-ModelNet10
-* VoxNet https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf
-* OctNet http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf
+Datasets like ModelNet and ShapeNet have been extremely valuable in computer vision and robotics. For instance, ModelNet10 has been used in [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) and [OctNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf) while ShapeNet has been particularly useful in benchmarking robotics grasping. The popular [DexNet](https://berkeleyautomation.github.io/dex-net/) has evolved our the years using models from ShapeNet. The work of [Bousmalis et al.](https://arxiv.org/abs/1709.07857), GraspGAN, [Tobin et al.](https://arxiv.org/abs/1710.06425) and recently [James et al.](https://arxiv.org/pdf/1812.07252) have all trained large scale models on grasping using freely available ShapeNet models.
 
-Grasping
-* using ShapeNet https://arxiv.org/abs/1803.11469, https://jacquard.liris.cnrs.fr/
-* Tobin et al. https://arxiv.org/abs/1710.06425
-* Konstantinos GraspGAN https://arxiv.org/pdf/1709.07857.pdf
-* James https://arxiv.org/pdf/1812.07252
-* Talk about DexNet: https://berkeleyautomation.github.io/dex-net/
 
 ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
 

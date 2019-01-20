@@ -16,7 +16,7 @@ This is the first part of the series of posts on consolidating datasets of 3D ob
 
 ![](/assets/img/2019-01-15/object_repos_1.jpg){:width="70%"}
 
-> Important to keep in mind, even though these models are freely available, most commercial companies cannot simply use them. In most cases, a special deal has to be made via legal department to use them. Therefore, it is worthwhile spending time reading the license agreement file that may come with the dataset.
+> Important to keep in mind, even though these models are freely available, most commercial companies cannot simply use them. In most cases, a special deal has to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file that may come with the dataset.
 
 https://3dprintingforbeginners.com/3d-model-repositories/ 
 

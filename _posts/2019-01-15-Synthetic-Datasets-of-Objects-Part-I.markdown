@@ -105,7 +105,7 @@ ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore
 <p>It is worth emphasising that</p>
 
 - Though ShapeNet contains 3M models, only 50K models have been cleaned and released publicly. Hence a lighter colour on the ShapeNet bar in the graph.
-- PartNet builds on top of ShapeNet (therefore a subset) and adds part based annotations so we have omitted it from the graph. PartNet specifically provides object articulation information that could be useful for animating objects in virtual environments for robot learning.
+- PartNet builds on top of ShapeNet (therefore a subset) and adds part based annotations so we have omitted it from the graph. However, PartNet specifically provides object articulation information that could be useful for animating objects in virtual environments for robot learning.
 - ABC dataset is not publicly available yet (at the time of publication of this post). The majority of the models in ABC are mechanical parts and and not typical computer vision categories of objects like chairs, tables etc.
 
 <!--<details><summary>CLICK ME</summary><p>

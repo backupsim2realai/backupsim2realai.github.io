@@ -114,6 +114,8 @@ The biggest dataset of 3D objects, ShapeNet, is particularly biased towards cate
 Overall, datasets like ModelNet and ShapeNet have been extremely valuable in computer vision and robotics. For instance, ModelNet10 has been used in [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) and [OctNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Riegler_OctNet_Learning_Deep_CVPR_2017_paper.pdf) while ShapeNet has been particularly useful in benchmarking robotic grasping. The popular [DexNet](https://berkeleyautomation.github.io/dex-net/) has evolved over the years benchmarking grasping using models from ShapeNet. The work of [Bousmalis et al.](https://arxiv.org/abs/1709.07857), GraspGAN, [Tobin et al.](https://arxiv.org/abs/1710.06425) and recently [James et al.](https://arxiv.org/pdf/1812.07252) have all trained large scale models on grasping using freely available ShapeNet models.
 
 
+Mention PointNet, PointNet++
+
 ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
 
 ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf

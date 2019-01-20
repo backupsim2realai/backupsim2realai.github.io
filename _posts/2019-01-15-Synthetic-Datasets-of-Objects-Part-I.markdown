@@ -106,7 +106,8 @@ function test() {
 </p>
 </details>-->
 
-<p>The biggest dataset of 3D objects, ShapeNet, is particularly biased towards categories like chairs, tables, sofas, cabinets etc. -- there is a huge class imbalance that has contributed to only the understanding of highly frequent classes among researchers in computer vision. </p>
+<br>
+The biggest dataset of 3D objects, ShapeNet, is particularly biased towards categories like chairs, tables, sofas, cabinets etc. -- there is a huge class imbalance that has contributed to only the understanding of highly frequent classes among researchers in computer vision. 
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

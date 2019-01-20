@@ -14,7 +14,7 @@ This is the first part of the series of posts on consolidating datasets of 3D ob
 - [Yobi3D](https://www.yobi3d.com/) allows searching 3D models and provide links to the correponsing website where those models can be available. Not all of them are for free.
 - [Unity Asset Store](https://www.assetstore.unity3d.com/) maintain their asset store for 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
 
-> Important to keep in mind, even though these models are freely available, most commercial companies cannot simply use them. In most cases, a special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file that may come with the dataset.
+> Important to keep in mind, even though these models are freely available, most commercial companies cannot simply use them. In most cases, special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file that may come with the dataset.
 
 ![](/assets/img/2019-01-15/object_repos_1.jpg){:width="70%"}
 

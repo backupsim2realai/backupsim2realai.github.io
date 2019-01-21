@@ -156,6 +156,7 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 
 - Collecting large scale real world data is extremely labourious. There have been attempts in the past like [KinectAtHome](https://twitter.com/KinectatHome) to collect data via crowdsourcing but have been unsuccessful unfortunately.
 - Scanning water-tight models can be extremely tricky if the model has kinematic joints and dynamics involved with them.
+- Most of the scanning requires setting up multiple cameras or a person going around the object to obtain multiple views and registering them in one refererence frame, camera calibration and constrained set-up to enable scanning.
 
 
 

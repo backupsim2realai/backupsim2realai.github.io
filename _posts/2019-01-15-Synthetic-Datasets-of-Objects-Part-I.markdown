@@ -113,7 +113,7 @@ function test() {
 </details>-->
 
 <br>
-The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K publicly released models. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets etc. but relatively few for bed, bowl, can -- there is a huge class imbalance that has resluted in 3D understanding of highly frequent classes among researchers in computer vision. 
+The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K publicly released models. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets etc. but relatively few for bed, bowl, can -- there is a huge class imbalance as a result only highly frequent classes have been popular among researchers in computer vision. 
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

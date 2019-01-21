@@ -97,7 +97,7 @@ Moreover, we have observed that the size of publicly available datasets of synth
 <p>It is worth emphasising that</p>
 
 - Alhough ShapeNet contains 3M models, only ~57K models have been cleaned and released publicly. Hence a lighter colour on the ShapeNet bar in the graph.
-- PartNet builds on top of ShapeNet and adds hierarchical part based annotations so we have omitted it from the graph. However, PartNet also provides object articulation information that could be useful in virtual environments for robot learning.  
+- PartNet builds on top of ShapeNet and adds hierarchical part based annotations so we have omitted it from the graph. In addition, PartNet also provides object articulation information that could be useful in virtual environments for robot learning.  
 - The ABC dataset is not publicly available yet (at the time of writing this post). The majority of the models in ABC are mechanical parts and and not typical computer vision categories of objects like chairs, tables etc.
 
 <!--<details><summary>CLICK ME</summary><p>

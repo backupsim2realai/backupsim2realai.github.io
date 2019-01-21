@@ -154,7 +154,9 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 
 #### Challenges of curating real world dataset
 
-Projects like KinectAtHome didn't take off https://twitter.com/KinectatHome
+- Collecting large scale real world data is extremely labourious. There have been attempts in the past like [KinectAtHome](https://twitter.com/KinectatHome) to collect data via crowdsourcing but have been unsuccessful unfortunately.
+
+
 
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 

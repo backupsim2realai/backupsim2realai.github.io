@@ -12,7 +12,7 @@ This is the first part of a series of posts on consolidating datasets of 3D obje
 - [3DWarehouse](https://3dwarehouse.sketchup.com/?hl=en) maintain a large collection of 3D models created in sketchup and also provide a search engine for these. The 3D models can be downloaded for free.
 - [Clara](https://clara.io/library), like onshape is a cloud based 3D content creation software and provides many 3D models for free.
 - [Yobi3D](https://www.yobi3d.com/) allows searching 3D models and provide links to the corresponding website where those models can be available. Not all of them are for free.
-- [Unity Asset Store](https://www.assetstore.unity3d.com/) maintain their asset store for 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
+- [Unity Asset Store](https://www.assetstore.unity3d.com/) provide 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
 
 > It is important to note that even though these models are freely available, most commercial companies cannot simply use them. In most cases, special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file for any terms and conditions that may come with the dataset.
 

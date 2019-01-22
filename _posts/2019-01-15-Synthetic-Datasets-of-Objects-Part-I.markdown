@@ -103,7 +103,7 @@ Moreover, we have observed that the size of publicly available datasets of synth
 - The ABC dataset is not publicly available yet (at the time of writing this post). The majority of the models are mechanical parts and not typical categories of objects like chairs, tables *etc*.
 
 <br>
-We would also like to mention the popular [Dex-Net 1.0](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs/dexnet_icra2016_final.pdf) dataset which is composed of 13,252 3D mesh models collected from assorted mix of various synthetic as well as real world datasets: 8,987 from the SHREC 2014 challenge dataset, 2,539 from ModelNet40, 1,371 from 3DNet, 129 from the KIT object database, 120 from BigBIRD, 80 from the Yale-CMU-Berkeley dataset.
+We would also like to mention the popular [Dex-Net 1.0](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs/dexnet_icra2016_final.pdf) dataset which is composed of 13,252 3D mesh models collected from assorted mix of various synthetic as well as real world datasets: 8,987 from the SHREC 2014 challenge dataset, 2,539 from ModelNet40, 1,371 from 3DNet, 129 from the KIT object database, 120 from BigBIRD and 80 from the YCB dataset.
 
 <!--<details><summary>CLICK ME</summary><p>
 

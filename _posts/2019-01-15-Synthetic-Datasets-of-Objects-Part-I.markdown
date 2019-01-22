@@ -101,6 +101,8 @@ Moreover, we have observed that the size of publicly available datasets of synth
 - ObjectNet3D uses a large fraction of models from ShapeNet in addition to the ones mined from the 3DWarehouse.
 - The ABC dataset is not publicly available yet (at the time of writing this post). The majority of the models are mechanical parts and not typical categories of objects like chairs, tables *etc*.
 
+Dex-Net 1.0 contains 13,252 3D mesh models: 8,987 from the SHREC 2014 challenge dataset [29], 2,539 from ModelNet40 [46], 1,371 from 3DNet [45], 129 from the KIT object database∗ [19], 120 from BigBIRD∗ [39], 80 from the Yale-CMU-Berkeley dataset∗
+
 <!--<details><summary>CLICK ME</summary><p>
 
 #### yes, even hidden code blocks!

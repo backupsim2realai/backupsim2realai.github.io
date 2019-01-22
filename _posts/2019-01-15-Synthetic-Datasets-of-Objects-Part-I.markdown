@@ -13,7 +13,7 @@ This is the first part of a series of posts on consolidating datasets of 3D obje
 - [Clara](https://clara.io/library), like onshape is a cloud based 3D content creation software and provides many 3D models for free.
 - [Yobi3D](https://www.yobi3d.com/) allows searching 3D models and provide links to the corresponding website where those models can be available. Not all of them are for free.
 - [Unity Asset Store](https://www.assetstore.unity3d.com/) provide 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
-- [Kujiale](https://www.kujiale.com/), an indoor design platform in China that provides 3D indoor objects as well scenes but they are not available for free.
+- [Kujiale](https://www.kujiale.com/), an indoor design platform in China that provides 3D indoor objects as well scenes but the majority of them are not available for free.
 
 > It is important to note that even though these models are freely available, most commercial companies cannot simply use them. In most cases, special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file for any terms and conditions that may come with the dataset.
 

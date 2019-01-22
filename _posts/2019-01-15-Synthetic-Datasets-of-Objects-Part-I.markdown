@@ -155,6 +155,8 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 
 ![](/assets/img/2019-01-15/time_line_real.jpg)
 
+> For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
+
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
 #### Challenges of curating real world dataset
@@ -164,10 +166,7 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 - Most of the scanning requires setting up multiple cameras or a person going around the object to obtain multiple views and registering them in one refererence frame, camera calibration and constrained set-up where the object is placed. Any slight changes to the set-up may require calibration without which the registration errors quickly compound.
 
 
-
 More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
-
-> For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 
 
 ### What should an ideal object dataset look like then? 

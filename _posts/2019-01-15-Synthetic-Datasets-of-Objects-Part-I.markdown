@@ -37,6 +37,7 @@ CAD allows engineers and designers to build realistic computer models of parts a
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh). [GMSH](http://gmsh.info/) 3D dimensional finite element mesh generator --- converts parametric shapes to meshes. [This link](http://gmsh.info/screencasts/) shows how to use the software.
 
+Different CAD formats can be found [here](https://en.wikipedia.org/wiki/Category:CAD_file_formats)
 Still writing...
 
 

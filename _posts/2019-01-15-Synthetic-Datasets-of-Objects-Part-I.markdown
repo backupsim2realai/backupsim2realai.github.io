@@ -75,6 +75,7 @@ Synthetic object datasets have remained popular particularly among researchers i
 |   Columbia Grasp Database  | 2009 |         :x:        |                     http://grasping.cs.columbia.edu/                     |
 |          SHREC' 10         | 2010 |         :x:        |       http://tosca.cs.technion.ac.il/book/shrec_robustness2010.html      |
 |  Toyohashi Shape Benchmark | 2012 |         :x:        |                http://www.kde.cs.tut.ac.jp/benchmark/tsb/                |
+|            3DNet           | 2012 |         :x:        |                		3d-net.org                		    |
 |            IKEA            | 2013 |         :x:        |                        http://ikea.csail.mit.edu/                        |
 |          PASCAL3D+         | 2014 |         :x:        |              http://cvgl.stanford.edu/projects/pascal3d.html             |
 |            CAPOD           | 2014 |         :x:        |           https://sites.google.com/site/pgpapadakis/home/CAPOD           |

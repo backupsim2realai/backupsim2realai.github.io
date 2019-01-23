@@ -33,10 +33,12 @@ CAD design and modelling have a long history of enabling creation of 3D models o
 
 CAD allows engineers and designers to build realistic computer models of parts and assemblies. These models can be then 3D Printed or CNC machined as well as used to run complex simulations. A wide range of parameters can be simulated such as strength or temperature resistance before any physical models have been created, enabling a much faster and cheaper workflow.
 
-<img src="/assets/img/2019-01-15/onshape_design.gif" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" width="50%">CAD had its origins in three separate sources, which also serve to highlight the basic operations that CAD systems provide. The first source of CAD resulted from attempts to automate the drafting process. These developments were pioneered by the General Motors Research Laboratories in the early 1960s. One of the important time-saving advantages of computer modeling over traditional drafting methods is that the former can be quickly corrected or manipulated by changing a model's parameters. The second source of CAD was in the testing of designs by simulation. The use of computer modeling to test products was pioneered by high-tech industries like aerospace and semiconductors. The third source of CAD development resulted from efforts to facilitate the flow from the design process to the manufacturing process using numerical control (NC) technologies, which enjoyed widespread use in many applications by the mid-1960s. 
+<img src="/assets/img/2019-01-15/onshape_design.gif" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px" width="50%">The origins of CAD design can be traced back to three separate sources, highlighting the services CAD systems can be employed in. The first of these sources has its origins in automating the drafting process pioneered by the General Motors Research Laboratories in the early 1960s. One of the important time-saving advantages of computer modeling over traditional drafting methods is that the former can be quickly corrected or manipulated by changing a model's parameters. The second source of CAD was in the testing of designs by simulation. The use of computer modeling to test products was pioneered by high-tech industries like aerospace and semiconductors. The third source of CAD development resulted from efforts to facilitate the flow from the design process to the manufacturing process using numerical control (NC) technologies, which enjoyed widespread use in many applications by the mid-1960s. 
 
 Similar to vector graphics for images, this representations allows resampling the surface data at arbitrary resolutions, with or without connectivity information (i.e. into a point cloud or a mesh). [GMSH](http://gmsh.info/) 3D dimensional finite element mesh generator --- converts parametric shapes to meshes. [This link](http://gmsh.info/screencasts/) shows how to use the software.
 
+Different CAD formats can be found [here](https://en.wikipedia.org/wiki/Category:CAD_file_formats).
+Still writing...
 
 
 #### STL format
@@ -55,7 +57,7 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 #### Other Formats
 
-URDF image https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/
+URDF image https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/ but I don't think there are any datasets out there that have been used in different research papers. I will probably remove this section if I can't think of anything.
 
 
 ### Synthetic Datasets
@@ -190,7 +192,7 @@ Ankur Handa and Miles Brundage
 
 
 #### Acknowledgements 
-Arsha Nagrani, Avital Oliver, Fei Xia, Jacky Liang, Joe Watson, Aaron Walsman
+Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Joe Watson, Aaron Walsman, Andrey Kurenkov
 
 #### Credits
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png

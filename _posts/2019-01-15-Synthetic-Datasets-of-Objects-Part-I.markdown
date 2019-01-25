@@ -192,7 +192,7 @@ Ankur Handa and Miles Brundage
 
 
 #### Acknowledgements 
-Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Joe Watson, Aaron Walsman, Andrey Kurenkov, Denny Britz, Pranav Shyam
+Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Joe Watson, Aaron Walsman, Andrey Kurenkov, Josh Tobin, Denny Britz, Pranav Shyam
 
 #### Credits
 Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png

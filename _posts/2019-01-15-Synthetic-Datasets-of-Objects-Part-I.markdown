@@ -199,12 +199,13 @@ Ankur Handa and Miles Brundage
 Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Joe Watson, Aaron Walsman, Andrey Kurenkov, Josh Tobin, Denny Britz, Pranav Shyam
 
 #### Credits
-Credits: https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
+- The CAD history image is obtained from https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
+- The STL tessellation image is obtained from https://commons.wikimedia.org/w/index.php?curid=7476233
+- The ShapeNet object breakdown can be found here http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
+- The content about ShapeNet is obtained from the ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
 
-ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
 
-ShapeNet breakdown http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
-
-<div align="center">
+<!--<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+-->

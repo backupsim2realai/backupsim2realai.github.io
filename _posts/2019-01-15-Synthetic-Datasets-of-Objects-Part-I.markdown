@@ -17,12 +17,11 @@ The datasets have been curated either via synthesising 3D models using a softwar
 - [Unity Asset Store](https://www.assetstore.unity3d.com/) provide 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
 - [Kujiale](https://www.kujiale.com/), an indoor design platform in China that provides 3D indoor objects as well scenes but the majority of them require licensing and are not available for free.
 
-> It is important to note that even though these models are freely available, most commercial companies cannot simply use them. In most cases, special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file for any terms and conditions that may come with the dataset.
-
 
 <center><img src="/assets/img/2019-01-15/object_repos_1.jpg" width="70%"></center>
 
-<!--![](/assets/img/2019-01-15/object_repos_1.jpg){:width="70%"}-->
+> It is important to note that even though these models are freely available, most commercial companies cannot simply use them. In most cases, special agreements have to be made via appropriate legal channels and departments to use them. Therefore, it is worthwhile spending time reading the license agreement file for any terms and conditions that may come with the dataset.
+
 
 
 ### Data formats

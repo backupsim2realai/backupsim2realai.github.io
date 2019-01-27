@@ -19,6 +19,7 @@ dataset_dict = {'NIST': 30,
 
 dataset_dict = {'BigBird': 125,
                 'YCB': 103,
+                'KIT': 145,
                 '3DScan': 10000,
                 'T-LESS': 30,
                 'RBO': 14}

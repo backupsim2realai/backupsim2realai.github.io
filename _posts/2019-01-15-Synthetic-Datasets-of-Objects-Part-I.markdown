@@ -155,7 +155,7 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 |        T-LESS        | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
-![](/assets/img/2019-01-15/real_world_datasets.jpg)
+![](/assets/img/2019-01-15/real_world_datasets.jpg){:width="50%"}
 
 
 ![](/assets/img/2019-01-15/time_line_real.jpg)

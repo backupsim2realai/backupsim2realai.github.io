@@ -94,7 +94,7 @@ Note that some of the links in the table may be outdated now but we added them a
 
 ![](/assets/img/2019-01-15/time_line.jpg)
 
-Moreover, we have observed that the size of publicly available datasets of synthetic 3D objects has continued to grow linearly on logarithmic scale *i.e.* the size of the biggest dataset has increased by a factor of ~10 with particular interest from the researchers working on deep learning allowing the algorithms to scale to that enormity of data. We also observe that most of the researchers have focussed on a particular set of 3D objects *e.g.* chairs, tables and sofas.
+Moreover, we have observed that the sizes of publicly available datasets of synthetic 3D objects show a linear increase of ~10 when ranked on a logarithmic scale. The interest in these datasets has increased particulary from the researchers working on deep learning allowing the algorithms to scale to that enormity of data. We also observe that most of the researchers have focussed on a particular set of 3D objects *e.g.* chairs, tables and sofas.
 
 <img src="/assets/img/2019-01-15/object_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px">
 

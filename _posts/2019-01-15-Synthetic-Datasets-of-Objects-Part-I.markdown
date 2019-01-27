@@ -22,10 +22,6 @@ The datasets have been curated either via synthesising 3D models using a softwar
 ![](/assets/img/2019-01-15/object_repos_1.jpg){:width="70%"}
 
 
-https://3dprintingforbeginners.com/3d-model-repositories/ 
-
-https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/
-
 ### Data formats
 
 #### CAD models
@@ -187,7 +183,7 @@ We would like to thank Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fe
 - The STL tessellation image is obtained from https://commons.wikimedia.org/w/index.php?curid=7476233
 - The ShapeNet object breakdown can be found here http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
 - The content about ShapeNet is obtained from the ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
-
+- The numbers in the plot on 3D models offered by various online repositories are obtained from https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/ and https://3dprintingforbeginners.com/3d-model-repositories/ 
 
 <!--<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

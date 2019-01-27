@@ -16,6 +16,13 @@ dataset_dict = {'NIST': 30,
                 'ShapeNet': 3000000,
                 }
 
+
+dataset_dict = {'BigBird': 125,
+                'YCB': 103,
+                '3DScan': 10000,
+                'T-LESS': 30,
+                'RBO': 14}
+
 dataset_dict = OrderedDict(sorted(dataset_dict.items(), key=lambda x: x[1]))
 
 # print(dataset_dict)
@@ -30,7 +37,7 @@ ax.bar(ind[:-1], np.log10(datasets_size[:-1]), width=0.35,
        )
 
 ax.bar(ind[-1], np.log10(datasets_size[-1]), width=0.35,
-       color='aquamarine', alpha=0.4)
+       color='aquamarine')#, alpha=0.4)
 
 ax.set_ylabel('Dataset size (in logarithmic scale)')
 ax.set_title('Object datasets')

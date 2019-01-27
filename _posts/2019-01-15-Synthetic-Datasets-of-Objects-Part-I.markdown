@@ -110,18 +110,6 @@ Moreover, we have observed that the sizes of publicly available datasets of synt
 <br>
 We would also like to mention the popular [Dex-Net 1.0](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs/dexnet_icra2016_final.pdf) dataset which is composed of 13,252 3D mesh models collected from assorted mix of various synthetic as well as real world datasets: 8,987 from the SHREC 2014 challenge dataset, 2,539 from ModelNet40, 1,371 from 3DNet, 129 from the KIT object database, 120 from BigBIRD and 80 from the YCB dataset.
 
-<!--<details><summary>CLICK ME</summary><p>
-
-#### yes, even hidden code blocks!
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-</p>
-</details>-->
-
 
 Importantly, we note that most datasets tend to have huge class imbalance among various categories. The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K models --- the biggest publicly released 3D model dataset as of yet. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets but relatively few for bed, bowl, can.
 
@@ -141,8 +129,8 @@ Curating a large scale synthetic dataset can be extremely labourious endeavour. 
 - If these models are to be used in physics engines or bounding box collisions detection, they require collision shapes (generally a convex hull or convex decomposition of the mesh). Therefore, they require additional processing with external softwares like [V-HACD](https://github.com/kmammou/v-hacd) to decompose the mesh into piecewise convex meshes. Despite this, sometimes a lot of manual work is needed on top of this because the automatically generated convex decomposition by a program is not very good. 
 - Meshes that have dense point clouds require skeletonisation as rendering time increases proportionally with the number of 3D points.
  
-More dataset info here https://github.com/timzhang642/3D-Machine-Learning
-
+<!--More dataset info here https://github.com/timzhang642/3D-Machine-Learning
+-->
 
 ### Real World Datasets
 
@@ -173,8 +161,8 @@ More dataset info here https://github.com/timzhang642/3D-Machine-Learning
 - Most of the scanning requires setting up multiple cameras or a person going around the object to obtain multiple views and registering them in one refererence frame, camera calibration and constrained set-up where the object is placed. Any slight changes to the set-up may require calibration without which the registration errors quickly compound.
 
 
-More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
-
+<!--More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
+-->
 
 ### What should an ideal object dataset look like then? 
 
@@ -184,10 +172,6 @@ More datasets in the table here https://arxiv.org/pdf/1502.03143.pdf
 - Should come with various object intrinsic properties like [collision shapes](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects), physical properties (*e.g.* friction, center of mass, inertia) as well as articulation information so they can be used directly into a physics engine. If properties like friction, mass, inertia etc. are not provided there are certainly ways to estimate them via [analysis-by-synthesis approaches](https://www.robots.ox.ac.uk/~vgg/rg/slides/galileo_slides.pdf) or calibrating the simulator to the real world with particle filters. However, it is also possible that this calibration process might yield parameters that are optimal given the objective function but not necessarily physically meaningful.
 
 We note that despite the availability of these large scale datasets, artists and designers are needed to create bespoke 3D object models and assets --- a term often called content creation. This is time consuming and requires multiple iterations between the client and the designer. 
-
-<!--Collision Shapes: https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects
-STL format explanation https://all3dp.com/what-is-stl-file-format-extension-3d-printing/
-OBJ format https://all3dp.com/1/obj-file-format-3d-printing-cad/-->
 
 
 

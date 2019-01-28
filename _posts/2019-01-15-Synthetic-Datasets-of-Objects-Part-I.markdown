@@ -148,6 +148,8 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 |        T-LESS        | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
+![](/assets/img/2019-01-15/time_line_real.jpg)
+
 
 <img src="/assets/img/2019-01-15/real_world_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> 
 <p>It is worth noting that </p>
@@ -159,8 +161,10 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 
 These datasets have been primarily useful for 6 DoF pose estimation of objects in real world *e.g.* [LineMod](http://campar.in.tum.de/pub/hinterstoisser2012accv/hinterstoisser2012accv.pdf), [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780) all employ various stages to detect and track the pose of the object in 3D. The 6-DoF pose of an object is basic extrinsic property of the object which the robotics community also calls as state estimation. These datasets in essence help answer the what and where questions about the object in the real-world scene. Importantly, this is perhaps one step towards turning our real world into a simulated model (real-to-sim) by constantly keeping a copy in simulation and updating the locations and orientations of the 3D objects as done in [Kim et al.](http://vecg.cs.ucl.ac.uk/Projects/SmartGeometry/guided_scan/paper_docs/guidedScan_pg13.pdf), [Fisher et al.](http://graphics.stanford.edu/projects/scenesynth/scenesynth_paper.pdf) or [SLAM++](https://www.doc.ic.ac.uk/~ajd/Publications/salas-moreno_etal_cvpr2013.pdf).
 
+For instance, in the animation below, we show YCB scanned objects used inside the PyBullet physics simulator. 
 
-![](/assets/img/2019-01-15/time_line_real.jpg)
+<img align="center" src="/assets/img/2019-01-15/pybullet_ycb.gif" width="70%">
+
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.
 

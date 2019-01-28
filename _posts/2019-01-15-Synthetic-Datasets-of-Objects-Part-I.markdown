@@ -153,7 +153,7 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 - Since most of these datasets require setting up a rig and scanning the whole process tends to be quite labour intensive and therefore, these datasets tend to be quite small in size. 
 - The RBO dataset is the smallest but has the articulation information that allows it to be animated kinematically in physics engines.
 - The T-LESS dataset provides 30 3D models for textureless objects.
-
+- The most popular YCB object dataset though provides ~100 3D object models scanned  by a reconstruction system but not all the 3D models are clean. Some of them tend to have missing texture information or textures tend to be quite blurry.
 They have been useful for Pose Estimation in [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780)
 
 

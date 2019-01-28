@@ -69,25 +69,25 @@ Synthetic object datasets have remained popular particularly among researchers i
 |           Dataset          | Year |    Articulations   |                                Source Link                               |
 |:--------------------------:|:----:|:------------------:|:------------------------------------------------------------------------:|
 |   NTU 3D Model  Benchmark  | 2003 |         :x:        |                        http://3d.csie.ntu.edu.tw/                        |
-|  Mesh Deformation Dataset  | 2004 |         :x:        |     http://people.csail.mit.edu/sumner/research/deftransfer/data.html    |
-|         PrincetonSB        | 2004 |         :x:        |                 http://shape.cs.princeton.edu/benchmark/                 |
-| AIM@SHAPE Shape Repository | 2006 |         :x:        |      http://visionair.ge.imati.cnr.it/ontologies/shapes/releases.jsp     |
-|  McGill 3D Shape Benchmark | 2008 |         :x:        |                http://www.cim.mcgill.ca/~shape/benchMark/                |
-|          SHREC' 08         | 2008 |         :x:        |              https://engineering.purdue.edu/PRECISE/shrec08              |
-|   Columbia Grasp Database  | 2009 |         :x:        |                     http://grasping.cs.columbia.edu/                     |
-|          SHREC' 10         | 2010 |         :x:        |       http://tosca.cs.technion.ac.il/book/shrec_robustness2010.html      |
-|  Toyohashi Shape Benchmark | 2012 |         :x:        |                http://www.kde.cs.tut.ac.jp/benchmark/tsb/                |
+|  Mesh Deformation Dataset  | 2004 |         :x:        |     [http://people.csail.mit.edu/sumner/research/deftransfer/data.html](http://people.csail.mit.edu/sumner/research/deftransfer/data.html)    |
+|         PrincetonSB        | 2004 |         :x:        |                 [http://shape.cs.princeton.edu/benchmark/](http://shape.cs.princeton.edu/benchmark/)                 |
+| AIM@SHAPE Shape Repository | 2006 |         :x:        |      [http://visionair.ge.imati.cnr.it/ontologies/shapes/releases.jsp](http://visionair.ge.imati.cnr.it/ontologies/shapes/releases.jsp)     |
+|  McGill 3D Shape Benchmark | 2008 |         :x:        |                [http://www.cim.mcgill.ca/~shape/benchMark/](http://www.cim.mcgill.ca/~shape/benchMark/)                |
+|          SHREC' 08         | 2008 |         :x:        |              [https://engineering.purdue.edu/PRECISE/shrec08](https://engineering.purdue.edu/PRECISE/shrec08)              |
+|   Columbia Grasp Database  | 2009 |         :x:        |                     [http://grasping.cs.columbia.edu/](http://grasping.cs.columbia.edu/)                     |
+|          SHREC' 10         | 2010 |         :x:        |       [http://tosca.cs.technion.ac.il/book/shrec_robustness2010.html](http://tosca.cs.technion.ac.il/book/shrec_robustness2010.html)      |
+|  Toyohashi Shape Benchmark | 2012 |         :x:        |                [http://www.kde.cs.tut.ac.jp/benchmark/tsb/](http://www.kde.cs.tut.ac.jp/benchmark/tsb/)                |
 |            3DNet           | 2012 |         :x:        |                		3d-net.org                		    |
-|            IKEA            | 2013 |         :x:        |                        http://ikea.csail.mit.edu/                        |
-|          PASCAL3D+         | 2014 |         :x:        |              http://cvgl.stanford.edu/projects/pascal3d.html             |
-|            CAPOD           | 2014 |         :x:        |           https://sites.google.com/site/pgpapadakis/home/CAPOD           |
-|          ModelNet          | 2015 |         :x:        |                     http://modelnet.cs.princeton.edu/                    |
-|            NIST            | 2016 | :heavy_check_mark: | https://catalog.data.gov/dataset/nist-cad-models-and-step-files-with-pmi |
-|          Thingi10K         | 2016 |         :x:        |                 https://ten-thousand-models.appspot.com/                 |
-|         ObjectNet3D        | 2016 |         :x:        |              http://cvgl.stanford.edu/projects/objectnet3d/              |
-|          ShapeNet          | 2016 |         :x:        |                         https://www.shapenet.org/                        |
-|           PartNet          | 2018 | :heavy_check_mark: |                 https://cs.stanford.edu/~kaichun/partnet/                |
-|             ABC            | 2018 |         -          |                   https://arxiv.org/pdf/1812.06216.pdf                   |
+|            IKEA            | 2013 |         :x:        |                        [http://ikea.csail.mit.edu/](http://ikea.csail.mit.edu/)                        |
+|          PASCAL3D+         | 2014 |         :x:        |              [http://cvgl.stanford.edu/projects/pascal3d.html](http://cvgl.stanford.edu/projects/pascal3d.html)             |
+|            CAPOD           | 2014 |         :x:        |           [https://sites.google.com/site/pgpapadakis/home/CAPOD](https://sites.google.com/site/pgpapadakis/home/CAPOD)           |
+|          ModelNet          | 2015 |         :x:        |                     [http://modelnet.cs.princeton.edu/](http://modelnet.cs.princeton.edu/)                    |
+|            NIST            | 2016 | :heavy_check_mark: | [https://catalog.data.gov/dataset/nist-cad-models-and-step-files-with-pmi](https://catalog.data.gov/dataset/nist-cad-models-and-step-files-with-pmi) |
+|          Thingi10K         | 2016 |         :x:        |                 [https://ten-thousand-models.appspot.com/](https://ten-thousand-models.appspot.com/)                 |
+|         ObjectNet3D        | 2016 |         :x:        |              [http://cvgl.stanford.edu/projects/objectnet3d/](http://cvgl.stanford.edu/projects/objectnet3d/)              |
+|          ShapeNet          | 2016 |         :x:        |                         [https://www.shapenet.org/](https://www.shapenet.org/)                        |
+|           PartNet          | 2018 | :heavy_check_mark: |                 [https://cs.stanford.edu/~kaichun/partnet/](https://cs.stanford.edu/~kaichun/partnet/)                |
+|             ABC            | 2018 |         -          |                   [https://arxiv.org/abs/1812.06216](https://arxiv.org/abs/1812.06216)                  |
 
 Note that some of the links in the table may be outdated now but we added them anyway as this is where the datasets were uploaded first.
 

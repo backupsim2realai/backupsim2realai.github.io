@@ -108,7 +108,7 @@ Moreover, we have observed that the sizes of publicly available datasets of synt
 We would also like to mention the popular [Dex-Net 1.0](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs/dexnet_icra2016_final.pdf) dataset which is composed of 13,252 3D mesh models collected from assorted mix of various synthetic as well as real world datasets: 8,987 from the SHREC 2014 challenge dataset, 2,539 from ModelNet40, 1,371 from 3DNet, 129 from the KIT object database, 120 from BigBIRD and 80 from the YCB dataset.
 
 
-Importantly, we note that most datasets tend to have huge class imbalance among various categories. The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K models --- the biggest publicly released 3D model dataset as of yet. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets but relatively few for bed, bowl, can.
+Importantly, we note that most datasets tend to have huge class imbalance among various categories. The image below shows the breakdown of ShapeNetCore (part of ShapeNet) that has ~57K models --- the biggest publicly released 3D model dataset as of yet. As we can see, it has large number of models for categories like chairs, tables, sofas, cabinets but relatively few for bed, bowl and can.
 
 ![](/assets/img/2019-01-15/ShapeNetCore.jpg)
 

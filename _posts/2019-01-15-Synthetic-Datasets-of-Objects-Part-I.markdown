@@ -212,6 +212,7 @@ We would like to thank Erwin Coumans, Arsha Nagrani, Matthias Plappert, James Da
 - The ShapeNet object breakdown can be found here [http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf](http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf).
 - The content about ShapeNet is obtained from the ShapeNet doc [http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf](http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf).
 - The numbers in the plot on 3D models offered by various online repositories are obtained from [https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/) and [https://3dprintingforbeginners.com/3d-model-repositories/](https://3dprintingforbeginners.com/3d-model-repositories/). 
+- The URDF robot image is obtained from [https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/](https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/).
 
 <!--<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

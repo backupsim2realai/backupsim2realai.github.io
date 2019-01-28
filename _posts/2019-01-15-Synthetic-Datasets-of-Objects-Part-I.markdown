@@ -17,7 +17,7 @@ The datasets have been curated either via synthesising 3D models using a softwar
 - [Unity Asset Store](https://www.assetstore.unity3d.com/) provide 3D models that can be used within the Unity3D engine. High quality assets tend to require licensing and not available free of charge.
 - [Kujiale](https://www.kujiale.com/), an indoor design platform in China that provides 3D indoor objects as well scenes but the majority of them require licensing and are not available for free.
 
-The image below shows the size of repositories that provide 3D assets and models. We observed that see that large majority of these repositories today contain 1M models and we believe the content (either designed by artists or automatically generated) will continue to grow with time.
+The image below shows the size of repositories that provide 3D assets and models. We observed that large majority of these repositories today contain 1M models and we believe the content (either designed by artists or automatically generated) will continue to grow with time.
 
 <center><img src="/assets/img/2019-01-15/object_repos_1.jpg" width="70%"></center>
 
@@ -131,15 +131,17 @@ Curating a large scale synthetic dataset can be extremely labourious endeavour. 
 
 ### Real World Datasets
 
-The curation of real world datasets has been only recent in computer vision and robotics community. This has been made possible by either offline multi-view stereo methods (*e.g.* a more commonly used term in computer vision and SLAM literature is Bundle Adjustment) or online real-time 3D reconstruction (*e.g.* [Curless and Levoy](https://graphics.stanford.edu/papers/volrange/volrange.pdf) inspired methods that use depth cameras to turn the live feed into a 3D model like [KinectFusion](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf))
+The curation of real world datasets has been only recent in computer vision and robotics community. This has been made possible by either offline multi-view stereo methods (*e.g.* a more commonly used term in computer vision and SLAM literature is [Bundle Adjustment](http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Triggs00.pdf)) or online real-time 3D reconstruction (*e.g.* [Curless and Levoy](https://graphics.stanford.edu/papers/volrange/volrange.pdf) inspired methods that use depth cameras to turn the live feed into a 3D model like [KinectFusion](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf))
 
 Since both methods tend to optimise a non-linear cost function by first linearising via taylor series expansion, these methods tend to be quite brittle and have a tendency to break catastrophically at times leading to a painful process of redoing the reconstruction from scratch. Therefore, extra care must be taken to ensure that  process is smooth. 
+
 
 |        Dataset       | Year |    Articulations   |                          Source Link                          |
 |:--------------------:|:----:|:------------------:|:-------------------------------------------------------------:|
 |         B3DO         | 2011 |         :x:        |                     http://kinectdata.com/                    |
 | RGB-D Object Dataset | 2011 |         :x:        |        http://rgbd-dataset.cs.washington.edu/index.html       |
 |          KIT         | 2012 |         :x:        | https://journals.sagepub.com/doi/abs/10.1177/0278364912445831 |
+|        LINEMOD       | 2012 |         :x:        |       http://campar.in.tum.de/Main/StefanHinterstoisser       |
 |        BigBird       | 2014 |         :x:        |                http://rll.berkeley.edu/bigbird/               |
 |          YCB         | 2015 |         :x:        |                 http://www.ycbbenchmarks.com/                 |
 |        3DScan        | 2016 |         :x:        |                http://redwood-data.org/3dscan/                |
@@ -155,7 +157,7 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 - The T-LESS dataset provides 30 3D models for textureless objects.
 - The most popular YCB object dataset though provides ~100 3D object models scanned  by a reconstruction system but not all the 3D models are clean and some of them tend to have missing texture information or textures tend to be quite blurry.
 
-These datasets have been primarily useful for 6 DoF pose estimation of objects in real world *e.g.* [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780)
+These datasets have been primarily useful for 6 DoF pose estimation of objects in real world *e.g.* [LineMod](http://campar.in.tum.de/pub/hinterstoisser2012accv/hinterstoisser2012accv.pdf), [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780) all employ various stages to detect and track the pose of the object in 3D. The 6-DoF pose of an object is basic extrinsic property of the object which perhaps in robotics community can be called as state estimation. These datasets in essence help answer the what and where questions about the object in the real-world scene. Importantly, this is perhaps one way to turn our real world into a simulated model **(real-to-sim)** by constantly keeping a copy in simulation and updating the locations and orienatations of the 3D objects.
 
 
 ![](/assets/img/2019-01-15/time_line_real.jpg)
@@ -168,7 +170,7 @@ These datasets have been primarily useful for 6 DoF pose estimation of objects i
 
 - **Scalability:** Collecting large scale real world data is extremely labour intensive. There have been attempts in the past like [Kinect@Home](https://twitter.com/KinectatHome) to collect data via crowdsourcing but have been unsuccessful unfortunately.
 - **Water-tight 3D Models:** Scanning water-tight models can be extremely tricky if the model has kinematic joints and dynamics involved with them, or the object is resting against another where reaching a certain part of the object is not possible without moving the object. This process is extremely hard to automate.
-- **Blurry Textures:** This is quite common with 3D reconstruction methods where various image observations are averaged from multiple views leading to blurry and crummy textures. Most of these methods tend to use a sligtly simplist lambertian surface approximation which means that the texture from different view points does not change. Therefore, there is no proper handling of specular, shiny and reflective surfaces and threfore when pixel intensities are registered from multiple view points on a given 3D location they tend to average out leading to blurry textures.
+- **Blurry Textures:** This is quite common with 3D reconstruction methods where various image observations are averaged from multiple views leading to blurry and crummy textures. Most of these methods tend to use a sligtly simplist lambertian surface approximation which means that the texture from different view points does not change. Therefore, there is no proper handling of specular, shiny and reflective surfaces and threfore when pixel intensities are registered from multiple view points on a given 3D location they tend to average out leading to blurry textures. There are some solutions to that but if
 - **Calibration Rigs:** Most of the scanning requires setting up multiple cameras or a person going around the object to obtain multiple views and registering them in one refererence frame, camera calibration and constrained set-up where the object is placed. Any slight changes to the set-up may require calibration without which the registration errors quickly compound.
 
 
@@ -191,7 +193,7 @@ Ankur Handa and Miles Brundage
 
 
 #### Acknowledgements 
-We would like to thank Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Feryal Behbahani, Joe Watson, Aaron Walsman, Clemens Eppner, Andrey Kurenkov, Josh Tobin, Denny Britz and Pranav Shyam for proofreading and suggestions.
+We would like to thank Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Feryal Behbahani, Joe Watson, Aaron Walsman, Clemens Eppner, Stephen James, Andrey Kurenkov, Josh Tobin, Denny Britz and Pranav Shyam for proofreading and suggestions.
 
 #### Credits
 - The CAD history image is obtained from https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png

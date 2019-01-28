@@ -22,6 +22,7 @@ dataset_dict = {'BigBird': 125,
                 'KIT': 145,
                 '3DScan': 10000,
                 'T-LESS': 30,
+                'LineMod': 15,
                 'RBO': 14}
 
 dataset_dict = OrderedDict(sorted(dataset_dict.items(), key=lambda x: x[1]))

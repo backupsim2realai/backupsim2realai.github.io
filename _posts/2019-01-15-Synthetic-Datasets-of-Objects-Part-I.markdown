@@ -148,7 +148,7 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 
 
 <img src="/assets/img/2019-01-15/real_world_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> 
-<p>It is worth emphasising that </p>
+<p>It is worth noting that </p>
 
 - Since most of these datasets require setting up a rig and scanning the whole process tends to be quite labour intensive and therefore, these datasets tend to be quite small in size. 
 - The RBO dataset is the smallest but has the articulation information that allows it to be animated kinematically in physics engines.

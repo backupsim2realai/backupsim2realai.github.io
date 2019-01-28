@@ -163,7 +163,7 @@ These datasets have been primarily useful for 6 DoF pose estimation of objects i
 
 For instance, in the animation below, we show YCB scanned objects used inside the PyBullet physics simulator. 
 
-<img align="center" src="/assets/img/2019-01-15/pybullet_ycb.gif" width="70%">
+<center><img src="/assets/img/2019-01-15/pybullet_ycb.gif" width="70%"></center>
 
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.

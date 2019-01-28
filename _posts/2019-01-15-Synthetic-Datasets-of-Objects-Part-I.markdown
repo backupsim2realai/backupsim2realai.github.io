@@ -193,7 +193,7 @@ Ankur Handa and Miles Brundage
 
 
 #### Acknowledgements 
-We would like to thank Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Feryal Behbahani, Joe Watson, Aaron Walsman, Clemens Eppner, Andrey Kurenkov, Josh Tobin, Denny Britz and Pranav Shyam for proofreading and suggestions.
+We would like to thank Arsha Nagrani, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Feryal Behbahani, Joe Watson, Aaron Walsman, Clemens Eppner, Stephen James, Andrey Kurenkov, Josh Tobin, Denny Britz and Pranav Shyam for proofreading and suggestions.
 
 #### Credits
 - The CAD history image is obtained from https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png

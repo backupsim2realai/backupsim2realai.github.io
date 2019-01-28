@@ -29,7 +29,7 @@ dataset_dict={'3D Warehouse':4000000,
 '3Dupndown':	7800,
 '3D Orchard':	6500}
 '''
-
+'''
 dataset_dict={
         'table': 8443,
         'car': 7497,
@@ -88,7 +88,7 @@ dataset_dict={
         'cap': 56
         }
 
-
+'''
 dataset_dict = OrderedDict(sorted(dataset_dict.items(), key=lambda x: x[1]))
 
 dataset_name, datasets_size = list(dataset_dict.keys()), list(dataset_dict.values())
@@ -98,22 +98,23 @@ ind = np.arange(len(dataset_name))
 
 _fontsize =12
 
-#ax.bar(ind, np.array(datasets_size)/1000.0, width=0.35,
-#       color='aquamarine', #label='datasets'
-#       )
-
-ax.bar(ind, np.array(datasets_size), width=0.35,
+ax.bar(ind, np.array(datasets_size)/1000000.0, width=0.35,
        color='aquamarine', #label='datasets'
        )
-#ax.set_ylabel('Dataset size x 1e3', fontsize=_fontsize)
-ax.set_ylabel('Number of Instances', fontsize=_fontsize)
-ax.set_title('Number of Objects', fontsize=_fontsize)
+
+#ax.bar(ind, np.array(datasets_size), width=0.35,
+#       color='aquamarine', #label='datasets'
+#       )
+ax.set_ylabel('Dataset size x 1e6', fontsize=_fontsize)
+#ax.set_ylabel('Number of Instances', fontsize=_fontsize)
+#ax.set_title('Number of Objects', fontsize=_fontsize)
+ax.set_title('Object Repositories', fontsize=_fontsize)
 ax.set_xticks(ind)
 ax.set_xticklabels(dataset_name)
 ax.legend()
 
-#ax.axhline(y=1000,linestyle='dotted')
-#plt.text(4, 1200, '1 million models', fontsize=_fontsize, va='center', ha='center', color='blue')
+ax.axhline(y=1,linestyle='dotted')
+plt.text(4, 1.200, '1 million models', fontsize=_fontsize, va='center', ha='center', color='blue')
 
 plt.xticks(fontsize=_fontsize, rotation=75)
 

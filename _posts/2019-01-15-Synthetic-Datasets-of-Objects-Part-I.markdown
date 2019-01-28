@@ -146,8 +146,8 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 |        T-LESS        | 2017 |         :x:        |                http://cmp.felk.cvut.cz/t-less/                |
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
-![](/assets/img/2019-01-15/real_world_datasets.jpg){:width="50%"}
 
+<img src="/assets/img/2019-01-15/real_world_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px">
 
 ![](/assets/img/2019-01-15/time_line_real.jpg)
 

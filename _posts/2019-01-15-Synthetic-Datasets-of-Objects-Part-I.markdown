@@ -131,6 +131,8 @@ Curating a large scale synthetic dataset can be extremely labourious endeavour. 
 
 ### Real World Datasets
 
+The curation of real world datasets has been only recent in computer vision and robotics community. This has been made possible by either offline multi-view stereo methods (*e.g.* a more commonly used term in computer vision and SLAM literature is Bundle Adjustment) or online real-time 3D reconstruction (**e.g.** [Curless and Levoy](https://graphics.stanford.edu/papers/volrange/volrange.pdf) inspired methods that use depth cameras to turn the live feed into a 3D model like [KinectFusion](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf))
+
 |        Dataset       | Year |    Articulations   |                          Source Link                          |
 |:--------------------:|:----:|:------------------:|:-------------------------------------------------------------:|
 |         B3DO         | 2011 |         :x:        |                     http://kinectdata.com/                    |

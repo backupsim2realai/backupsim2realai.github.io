@@ -170,6 +170,8 @@ In the animation below, we show YCB scanned objects used inside the PyBullet phy
 
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
+The RBO dataset, though small in size, has physics articulations for a handful of real world objects.
+
 #### Challenges of curating real world dataset
 
 - **Scalability:** Collecting large scale real world data is extremely labour intensive. There have been attempts to collect large-scale data via crowdsourcing in the past *e.g.* [Kinect@Home](https://twitter.com/KinectatHome) but these have unfortunately been unsuccessful.

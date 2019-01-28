@@ -57,11 +57,11 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 #### Other Formats
 
-<img align ="left" src="/assets/img/2019-01-15/urdf.gif" width="60%">
+<img align ="left" src="/assets/img/2019-01-15/urdf.gif" width="30%">
 
-
+<p>
 URDF image https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/ but I don't think there are any datasets out there that have been used in different research papers. I will probably remove this section if I can't think of anything.
-
+</p>
 
 ### Synthetic Datasets
 

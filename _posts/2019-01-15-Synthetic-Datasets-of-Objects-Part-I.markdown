@@ -159,6 +159,7 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 
 - **Scalability:** Collecting large scale real world data is extremely labour intensive. There have been attempts in the past like [Kinect@Home](https://twitter.com/KinectatHome) to collect data via crowdsourcing but have been unsuccessful unfortunately.
 - **Water-tight 3D Models:** Scanning water-tight models can be extremely tricky if the model has kinematic joints and dynamics involved with them, or the object is resting against another where reaching a certain part of the object is not possible without moving the object. This process is extremely hard to automate.
+- **Blurry Textures:** This is quite common with various 3D reconstruction methods where various image observations are averaged from multiple views (with no proper handling of specular, shiny and reflective surfaces) leading to blurry and crummy textures. Most of these methods tend to use a sligtly simple lambertian surface assumption which means that the texture from different view points does not change.
 - **Calibration Rigs:** Most of the scanning requires setting up multiple cameras or a person going around the object to obtain multiple views and registering them in one refererence frame, camera calibration and constrained set-up where the object is placed. Any slight changes to the set-up may require calibration without which the registration errors quickly compound.
 
 

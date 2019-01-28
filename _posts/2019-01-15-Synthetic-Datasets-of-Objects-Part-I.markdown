@@ -61,10 +61,7 @@ URDF image https://gkjohnson.github.io/urdf-loaders/unity/Assets/URDF-Loader/ bu
 
 ### Synthetic Datasets
 
-Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
-
-> We refer to articulations as kinematic constraints in the form of hinges and joints. They are useful in animating a particular object in a physics engine.
-
+Synthetic object datasets have remained popular particularly among researchers in computer vision and graphics since the early 2000s. We have listed some of the popular datasets since 2003 until 2018 in the table below. 
 
 |           Dataset          | Year |    Articulations   |                                Source Link                               |
 |:--------------------------:|:----:|:------------------:|:------------------------------------------------------------------------:|
@@ -92,6 +89,10 @@ Synthetic object datasets have remained popular particularly among researchers i
 Note that some of the links in the table may be outdated now but we added them anyway as this is where the datasets were uploaded first.
 
 ![](/assets/img/2019-01-15/time_line.jpg)
+
+We observed that both graphics and vision researchers have focussed either on the geometry (in the form of meshes and point clouds) or variation among the classes of shapes but very little about their use within physics engines for control. Therefore, until recently, most datasets did not provide any articulation information (hinges or joints) of the objects and their parts. 
+
+> We refer to articulations as kinematic constraints in the form of hinges and joints. They are useful in animating a particular object in a physics engine.
 
 Moreover, we have observed that the sizes of publicly available datasets of synthetic 3D objects show a linear increase of ~10 when ranked on a logarithmic scale. The rising interest in these datasets has been driven particulary by the researchers working on deep learning that can handle and indeed require large amount of data. We also observe that most of the researchers have focussed on a particular set of 3D objects *e.g.* chairs, tables and sofas.
 

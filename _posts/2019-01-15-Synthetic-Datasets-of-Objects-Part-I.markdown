@@ -170,7 +170,6 @@ In the animation below, we show YCB scanned objects used inside the PyBullet phy
 
 <center><img src="/assets/img/2019-01-15/book_cabinet_rubiks.gif" height="200"></center>
 
-The RBO dataset, though small in size, has physics articulations for a handful of real world objects.
 
 #### Challenges of curating real world dataset
 

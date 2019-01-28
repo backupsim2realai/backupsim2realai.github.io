@@ -147,8 +147,10 @@ Since both methods tend to optimise a non-linear cost function by first linearis
 |          RBO         | 2018 | :heavy_check_mark: |         https://tu-rbo.github.io/articulated-objects/         |
 
 
-<img src="/assets/img/2019-01-15/real_world_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> Since most of these datasets require setting up a rig and scanning the whole process tends to be quite labour intensive and therefore, these datasets tend to be quite small in size. They have been useful for Pose Estimation in [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780)
-
+<img src="/assets/img/2019-01-15/real_world_datasets.jpg" width="640" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> 
+<p>
+Since most of these datasets require setting up a rig and scanning the whole process tends to be quite labour intensive and therefore, these datasets tend to be quite small in size. They have been useful for Pose Estimation in [PoseCNN](https://arxiv.org/abs/1711.00199), [DenseFusion](https://arxiv.org/abs/1901.04780)
+</p>
 ![](/assets/img/2019-01-15/time_line_real.jpg)
 
 > For physics simulation, articulations in the form of hinges and joints as well as collisions shapes of objects in the form of bounding volumes etc. are important.

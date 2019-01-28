@@ -57,7 +57,7 @@ The OBJ format was created by [Wavefront Technologies](https://en.wikipedia.org/
 
 #### Other Formats
 
-<div><img align="left" src="/assets/img/2019-01-15/urdf.gif" width="25%" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> In addition to the STL/OBJ formats, it is worth mentioning that most articulated objects in robotics come in URDF [(Unified Robot Description Format)](http://wiki.ros.org/urdf) format. This format describes both the collision shapes as well as limits of various joints and links that the articulated may have. </div>
+<div><img align="left" src="/assets/img/2019-01-15/urdf.gif" width="25%" style="border: 0pt none; float:left; padding-right:10px; padding-bottom:10px"> In addition to the STL/OBJ formats, it is worth mentioning that most articulated objects in robotics come in URDF ([Unified Robot Description Format](http://wiki.ros.org/urdf)) format. This format describes both the collision shapes as well as limits of various joints and links that the articulated may have. </div>
 
 
 ### Synthetic Datasets

@@ -189,7 +189,7 @@ We note that despite the availability of these large scale datasets, artists and
 
 
 #### Authors 
-Ankur Handa and Miles Brundage
+Ankur Handa, Erwin Coumans and Miles Brundage
 
 
 #### Acknowledgements 

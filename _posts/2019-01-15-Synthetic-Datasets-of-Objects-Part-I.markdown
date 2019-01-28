@@ -202,11 +202,11 @@ Ankur Handa, Andrey Kurenkov and Miles Brundage
 We would like to thank Erwin Coumans, Arsha Nagrani, Matthias Plappert, Balakumar Sundaralingam, Avital Oliver, Fei Xia, Jacky Liang, Feryal Behbahani, Joe Watson, Aaron Walsman, Clemens Eppner, Stephen James, Josh Tobin, Denny Britz and Pranav Shyam for proofreading and suggestions.
 
 #### Credits
-- The CAD history image is obtained from https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png
-- The STL tessellation image is obtained from https://commons.wikimedia.org/w/index.php?curid=7476233
-- The ShapeNet object breakdown can be found here http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf
-- The content about ShapeNet is obtained from the ShapeNet doc http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf
-- The numbers in the plot on 3D models offered by various online repositories are obtained from https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/ and https://3dprintingforbeginners.com/3d-model-repositories/ 
+- The CAD history image is obtained from [https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png](https://partsolutions.com/wp-content/uploads/2017/09/The-history-of-CAD_CADENAS_R3.png).
+- The STL tessellation image is obtained from [https://commons.wikimedia.org/w/index.php?curid=7476233](https://commons.wikimedia.org/w/index.php?curid=7476233).
+- The ShapeNet object breakdown can be found here [http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf](http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/TechnicalReport/main.pdf).
+- The content about ShapeNet is obtained from the ShapeNet doc [http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf](http://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2-old/shapenet/tex/2016Proposal/2016shapenet_main.pdf).
+- The numbers in the plot on 3D models offered by various online repositories are obtained from [https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/) and [https://3dprintingforbeginners.com/3d-model-repositories/](https://3dprintingforbeginners.com/3d-model-repositories/). 
 
 <!--<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YB3saviItTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

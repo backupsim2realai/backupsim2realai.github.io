@@ -7,3 +7,7 @@ img:  # Add image post (optional)
 ---
 
 http://www.ce.unipr.it/people/guarino/publications/Gua09.pdf
+
+Todorov Contact Model: https://homes.cs.washington.edu/~todorov/papers/TodorovICRA14.pdf
+
+Contact Handling https://arxiv.org/pdf/1810.05751.pdf

@@ -151,7 +151,12 @@ UnrealROX was developed by the 3D Perception Lab at the University of Alicante, 
 - Sergiu Oprea [Grasping, Data Generation] (soprea@dtic.ua.es)
 - Alberto Garcia-Garcia [Design, Data Generation, Project Lead] (agarcia@dtic.ua.es)
 - Alvaro Jover-Alvarez [UE4 Expert, Support Programmer] (ajover@dtic.ua.es)
+
 # Authors
 
-Alberto Garcia-Garcia and Ankur Handa
+Alberto Garcia-Garcia 
+
+# Acknowledgements 
+
+We would like to thank Ankur Handa for proofreading and editing. 
 

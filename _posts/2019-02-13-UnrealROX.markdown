@@ -116,6 +116,32 @@ All of these limitations are currently being addressed by the creators with prio
 
 The whole UnrealROX project is available for download as open-source code in GitHub [3dperceptionlab/unrealrox](https://github.com/3dperceptionlab/unrealrox). Furthermore, extensive documentation describing the configuration and usage processes is also provided in [ReadTheDocs](https://unrealrox.readthedocs.io/en/latest/).
 
+# Citation
+
+If you use UnrealROX, consider citing:
+
+
+    @article{Martinez-Gonzalez2018,
+      title={{UnrealROX}: An eXtremely Photorealistic Virtual Reality Environment for Robotics Simulations and Synthetic Data Generation},
+      author={Martinez-Gonzalez, Pablo and Oprea, Sergiu and Garcia-Garcia, Alberto and Jover-Alvarez, Alvaro and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose},
+      journal={ArXiv e-prints},
+      eprint = {1810.06936},
+      year={2018}
+    }
+
+If you use The Robotrix dataset, consider citing:
+
+
+    @inproceedings{Garcia-Garcia2018,
+      title={The RobotriX: An Extremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions},
+      author={Garcia-Garcia, Alberto and Martinez-Gonzalez, Pablo and Oprea, Sergiu and Castro-Vargas, John Alejandro and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose and Jover-Alvarez, Alvaro},
+      booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      pages={6790--6797},
+      year={2018},
+      organization={IEEE}
+    }
+
+
 # Contact
 
 UnrealROX was developed by the 3D Perception Lab at the University of Alicante, Spain. The current maintainers of the tool are:

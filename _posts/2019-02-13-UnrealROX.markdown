@@ -6,9 +6,7 @@ description: Tools for synthetic data generation # Add post description (optiona
 img:  # Add image post (optional)
 ---
 
-[Disclaimer]
 This is the first part of a series of posts on analyzing tools for generating synthetic data. In this post, we will focus on a simulator named UnrealROX. The content of this post is mainly sourced from the two publicly available works related to this tool. The whole UnrealROX system is described with all details in the corresponding arXiv paper. A proof of concept for such tool was published at IROS2018, where it was used to generate a large-scale photorealistic indoor dataset for robotic tasks named The RobotriX.
-[/Disclaimer]
 
 UnrealROX is an environment built over Unreal Engine 4 which aims to reduce that reality gap by leveraging hyperrealistic indoor scenes that are explored by robot agents which also interact with objects in a visually realistic manner in that simulated world. Photorealistic scenes and robots are rendered by Unreal Engine into a virtual reality headset which captures gaze so that a human operator can move the robot and use controllers for the robotic hands; scene information is dumped on a per-frame basis so that it can be reproduced offline to generate raw data and ground truth annotations. This virtual reality environment enables robotic vision researchers to generate realistic and visually plausible data with full ground truth for a wide variety of problems such as class and instance semantic segmentation, object detection, depth estimation, visual grasping, and navigation to name a few.
 
@@ -117,32 +115,6 @@ All of these limitations are currently being addressed by the creators with prio
 # Code and Documentation
 
 The whole UnrealROX project is available for download as open-source code in GitHub [3dperceptionlab/unrealrox](https://github.com/3dperceptionlab/unrealrox). Furthermore, extensive documentation describing the configuration and usage processes is also provided in [ReadTheDocs](https://unrealrox.readthedocs.io/en/latest/).
-
-# Citation
-
-If you use UnrealROX, consider citing:
-
-
-    @article{Martinez-Gonzalez2018,
-      title={{UnrealROX}: An eXtremely Photorealistic Virtual Reality Environment for Robotics Simulations and Synthetic Data Generation},
-      author={Martinez-Gonzalez, Pablo and Oprea, Sergiu and Garcia-Garcia, Alberto and Jover-Alvarez, Alvaro and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose},
-      journal={ArXiv e-prints},
-      eprint = {1810.06936},
-      year={2018}
-    }
-
-If you use The Robotrix dataset, consider citing:
-
-
-    @inproceedings{Garcia-Garcia2018,
-      title={The RobotriX: An Extremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions},
-      author={Garcia-Garcia, Alberto and Martinez-Gonzalez, Pablo and Oprea, Sergiu and Castro-Vargas, John Alejandro and Orts-Escolano, Sergio and Garcia-Rodriguez, Jose and Jover-Alvarez, Alvaro},
-      booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-      pages={6790--6797},
-      year={2018},
-      organization={IEEE}
-    }
-
 
 # Contact
 

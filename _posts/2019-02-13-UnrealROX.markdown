@@ -1,13 +1,10 @@
-# Sim2RealAI - UnrealROX
-
-
-    ---
-    layout: post
-    title: "UnrealROX"
-    date: 2019-02-13 13:32:20 +0100
-    description: Tools for synthetic data generation # Add post description (optional)
-    img:  # Add image post (optional)
-    ---
+---
+layout: post
+title: "UnrealROX"
+date: 2019-02-13 13:32:20 +0100
+description: Tools for synthetic data generation # Add post description (optional)
+img:  # Add image post (optional)
+---
 
 [Disclaimer]
 This is the first part of a series of posts on analyzing tools for generating synthetic data. In this post, we will focus on a simulator named UnrealROX. The content of this post is mainly sourced from the two publicly available works related to this tool. The whole UnrealROX system is described with all details in the corresponding arXiv paper. A proof of concept for such tool was published at IROS2018, where it was used to generate a large-scale photorealistic indoor dataset for robotic tasks named The RobotriX.

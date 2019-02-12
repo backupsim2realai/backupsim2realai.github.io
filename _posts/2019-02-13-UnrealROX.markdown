@@ -65,8 +65,8 @@ UnrealROX decouples the movement logic (in the robot pawn) and the control one (
 
 The grasping subsystem is one of the core features of UnrealROX to produce visually realistic results. UnrealROX focuses on providing realistic object interaction from two perspectives:  (1) the way the robot grasp an object and (2) the movements it makes. To simulate a real robot behaviour when grasping an object, smooth and plausible movements are needed. The grasping action is fully controlled by the user through the VR controllers, whose movements are limited to those of the human hands. In this way, we achieve a good representation of a humanoid robot interacting in a realistic home environment. In contrast with common VR approaches which are animation-driven or based on predefined movements (thus limiting the interaction to a reduced set of objects), UnrealROX makes robot agents able to manipulate and interact with any object whose physics are being simulated by Unreal Engine, regardless of its geometry and pose. In this way, the user can freely decide which object to interact with without any restrictions. The robot can manipulate an object with each hand, and change an object from one hand to the other. It can also manipulate two different objects at the same time.
 
-<center><img src="/assets/img/2019-02-13/interact1.gif" width="49%">
-<img src="/assets/img/2019-02-13/interact2.gif" width="49%"></center>
+<!--<center><img src="/assets/img/2019-02-13/interact1.gif" width="49%">
+<img src="/assets/img/2019-02-13/interact2.gif" width="49%"></center>-->
 
 <center><img src="/assets/img/2019-02-13/interact3.gif" width="49%">
 <img src="/assets/img/2019-02-13/interact4.gif" width="49%"></center>

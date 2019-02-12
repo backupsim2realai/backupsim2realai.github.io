@@ -30,7 +30,11 @@ Once the scene has been recorded, the operator can take advantage of the user in
 
 # Engine
 
-The rendering engine chosen to generate photorealistic RGB images and immerse the agent in VR was Unreal Engine 4 (UE4). The reasons for this choice were the following ones: (1) it is arguably one of the best game engines able to produce extremely realistic renderings, (2) beyond gaming, it has become widely adopted by Virtual Reality developers and indoor/architectural visualization experts so a whole lot of tools, examples, documentation, and assets are available; (3) due to its impact across various communities, many hardware solutions offer plugins for UE4 that make them work out-of-the-box; and (4) Epic Games provides the full C++ source code and updates to it so the full suite can be used and easily modified for free.
+The rendering engine chosen to generate photorealistic RGB images and immerse the agent in VR was Unreal Engine 4 (UE4). The reasons for this choice were the following ones: 
+- it is arguably one of the best game engines able to produce extremely realistic renderings, 
+- beyond gaming, it has become widely adopted by Virtual Reality developers and indoor/architectural visualization experts so a whole lot of tools, examples, documentation, and assets are available; 
+- due to its impact across various communities, many hardware solutions offer plugins for UE4 that make them work out-of-the-box; and 
+- Epic Games provides the full C++ source code and updates to it so the full suite can be used and easily modified for free.
 
 Arguably, the most attractive feature of UE4 is its capability to render photorealistic scenes. Some UE4 features that enable this realism are: physically-based materials, pre-calculated bounce light via Lightmass, stationary lights, post-processing, and reflections. It is also important to remark that UnrealROX has strict real-time constraints for rendering since the operator must be immersed in virtual reality, i.e., it requires extremely realistic and complex scenes rendered at very high framerates (usually more than 80 FPS). By design, UE4 is engineered for virtual reality so it provides a specific rendering solution for it named Forward Renderer. That renderer is able to generate images that meet UnrealROX’s quality standard at 90 FPS thanks to high-quality lighting features, Multi-Sample Anti-Aliasing (MSAA), and instanced stereo rendering.
 

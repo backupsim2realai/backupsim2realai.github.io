@@ -154,7 +154,7 @@ Alberto Garcia-Garcia (agarcia@dtic.ua.es)
 
 # Acknowledgements 
 
-We would like to thank Ankur Handa for proofreading and editing. 
+We would like to thank Ankur Handa for proofreading and editing this post. 
 
 # Credits
 

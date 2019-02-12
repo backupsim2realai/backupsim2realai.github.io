@@ -7,7 +7,7 @@ img:  # Add image post (optional)
 ---
 
 <!--<center><img src="/assets/img/2019-02-13/header.jpg" width="100%" style="margin-right:10px; margin-left:10px"></center>-->
-<center><img src="/assets/img/2019-02-13/header.jpg" width="100%"></center>
+<!--<center><img src="/assets/img/2019-02-13/header.jpg" width="100%"></center>-->
 
 In this post, we will focus on a simulator named [UnrealROX](https://arxiv.org/abs/1810.06936). The content of this post is mainly sourced from the two publicly available works related to this tool. The whole UnrealROX system is described with all details in the corresponding arXiv paper. A proof of concept for such tool was published at IROS2018, where it was used to generate a large-scale photorealistic indoor dataset for robotic tasks named [The RobotriX](https://arxiv.org/abs/1901.06514).
 

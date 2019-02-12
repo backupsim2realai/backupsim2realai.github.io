@@ -163,4 +163,4 @@ We would like to thank Ankur Handa for proofreading and editing this post.
 - This project was possible thanks to a generous hardware donation by NVIDIA Corporation (Titan X, Titan Xp, and Titan V).
 - Epic Games and in particular the Unreal Community support was invaluable through the development of this project.
 
-<center><img src="/assets/img/2019-02-13/dab.gif" width="50%"></center>
+<!--<center><img src="/assets/img/2019-02-13/dab.gif" width="50%"></center>-->

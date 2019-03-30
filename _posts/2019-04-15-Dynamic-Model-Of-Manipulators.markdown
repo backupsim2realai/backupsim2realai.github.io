@@ -13,9 +13,10 @@ Study of the relation between the applied forces/torques and the resulting motio
 Similarly to kinematics, also for the dynamics it is possible to define two “models”:
 
 
-**Direct model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations
- 		$$ \ddot q = f (q, \dot q, \tau) $$
+**Direct model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
+					$$ \ddot q = f (q, \dot q, \tau) $$
 and then
+
 $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \ddot q dt $$
 
 **Inverse model:** once the joint accelerations, velocities and positions are known, compute the corresponding forces/torques

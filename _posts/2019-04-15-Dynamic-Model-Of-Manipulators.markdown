@@ -9,3 +9,7 @@ img:  # Add image post (optional)
 Robot Dynamics 
 
 Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.
+
+$$
+    J(\theta^{\star}) = \max_{\theta \in \Theta} \mathbb{E}_\xi \left[J(\theta, \xi) \right].
+$$

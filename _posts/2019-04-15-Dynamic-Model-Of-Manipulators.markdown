@@ -67,5 +67,7 @@ The velocity of a any point $p$ on a body undergoing motion in 3D can be written
 
 $$v = v_C + \omega \cross (p - p_C) = v_C + \omega \cross r$$
 
+The cross product with the angular velocity can be written as matrix vector product *i.e.* $$\omega \cross r = S(\omega) r$$.
+
 <center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="40%"></center>
 credits: https://courses.lumenlearning.com/physics/chapter/10-1-angular-acceleration/

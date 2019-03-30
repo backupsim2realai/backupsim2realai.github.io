@@ -38,7 +38,7 @@ $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \b
 where $$\psi_i$$ is the non-conservative (external or dissipative) generalised forces performing any work on the joints $$q_i$$. It can be decomposed into:
 
 - $$\tau_i$$, the joint actuator torque.
-- $$J_i^T F_c_i$$, the term due to external forces.
+- $$J_i^T F_{c_i}$$, the term due to external forces.
 - $$d_ii \dot q_i$$, joint friction torque.
 
-Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_c_i - d_ii\dot q_i$$.
+Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_ii\dot q_i$$.

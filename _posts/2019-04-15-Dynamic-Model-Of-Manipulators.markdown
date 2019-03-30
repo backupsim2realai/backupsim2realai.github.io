@@ -71,3 +71,13 @@ The cross product with the angular velocity can be written as matrix vector prod
 
 <center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="40%"></center>
 credits: https://courses.lumenlearning.com/physics/chapter/10-1-angular-acceleration/
+
+Therefore, the overall kinetic energy can be re-written as: 
+$$
+\begin{eqnarray*}
+\mathcal{K}&=& \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) dm,\\
+		    &=& \frac{1}{2} \int_B (v_C + Sr)^T (v_C + Sr) dm,\\
+		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm + \frac{1}{2} \int_B v_C^T Sr dm, \\
+		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm
+\end{eqnarray*}
+$$

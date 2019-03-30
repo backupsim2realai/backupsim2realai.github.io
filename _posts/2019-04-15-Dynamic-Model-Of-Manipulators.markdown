@@ -55,7 +55,7 @@ $$m = \int_{B} \rho(x, y, z)\hspace{1mm} dx dy dz$$
 
 where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can be assumed constant, $$\rho$$.
 
-- The _{center of mass}_ (CoM) can be computed as
+- The _center of mass_ (CoM) can be computed as:
 
 $$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho(x, y, z)\hspace{1mm} dx dy dz$$. 
 

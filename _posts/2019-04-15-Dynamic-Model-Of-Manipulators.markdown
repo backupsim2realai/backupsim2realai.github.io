@@ -57,7 +57,7 @@ where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can 
 
 - The _center of mass_ (CoM) can be computed as:
 
-$$p_C = \int_{B} p(x, y, z) \rho(x, y, z)\hspace{1mm} dx dy dz$$ 
+$$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho(x, y, z)\hspace{1mm} dx dy dz$$ 
 
 - The kinectic energy can be then written as:
 

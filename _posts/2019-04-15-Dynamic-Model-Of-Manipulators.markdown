@@ -45,4 +45,4 @@ Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_{ii}\dot q
 
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q} - \frac{\partial \mathcal{P}}{\partial \dot q}$$
 
-Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K} \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}$$.
+Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}_i$$.

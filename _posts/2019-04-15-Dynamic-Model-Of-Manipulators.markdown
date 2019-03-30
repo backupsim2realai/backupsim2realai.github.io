@@ -33,7 +33,7 @@ Therefore, the Lagrangian is $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) -
 
 The Euler-Lagrange equations are defined as 
 
-$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q} \hspace{10mm} i = 1, 2, \cdots, n $$
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
 
 where $$\psi_i$$ is the non-conservative (external or dissipative) generalised forces performing any work on the joints $$q_i$$. It can be decomposed into:
 
@@ -46,3 +46,10 @@ Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_{ii}\dot q
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q} - \frac{\partial \mathcal{P}}{\partial \dot q}$$
 
 Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}_i$$.
+
+**Computing Kinetic Energy** 
+
+- For any rigid body B, the _mass_ can be computed by integrating the mass density as: $$m = \int_{B} \rho(x, y, z) dx dy dz$$ where the term $$\rho(x, y, z) denotes the mass density and in some cases can be assumed constant, $$\rho$$.
+- The _{center of mass}_ (CoM) can be computed as $$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho(x, y, z) dx dy dz$$. 
+- The kinectic energy can be then written as:
+$$\mathcal{K} = \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) \rho dx dy dz$$

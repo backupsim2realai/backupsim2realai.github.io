@@ -65,9 +65,9 @@ $$\mathcal{K} = \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) \rho \hspace{1mm}dx 
 
 The velocity of a any point $p$ on a body undergoing motion in 3D can be written as 
 
-$$v = v_C + \omega \cross (p - p_C) = v_C + \omega \cross r$$
+$$v = v_C + \omega \times (p - p_C) = v_C + \omega \times r$$
 
-The cross product with the angular velocity can be written as matrix vector product *i.e.* $$\omega \cross r = S(\omega) r$$.
+The cross product with the angular velocity can be written as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$.
 
 <center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="40%"></center>
 credits: https://courses.lumenlearning.com/physics/chapter/10-1-angular-acceleration/

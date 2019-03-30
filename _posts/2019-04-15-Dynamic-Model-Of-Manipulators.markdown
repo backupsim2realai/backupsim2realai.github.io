@@ -49,7 +49,7 @@ Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \s
 
 **Computing Kinetic Energy** 
 
-- For any rigid body B, the _mass_ can be computed by integrating the mass density as: $$m = \int_{B} \rho(x, y, z) dx dy dz$$ where the term $$\rho(x, y, z) denotes the mass density and in some cases can be assumed constant, $$\rho$$.
+- For any rigid body B, the _mass_ can be computed by integrating the mass density as: $$m = \int_{B} \rho(x, y, z) dx dy dz$$ where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can be assumed constant, $$\rho$$.
 - The _{center of mass}_ (CoM) can be computed as $$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho(x, y, z) dx dy dz$$. 
 - The kinectic energy can be then written as:
 $$\mathcal{K} = \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) \rho dx dy dz$$

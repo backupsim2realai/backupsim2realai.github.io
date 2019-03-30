@@ -41,4 +41,8 @@ where $$\psi_i$$ is the non-conservative (external or dissipative) generalised f
 - $$J_i^T F_{c_i}$$, the term due to external forces.
 - $$d_ii \dot q_i$$, joint friction torque.
 
-Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_ii\dot q_i$$.
+Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_ii\dot q_i$$. Since the potential energy does not depend on the velocity, the euler-lagrange equation can be further simplied as 
+
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q} - \frac{\partial \mathcal{P}}{\partial \dot q}$$
+
+Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K} \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}$$.

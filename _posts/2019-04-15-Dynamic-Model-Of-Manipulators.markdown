@@ -34,3 +34,11 @@ Therefore, the Lagrangian is $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) -
 The Euler-Lagrange equations are defined as 
 
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q} \hspace{10mm} i = 1, 2, \cdots, n $$
+
+where $$\psi_i$$ is the non-conservative (external or dissipative) generalised forces performing any work on the joints $$q_i$$. It can be decomposed into:
+
+- $$\tau_i$$, the joint actuator torque.
+- $$J_i^T F_c_i$$, the term due to external forces.
+- $$d_ii \dot q_i$$, joint friction torque.
+
+Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_c_i - d_ii\dot q_i$$.

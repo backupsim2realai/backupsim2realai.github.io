@@ -64,5 +64,5 @@ $$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho \hspace{1mm} dx dy dz$$
 $$\mathcal{K} = \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
 
 
-<center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="70%"></center>
+<center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="40%"></center>
 credits: https://courses.lumenlearning.com/physics/chapter/10-1-angular-acceleration/

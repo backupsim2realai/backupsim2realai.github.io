@@ -17,7 +17,7 @@ Similarly to kinematics, also for the dynamics it is possible to define two “m
 					$$ \ddot q = f (q, \dot q, \tau) $$
 and then
 
-$$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \ddot q dt $$
+$$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
 **Inverse model:** once the joint accelerations, velocities and positions are known, compute the corresponding forces/torques
 

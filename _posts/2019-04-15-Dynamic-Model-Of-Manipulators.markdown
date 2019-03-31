@@ -117,3 +117,7 @@ $$
    -\int r_x r_z dm & -\int r_y r_z dm & \int (r_x^2 + r_y^2) dm\\
   \end{array} } \right]
 $$
+
+The kinetic energy can be compactly written as: 
+
+$$\mathcal{K} = \frac{1}{2} m v_C^T v_C + \frac{1}{2}\omega^T I \omega $$

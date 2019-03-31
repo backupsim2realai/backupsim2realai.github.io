@@ -123,3 +123,13 @@ The kinetic energy can be compactly written as:
 $$\mathcal{K} = \frac{1}{2} m v_C^T v_C + \frac{1}{2}\omega^T I \omega $$
 
 This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)).
+
+
+
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+

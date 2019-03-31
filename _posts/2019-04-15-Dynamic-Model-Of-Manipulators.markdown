@@ -121,3 +121,5 @@ $$
 The kinetic energy can be compactly written as: 
 
 $$\mathcal{K} = \frac{1}{2} m v_C^T v_C + \frac{1}{2}\omega^T I \omega $$
+
+This is also known as _Konig Theorem_.

@@ -133,3 +133,6 @@ It works with almost all markdown flavours (the below blank line matters).
 
 ---
 
+
+> **_NOTE:_**  The note content. $$p_C = 3$$
+

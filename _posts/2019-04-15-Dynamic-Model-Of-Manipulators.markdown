@@ -132,7 +132,7 @@ where
 
 - $$m_i$$ is the mass of the i-th link.
 - $$v_{C_i}$$ is the linear velocity of the center of mass and $$\omega_i$$ is the rotatinal velocity of the link.
-- $$I_i$$ is the inertial matrix computed in a fixed reference frame $\mathcal{F}_i$$ attached to the center of the mass.
+- $$I_i$$ is the inertial matrix computed in a fixed reference frame $$\mathcal{F}_i$$ attached to the center of the mass.
 - $$R_i$$ is the rotation matrix of the link with respect to the fixed base frame $$\mathcal{F}_0$$.
 
 $$

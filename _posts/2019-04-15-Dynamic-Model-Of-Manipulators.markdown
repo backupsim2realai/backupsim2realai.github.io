@@ -105,3 +105,14 @@ $$
    \int r_x r_z dm & \int r_y r_z dm & \int r_z^2 dm\\
   \end{array} } \right]
 $$
+
+The inertia matrix is:
+
+$$
+  I=
+  \left[ {\begin{array}{ccc}
+   \int (r_y^2 +r_z^2) dm & -\int r_x r_y dm & -\int r_x r_z dm\\
+   -\int r_x r_y dm & \int (r_x^2 + r_z^2) dm & -\int r_y r_z dm\\
+   -\int r_x r_z dm & -\int r_y r_z dm & \int (r_x^2 + r_y^2) dm\\
+  \end{array} } \right]
+$$

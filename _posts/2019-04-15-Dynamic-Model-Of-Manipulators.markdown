@@ -90,7 +90,7 @@ $$ \int_B v_C^T Sr dm  = v_C^T S \int_B r dm = v_C^T S \int_B (p - p_C) dm = 0 $
 Further, using the identity $$a^Tb = Tr(a b^T)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^T S^T Sr dm $$  as:
 $$
 \begin{eqnarray*}
-\frac{1}{2} \int_B r^T S^T Sr dm &=& \frac{1}{2} \int_B Tr(Sr r^T S^T) dm = \frac{1}{2} Tr \bigg( S \int_B rr^T dm  S^T\bigg)
+\frac{1}{2} \int_B r^T S^T Sr dm &=& \frac{1}{2} \int_B Tr(Sr r^T S^T) dm = \frac{1}{2} Tr \bigg( S \int_B rr^T dm  S^T\bigg), \\
 							&=& Tr(S E S^T) = \frac{1}{2} \omega^T I \omega
 \end{eqnarray*}
 $$

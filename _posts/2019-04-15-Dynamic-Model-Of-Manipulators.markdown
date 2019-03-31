@@ -124,6 +124,25 @@ $$\mathcal{K} = \frac{1}{2} m v_C^T v_C + \frac{1}{2}\omega^T I \omega $$
 
 This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)).
 
+Thus, the kinect energy of an n-dof manipulator is 
+
+$$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i $$
+
+where 
+
+- $$m_i$$ is the mass of the i-th link.
+- $$v_{C_i}$$ is the linear velocity of the center of mass and $$\omega_i$$ is the rotatinal velocity of the link.
+- $$I_i$$ is the inertial matrix computed in a fixed reference frame $\mathcal{F}_i$$ attached to the center of the mass.
+- $$R_i$$ is the rotation matrix of the link with respect to the fixed base frame $$\mathcal{F}_0$$.
+
+$$
+\begin{eqnarray*}
+\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\
+&=& \frac{1}{2}\dot q^T \sum_{i=1}^n \bigg[ m_i {J^i_v(q)}^T J^i_v(q) + {J^i_{\omega}(q)}^T R_i I_i R_i^T {J^i_{\omega}(q)} \bigg] \dot q
+&=& \frac{1}{2}\dot q M(q) \dot q
+&=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_ij(q) \dot q_i \dot q_j 
+\end{eqnarray*}
+$$
 
 
 ---

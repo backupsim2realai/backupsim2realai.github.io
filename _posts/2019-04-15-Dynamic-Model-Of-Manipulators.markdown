@@ -140,7 +140,7 @@ $$
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\
 &=& \frac{1}{2}\dot q^T \sum_{i=1}^n \bigg[ m_i {J^i_v(q)}^T J^i_v(q) + {J^i_{\omega}(q)}^T R_i I_i R_i^T {J^i_{\omega}(q)} \bigg] \dot q
 &=& \frac{1}{2}\dot q^T M(q) \dot q
-&=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_ij(q) \dot q_i \dot q_j 
+&=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_{ij}(q) \dot q_i \dot q_j 
 \end{eqnarray*}
 $$
 

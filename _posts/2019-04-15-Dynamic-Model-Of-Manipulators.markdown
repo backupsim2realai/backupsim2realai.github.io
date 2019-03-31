@@ -82,3 +82,7 @@ $$
 		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm
 \end{eqnarray*}
 $$
+
+The expression $$ \frac{1}{2} \int_B v_C^T Sr dm $$ sums to 0 *i.e.* 
+
+$$ \int_B v_C^T Sr dm  = v_C^T S \int_B r dm = v_C^T S \int_B (p - p_C) dm = 0 $$

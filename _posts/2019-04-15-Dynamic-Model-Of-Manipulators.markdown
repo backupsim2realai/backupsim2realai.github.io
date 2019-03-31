@@ -79,7 +79,7 @@ $$
 \mathcal{K}&=& \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) dm,\\
 		    &=& \frac{1}{2} \int_B (v_C + Sr)^T (v_C + Sr) dm,\\
 		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm + \frac{1}{2} \int_B v_C^T Sr dm, \\
-		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm
+		    &=& \frac{1}{2} \int_B v_C^T v_C +  \frac{1}{2} \int_B r^T S^T Sr dm + 0
 \end{eqnarray*}
 $$
 

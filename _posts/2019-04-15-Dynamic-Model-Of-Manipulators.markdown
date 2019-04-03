@@ -145,6 +145,8 @@ $$
 $$
 
 
+Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
+
 ---
 **NOTE**
 

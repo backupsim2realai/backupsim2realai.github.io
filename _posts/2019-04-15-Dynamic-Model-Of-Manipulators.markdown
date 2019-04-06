@@ -147,6 +147,7 @@ $$
 
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
+ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf
 ---
 **NOTE**
 

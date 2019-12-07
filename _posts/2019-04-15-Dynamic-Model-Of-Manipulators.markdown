@@ -6,6 +6,8 @@ description: describing the equations of motions as used in simulators # Add pos
 img:  # Add image post (optional)
 ---
 
+Physics engines and simulators have recently pushed the 
+
 Robot Dynamics 
 
 Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.
@@ -148,6 +150,10 @@ $$
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
 ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf
+
+How physics engines work https://www.haroldserrano.com/blog/how-a-physics-engine-works-an-overview
+
+Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prune
 ---
 **NOTE**
 

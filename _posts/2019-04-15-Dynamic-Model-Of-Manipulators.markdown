@@ -154,6 +154,18 @@ Assuming the end-effector frame is denoted by $$n+1$$, the velocity of the end-e
 
 $$ \dot{r}_{bk} = \sum_{k=1}^{n} \omega_{bk} \times r_{k(k+1)} $$
 
+Let us denote $$z_k$$ to be the axis of rotation of joint $$k$$. We can rewrite the angular velocity of joint $$k$$ wrt to $$k-1$$ as 
+
+$$ \omega_{(k-1)k} = z_k \dot{q}_k$$ 
+
+Also, we know that
+
+$$\omega_{bk} = \omega_{b(k-1)} + \omega_{(k-1)k}$$
+
+Therefore, the angular velocity of link $$k$$ can be written as 
+
+$$\omega_{bk} = \sum_{i=1}^{k} z_i \dot{q}_i$$
+
 $$
 \begin{eqnarray*}
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\

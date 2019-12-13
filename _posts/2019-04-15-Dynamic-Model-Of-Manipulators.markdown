@@ -150,6 +150,10 @@ Velocity of any linkage $$k$$ can be expressed recusively as
 
 $$ \dot{r}_{bk} = \dot{r}_{b(k-1)} + \omega_{b(k-1)} \times r_{(k-1)k} $$
 
+Assuming the end-effector frame is denoted by $$n+1$$, the velocity of the end-effector can be re-written as 
+
+$$ \dot{r}_{bk} = \sum_{k=1}^{n} \omega_{bk} \times r_{k(k+1)} $$
+
 $$
 \begin{eqnarray*}
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\

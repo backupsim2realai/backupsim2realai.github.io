@@ -148,7 +148,7 @@ $$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \tex
 
 Velocity of any linkage $$k$$ can be expressed recusively as 
 
-$$ \dot{r}_{bk} = \dot{r}_{b(k-1)} + \omega_{b(k-1)} \cross r_{(k-1)k} $$
+$$ \dot{r}_{bk} = \dot{r}_{b(k-1)} + \omega_{b(k-1)} \times r_{(k-1)k} $$
 
 $$
 \begin{eqnarray*}

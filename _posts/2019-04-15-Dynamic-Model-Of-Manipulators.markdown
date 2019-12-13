@@ -168,11 +168,11 @@ $$\omega_{bk} = \sum_{i=1}^{k} z_i \dot{q}_i$$
 
 Plugging this expression back into the link velocity equation we get 
 
-$$\dot{r}_{be} = \sum_{k=1}^{n} \sum_{i=1}^{k} z_i \dot{q}_i r_{k(k+1)}$$
+$$\dot{r}_{be} = \sum_{k=1}^{n} \sum_{i=1}^{k} z_i \dot{q}_i \times r_{k(k+1)}$$
 
-$$\dot{r}_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \sum_{i=k}^{n} r_{i(i+1)}$$
+$$\dot{r}_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \sum_{i=k}^{n} \times r_{i(i+1)}$$
 
-$$\dot{r}_{be} = \sum_{k=1}^{n} z_k \dot{q}_k r_{k(n+1)}$$
+$$\dot{r}_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times r_{k(n+1)}$$
 
 
 $$

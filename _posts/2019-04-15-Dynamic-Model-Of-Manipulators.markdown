@@ -146,6 +146,10 @@ We can differentiate this and get the velocity of end-effector position as a fun
 $$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \texttt{J} \dot{q}$$
 
 
+Velocity of any linkage $$k$$ can be expressed recusively as 
+
+$$ \dot{r}_{bk} = \dot{r}_{b(k-1)} + \omega_{b(k-1)} \cross r_{(k-1)k} $$
+
 $$
 \begin{eqnarray*}
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\

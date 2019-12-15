@@ -173,6 +173,8 @@ $$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times \sum_{i=k}^{n} r_{i(i+1)}$$
 
 $$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times r_{k(n+1)}$$
 
+$$\dot{\mathbf{r}}_{I E}=\underbrace{\left[\mathbf{n}_{1} \times \mathbf{r}_{1(n+1)} \quad \mathbf{n}_{2} \times \mathbf{r}_{2(n+1)} \quad \ldots \quad \mathbf{n}_{n} \times \mathbf{r}_{n(n+1)}\right]}_{\mathbf{J}_{\mathrm{e} 0_{P}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)$$
+
 
 $$
 \begin{eqnarray*}

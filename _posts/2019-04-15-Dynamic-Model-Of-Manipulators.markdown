@@ -6,7 +6,7 @@ description: describing the equations of motions as used in simulators # Add pos
 img:  # Add image post (optional)
 ---
 
-Physics engines and simulators have recently pushed the 
+Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators have only increased among machine learning and computer vision practicioners. Being able to forward simulate how a physical world evolves --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks in a given scene or environment. In this post, we will dive into the underlying maths and the fundamental equation behind the workings of a physics engine, the dynamic model of a robot. 
 
 Robot Dynamics 
 

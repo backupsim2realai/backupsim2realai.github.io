@@ -89,7 +89,7 @@ The expression $$ \frac{1}{2} \int_B v_C^\top Sr \hspace{1mm} dm $$ sums to 0 *i
 
 $$ \int_B v_C^\top Sr dm  = v_C^\top S \int_B r dm = v_C^\top S \int_B (p - p_C) dm = 0 $$
 
-Further, using the identity $$a^\topb = Tr(a b^\top)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^\top S^\top Sr dm $$  as:
+Further, using the identity $$a^\top b = Tr(a b^\top)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^\top S^\top Sr dm $$  as:
 
 $$
 \begin{eqnarray*}

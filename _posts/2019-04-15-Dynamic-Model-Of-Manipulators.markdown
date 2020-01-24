@@ -113,13 +113,11 @@ $$
   \end{array} } \right]
 $$
 
-The kinetic energy can be compactly written as: 
+Therefore, the kinetic energy can be compactly written as: 
 
 $$\mathcal{K} = \frac{1}{2} m v_C^\top v_C + \frac{1}{2}\omega^\top I \omega $$
 
-This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)).
-
-Thus, the kinect energy of an n-dof manipulator is 
+This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)). Thus, the kinect energy of an n-dof manipulator is 
 
 $$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i $$
 

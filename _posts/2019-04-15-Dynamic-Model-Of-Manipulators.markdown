@@ -130,6 +130,8 @@ where
 
 ### Deriving the velocity of the center of mass
 
+Given the kinetic energy expression derived above we'd like to be able to obtain the velocities of center of masses of all the joints of the manipulator. 
+
 Representing the end-effector position with respect to the base frame we have the following expression 
 
 $$r_{be} = \texttt{f}(q)$$

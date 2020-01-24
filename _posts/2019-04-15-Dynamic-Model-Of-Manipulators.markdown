@@ -128,7 +128,7 @@ where
 - $$I_i$$ is the inertial matrix computed in a fixed reference frame $$\mathcal{F}_i$$ attached to the center of the mass.
 - $$R_i$$ is the rotation matrix of the link with respect to the fixed base frame $$\mathcal{F}_0$$.
 
-** Deriving the velocity of the center of mass ** 
+### Deriving the velocity of the center of mass
 
 Representing the end-effector position with respect to the base frame we have the following expression 
 

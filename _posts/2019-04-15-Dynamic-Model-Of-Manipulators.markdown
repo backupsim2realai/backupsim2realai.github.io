@@ -162,9 +162,7 @@ Plugging this expression back into the link velocity equation we get
 
 $$v_{be} = \sum_{k=1}^{n} \sum_{i=1}^{k} z_i \dot{q}_i \times r_{k(k+1)}$$
 
-$$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times \sum_{i=k}^{n} r_{i(i+1)}$$
-
-$$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times r_{k(n+1)}$$
+$$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times \sum_{i=k}^{n} r_{i(i+1)} = \sum_{k=1}^{n} z_k \dot{q}_k \times r_{k(n+1)}$$
 
 $$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \quad \mathbf{z}_{2} \times \mathbf{r}_{2(n+1)} \quad \ldots \quad \mathbf{z}_{n} \times \mathbf{r}_{n(n+1)}\right]}_{\mathbf{J}_{\mathrm{be}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)$$
 

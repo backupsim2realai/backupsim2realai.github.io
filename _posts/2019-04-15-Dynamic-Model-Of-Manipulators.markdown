@@ -130,11 +130,11 @@ where
 
 ### Deriving the velocity of the center of mass
 
-Given the kinetic energy expression derived above we'd like to be able to obtain the velocities of center of masses of all the joints of the manipulator. Representing the end-effector position with respect to the base frame we have the following expression 
+Given the kinetic energy expression derived above we'd like to be able to obtain the velocities of center of masses of all the joints of the manipulator. Denoting $$r_{be}$$ as the position of the end effector with respect to the base frame $$b$$ we can obtain the expression for it as a function of forward dynamics and joint angles vector $$q$$  
 
 $$r_{be} = \texttt{f}(q)$$
 
-We can differentiate this and get the velocity of end-effector position as a function of angles $$q$$
+Differentiating this we can get velocity of end-effector position as a function of angles $$q$$
 
 $$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \texttt{J} \dot{q}$$
 

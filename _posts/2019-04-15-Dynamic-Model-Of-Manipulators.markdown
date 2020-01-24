@@ -71,9 +71,6 @@ $$v = v_C + \omega \times (p - p_C) = v_C + \omega \times r$$
 
 The cross product with the angular velocity can be written as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$.
 
-<center><img src="/assets/img/2019-04-15/linear_velocity.jpg" width="40%"></center>
-credits: https://courses.lumenlearning.com/physics/chapter/10-1-angular-acceleration/
-
 Therefore, the overall kinetic energy can be re-written as: 
 
 $$

@@ -74,9 +74,9 @@ Denoting $$r$$ by $$p - p_C$$ and writing the cross product as matrix vector pro
 $$
 \begin{eqnarray*}
 \mathcal{K}&=& \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) dm,\\
-		    &=& \frac{1}{2} \int_B (v_C + Sr)^\top (v_C + Sr) dm,\\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top Sr dm + \frac{1}{2} \int_B v_C^\top Sr dm, \\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top Sr dm + 0
+		    &=& \frac{1}{2} \int_B (v_C + \mathsf{S}r)^\top (v_C + \mathsf{S}r) dm,\\
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top Sr dm + \frac{1}{2} \int_B v_C^\top \mathsf{S}r dm, \\
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top \mathsf{S}r dm + 0
 \end{eqnarray*}
 $$
 

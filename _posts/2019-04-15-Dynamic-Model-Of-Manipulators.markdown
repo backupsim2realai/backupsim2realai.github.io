@@ -69,7 +69,7 @@ The velocity of a any point $p$ on a body undergoing motion in 3D can be written
 
 $$v = v_C + \omega \times (p - p_C) = v_C + \omega \times r$$
 
-The cross product with the angular velocity can be written as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$.
+Denoting $$r$$ by $$p - p_C$$ and writing the cross product as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$.
 
 Therefore, the overall kinetic energy can be re-written as: 
 

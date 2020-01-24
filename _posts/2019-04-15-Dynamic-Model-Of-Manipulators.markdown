@@ -6,6 +6,8 @@ description: describing the equations of motions as used in simulators # Add pos
 img:  # Add image post (optional)
 ---
 
+Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators has only increased among machine learning and computer vision practicioners. Being able to forward simulate the evolution of a physical world as a function of time --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks. In this post, we will dive into the underlying maths and derive the fundamental equation that all physics engines implement to simulate dynamic model of an articulated manipulator.
+
 Robot Dynamics 
 
 Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.
@@ -15,7 +17,7 @@ Similarly to kinematics, also for the dynamics it is possible to define two “m
 
 **Direct model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
 					$$ \ddot q = f (q, \dot q, \tau) $$
-and then
+and then 
 
 $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
@@ -78,8 +80,8 @@ $$
 \begin{eqnarray*}
 \mathcal{K}&=& \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) dm,\\
 		    &=& \frac{1}{2} \int_B (v_C + Sr)^T (v_C + Sr) dm,\\
-		    &=& \frac{1}{2} \int_B v_C^T v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + \frac{1}{2} \int_B v_C^T Sr dm, \\
-		    &=& \frac{1}{2} \int_B v_C^T v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + 0
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + \frac{1}{2} \int_B v_C^T Sr dm, \\
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + 0
 \end{eqnarray*}
 $$
 
@@ -135,6 +137,43 @@ where
 - $$I_i$$ is the inertial matrix computed in a fixed reference frame $$\mathcal{F}_i$$ attached to the center of the mass.
 - $$R_i$$ is the rotation matrix of the link with respect to the fixed base frame $$\mathcal{F}_0$$.
 
+Representing the end-effector position with respect to the base frame we have the following expression 
+
+$$r_{be} = \texttt{f}(q)$$
+
+We can differentiate this and get the velocity of end-effector position as a function of angles $$q$$
+
+$$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \texttt{J} \dot{q}$$
+
+Denoting the velocity $$\dot{r}_{be}$$ as $$v_{be}$$, we can express it recursively for any link $$k$$ as 
+
+$$ v_{bk} = v_{b(k-1)} + \omega_{b(k-1)} \times r_{(k-1)k} $$
+
+Assuming the end-effector frame is denoted by $$n+1$$, the velocity of the end-effector can be re-written as 
+
+$$ v_{bk} = \sum_{k=1}^{n} \omega_{bk} \times r_{k(k+1)} $$
+
+Let us denote $$z_k$$ to be the axis of rotation of joint $$k$$. We can rewrite the angular velocity of joint $$k$$ wrt to $$k-1$$ as 
+
+$$ \omega_{(k-1)k} = z_k \dot{q}_k$$ 
+
+Also, we know that
+
+$$\omega_{bk} = \omega_{b(k-1)} + \omega_{(k-1)k}$$
+
+Therefore, the angular velocity of link $$k$$ can be written as 
+
+$$\omega_{bk} = \sum_{i=1}^{k} z_i \dot{q}_i$$
+
+Plugging this expression back into the link velocity equation we get 
+
+$$v_{be} = \sum_{k=1}^{n} \sum_{i=1}^{k} z_i \dot{q}_i \times r_{k(k+1)}$$
+
+$$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times \sum_{i=k}^{n} r_{i(i+1)}$$
+
+$$v_{be} = \sum_{k=1}^{n} z_k \dot{q}_k \times r_{k(n+1)}$$
+
+$$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \quad \mathbf{z}_{2} \times \mathbf{r}_{2(n+1)} \quad \ldots \quad \mathbf{z}_{n} \times \mathbf{r}_{n(n+1)}\right]}_{\mathbf{J}_{\mathrm{be}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)$$
 
 $$
 \begin{eqnarray*}
@@ -149,6 +188,10 @@ $$
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
 ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf
+
+How physics engines work https://www.haroldserrano.com/blog/how-a-physics-engine-works-an-overview
+
+Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prune
 ---
 **NOTE**
 

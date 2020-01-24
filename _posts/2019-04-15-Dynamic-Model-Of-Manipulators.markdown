@@ -63,7 +63,7 @@ The overall kinectic energy can be then written as:
 
 $$\mathcal{K} = \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
 
-The velocity of a any point $p$ on a body undergoing motion in 3D can be written as 
+We know that the velocity of a any point $p$ on a body undergoing motion in 3D can be written as 
 
 $$v = v_C + \omega \times (p - p_C) = v_C + \omega \times r$$
 

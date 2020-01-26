@@ -140,7 +140,7 @@ $$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \tex
 
 Denoting the velocity $$\dot{r}_{be}$$ as $$v_{be}$$, we can express it recursively for any link $$k$$ as 
 
-$$ \mathbf{v}_{bk} = \mathbf{v}_{b(k-1)} + \mathbf{\omega}_{b(k-1)} \times r_{(k-1)k} $$
+$$ \mathbf{v}_{bk} = \mathbf{v}_{b(k-1)} + \boldsymbol{\omega}_{b(k-1)} \times r_{(k-1)k} $$
 
 Assuming the end-effector frame is denoted by $$n+1$$, the velocity of the end-effector can be re-written as 
 

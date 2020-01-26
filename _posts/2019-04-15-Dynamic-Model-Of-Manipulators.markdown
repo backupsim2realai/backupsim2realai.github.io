@@ -65,7 +65,7 @@ $$\mathcal{K} = \frac{1}{2} \int_B \mathbf{v}^\top (x, y, z) \mathbf{v}(x, y, z)
 
 We know that the velocity of a any point $\mathbf{p}$ on a body undergoing motion in 3D can be written as 
 
-$$\mathbf{v} = \mathbf{v}_C + \omega \times (\mathbf{p} - \mathbf{p}_C) = \mathbf{v}_C + \omega \times \mathbf{r}$$
+$$\mathbf{v} = \mathbf{v}_C + \boldsymbol{\omega} \times (\mathbf{p} - \mathbf{p}_C) = \mathbf{v}_C + \omega \times \mathbf{r}$$
 
 Denoting $$r$$ by $$p - p_C$$ and writing the cross product as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$, the overall kinetic energy can be re-written as: 
 

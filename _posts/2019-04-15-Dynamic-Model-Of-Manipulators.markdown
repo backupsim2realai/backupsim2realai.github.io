@@ -57,30 +57,30 @@ $$m = \int_{B} \rho(x, y, z)\hspace{1mm} dx dy dz$$
 
 where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can be assumed constant, $$\rho$$. The _center of mass_ (CoM) can be computed as:
 
-$$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho \hspace{1mm} dx dy dz$$ 
+$$p_C = \frac{1}{m} \int_{B} \mathbf{p}(x, y, z) \rho \hspace{1mm} dx dy dz$$ 
 
 The overall kinectic energy can be then written as:
 
-$$\mathcal{K} = \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
+$$\mathcal{K} = \frac{1}{2} \int_B \mathbf{v}^\top (x, y, z) \mathbf{v}(x, y, z) \rho \hspace{1mm}dx dy dz$$
 
-We know that the velocity of a any point $p$ on a body undergoing motion in 3D can be written as 
+We know that the velocity of a any point $\mathbf{p}$ on a body undergoing motion in 3D can be written as 
 
-$$v = v_C + \omega \times (p - p_C) = v_C + \omega \times r$$
+$$\mathbf{v} = \mathbf{v}_C + \omega \times (\mathbf{p} - \mathbf{p}_C) = \mathbf{v}_C + \omega \times \mathbf{r}$$
 
 Denoting $$r$$ by $$p - p_C$$ and writing the cross product as matrix vector product *i.e.* $$\omega \times r = S(\omega) r$$, the overall kinetic energy can be re-written as: 
 
 $$
 \begin{eqnarray*}
 \mathcal{K}&=& \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) dm,\\
-		    &=& \frac{1}{2} \int_B (v_C + \mathsf{S}r)^\top (v_C + \mathsf{S}r) dm,\\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top  \mathsf{S}r dm + \frac{1}{2} \int_B v_C^\top \mathsf{S}r dm, \\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top \mathsf{S}r dm + 0
+		    &=& \frac{1}{2} \int_B (\mathbf{v}_C + \mathsf{S}r)^\top (\mathbf{v}_C + \mathsf{S}r) dm,\\
+		    &=& \frac{1}{2} \int_B \mathbf{v}_C^\top \mathbf{v}_C dm +  \frac{1}{2} \int_B r^\top S^\top  \mathsf{S}r dm + \frac{1}{2} \int_B \mathbf{v}_C^\top \mathsf{S}r dm, \\
+		    &=& \frac{1}{2} \int_B \mathbf{v}_C^\top \mathbf{v}_C dm +  \frac{1}{2} \int_B r^\top S^\top \mathsf{S}r dm + 0
 \end{eqnarray*}
 $$
 
-The expression $$ \frac{1}{2} \int_B v_C^\top \mathsf{S}r \hspace{1mm} dm $$ sums to 0 *i.e.* 
+The expression $$ \frac{1}{2} \int_B \mathbf{v}_C^\top \mathsf{S}r \hspace{1mm} dm $$ sums to 0 *i.e.* 
 
-$$ \int_B v_C^\top \mathsf{S}r dm  = v_C^\top \mathsf{S} \int_B r dm = v_C^\top \mathsf{S} \int_B (p - p_C) dm = 0 $$
+$$ \int_B \mathbf{v}_C^\top \mathsf{S}r dm  = \mathbf{v}_C^\top \mathsf{S} \int_B r dm = \mathbf{v}_C^\top \mathsf{S} \int_B (p - p_C) dm = 0 $$
 
 Further, using the identity $$a^\top b = Tr(a b^\top)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^\top \mathsf{S}^\top \mathsf{S}r dm $$  as:
 
@@ -115,7 +115,7 @@ $$
 
 Therefore, the kinetic energy can be compactly written as: 
 
-$$\mathcal{K} = \frac{1}{2} m v_C^\top v_C + \frac{1}{2}\omega^\top I \omega $$
+$$\mathcal{K} = \frac{1}{2} m \mathbf{v}_C^\top \mathbf{v}_C + \frac{1}{2}\omega^\top I \omega $$
 
 This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)). Thus, the kinect energy of an n-dof manipulator is 
 

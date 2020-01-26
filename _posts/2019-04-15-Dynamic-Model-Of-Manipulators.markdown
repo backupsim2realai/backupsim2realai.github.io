@@ -168,7 +168,7 @@ $$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \q
 
 $$
 \begin{eqnarray*}
-\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i, \\
+\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \omega_i, \\
 &=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J_{bi}(q)}^\top J_{bi}(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
 &=& \frac{1}{2}\dot q^\top M(q) \dot q
 &=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_{ij}(q) \dot q_i \dot q_j 

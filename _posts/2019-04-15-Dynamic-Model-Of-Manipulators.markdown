@@ -148,7 +148,7 @@ $$ \mathbf{v}_{bk} = \sum_{k=1}^{n} \boldsymbol{\omega}_{bk} \times \mathbf{r}_{
 
 Let us denote $$z_k$$ to be the axis of rotation of joint $$k$$. We can rewrite the angular velocity of joint $$k$$ wrt to $$k-1$$ as 
 
-$$ \boldsymbol{\omega}_{(k-1)k} = z_k \dot{q}_k$$ 
+$$ \boldsymbol{\omega}_{(k-1)k} = \mathbf{z}_k \dot{q}_k$$ 
 
 Also, we know that
 

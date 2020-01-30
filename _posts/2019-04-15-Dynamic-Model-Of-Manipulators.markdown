@@ -49,7 +49,12 @@ Therefore, it can be written as $$\psi_i = \tau_i + J_i^\top F_{c_i} - d_{ii}\do
 
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q_i} - \frac{\partial \mathcal{P}}{\partial \dot q_i}$$
 
+
 Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}_i$$.
+
+> Why is Lagrangian negative of Kinetic and Potential? 
+> The conversion of kinetic energy into potential energy or vice versa is just this kind of conversion. But since total energy is conserved, kinetic minus potential is a handy measure of how much got converted from one to the other.
+
 
 **Computing Kinetic Energy** 
 

@@ -201,6 +201,8 @@ Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prun
 
 This is a great resource https://scaron.info/teaching/equations-of-motion.html
 
+Principle of least action: https://www.feynmanlectures.caltech.edu/II_19.html
+
 ---
 **NOTE**
 

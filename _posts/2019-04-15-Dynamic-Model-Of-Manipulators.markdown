@@ -62,11 +62,8 @@ $$m = \int_{B} \rho(x, y, z)\hspace{1mm} dx dy dz$$
 
 where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can be assumed constant, $$\rho$$. The _center of mass_ (CoM) can be computed as:
 
-<<<<<<< HEAD
 $$\mathcal{K} = \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
-=======
 $$p_C = \frac{1}{m} \int_{B} \mathbf{p}(x, y, z) \rho \hspace{1mm} dx dy dz$$ 
->>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a
 
 The overall kinectic energy can be then written as:
 
@@ -81,24 +78,6 @@ Denoting $$r$$ by $$p - p_C$$ and writing the cross product as matrix vector pro
 $$
 \begin{eqnarray*}
 \mathcal{K}&=& \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) dm,\\
-<<<<<<< HEAD
-		    &=& \frac{1}{2} \int_B (v_C + Sr)^\top (v_C + Sr) dm,\\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top Sr dm + \frac{1}{2} \int_B v_C^\top Sr dm, \\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top^\top Sr dm + 0
-\end{eqnarray*}
-$$
-
-The expression $$ \frac{1}{2} \int_B v_C^\top Sr \hspace{1mm} dm $$ sums to 0 *i.e.* 
-
-$$ \int_B v_C^\top Sr dm  = v_C^\top S \int_B r dm = v_C^\top S \int_B (p - p_C) dm = 0 $$
-
-Further, using the identity $$a^\topb = Tr(a b^\top)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^\top S^\top Sr dm $$  as:
-
-$$
-\begin{eqnarray*}
-\frac{1}{2} \int_B r^\top S^\top Sr dm &=& \frac{1}{2} \int_B Tr(Sr r^\top S^\top) dm = \frac{1}{2} Tr \bigg( S \int_B rr^\top dm  S^\top\bigg), \\
-							&=& Tr(S E S^\top) = \frac{1}{2} \omega^\top I \omega
-=======
 		    &=& \frac{1}{2} \int_B (\mathbf{v}_C + \mathsf{S}r)^\top (\mathbf{v}_C + \mathsf{S}r) dm,\\
 		    &=& \frac{1}{2} \int_B \mathbf{v}_C^\top \mathbf{v}_C dm +  \frac{1}{2} \int_B r^\top S^\top  \mathsf{S}r dm + \frac{1}{2} \int_B \mathbf{v}_C^\top \mathsf{S}r dm, \\
 		    &=& \frac{1}{2} \int_B \mathbf{v}_C^\top \mathbf{v}_C dm +  \frac{1}{2} \int_B r^\top S^\top \mathsf{S}r dm + 0
@@ -115,7 +94,6 @@ $$
 \begin{eqnarray*}
 \frac{1}{2} \int_B r^\top \mathsf{S}^\top Sr dm &=& \frac{1}{2} \int_B Tr(\mathsf{S}r r^\top \mathsf{S}^\top) dm = \frac{1}{2} Tr \bigg( \mathsf{S} \int_B rr^\top dm  \mathsf{S}^\top\bigg), \\
 							&=& Tr(\mathsf{S} E \mathsf{S}^\top) = \frac{1}{2} \omega^\top I \omega
->>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a
 \end{eqnarray*}
 $$
 
@@ -141,23 +119,13 @@ $$
   \end{array} } \right]
 $$
 
-<<<<<<< HEAD
-The kinetic energy can be compactly written as: 
-
-$$\mathcal{K} = \frac{1}{2} m v_C^\top v_C + \frac{1}{2}\omega^\top I \omega $$
-=======
 Therefore, the kinetic energy can be compactly written as: 
->>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a
 
 $$\mathcal{K} = \frac{1}{2} m \mathbf{v}_C^\top \mathbf{v}_C + \frac{1}{2}\boldsymbol{\omega}^\top I \boldsymbol{\omega} $$
 
 This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)). Thus, the kinect energy of an n-dof manipulator is 
 
-<<<<<<< HEAD
-$$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i $$
-=======
 $$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i \mathbf{v}_{C_i}^\top \mathbf{v}_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \boldsymbol{\omega}_i $$
->>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a
 
 where 
 
@@ -206,10 +174,6 @@ $$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \q
 
 $$
 \begin{eqnarray*}
-<<<<<<< HEAD
-\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i, \\
-&=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J^i_v(q)}^\top J^i_v(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
-=======
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \omega_i, \\
 &=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J_{bi}(q)}^\top J_{bi}(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
 >>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a

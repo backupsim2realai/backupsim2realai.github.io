@@ -196,6 +196,9 @@ ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotic
 How physics engines work https://www.haroldserrano.com/blog/how-a-physics-engine-works-an-overview
 
 Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prune
+
+This is a great resource https://scaron.info/teaching/equations-of-motion.html
+
 ---
 **NOTE**
 

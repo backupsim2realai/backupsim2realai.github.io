@@ -35,9 +35,6 @@ From physics we know that it is possible to define:
 
 Therefore, the Lagrangian is $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P}(q)$$.
 
-**Why is Lagrangian negative of Kinetic and Potential?**
-The conversion of kinetic energy into potential energy or vice versa is just a kind of conversion. But since total energy is conserved, kinetic minus potential is a handy measure of how much got converted from one to the other.
-
 The Euler-Lagrange equations are defined as 
 
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q_i} \hspace{10mm} i = 1, 2, \cdots, n $$

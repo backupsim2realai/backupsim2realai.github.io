@@ -8,7 +8,7 @@ img:  # Add image post (optional)
 
 Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators has only increased among machine learning and computer vision practicioners. Being able to forward simulate the evolution of a physical world as a function of time --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks. In this post, we will dive into the underlying maths and derive the fundamental equation that all physics engines implement to simulate dynamic model of an articulated manipulator.
 
-> $$M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) = \tau$$
+$$M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) = \tau$$
 
 Robot Dynamics 
 

@@ -10,6 +10,11 @@ Physics engines simulate a carefully approximated and idealised version of the r
 
 $$M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) = \tau$$
 
+where 
+- q  is the vector of generalized coordinates, for instance the vector of joint-angles for a manipulator,
+- \dot q is the first time-derivative (velocity) of q,
+- \ddot q is the second time-derivative (acceleration) of q,
+
 Robot Dynamics 
 
 Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.

@@ -19,7 +19,7 @@ where
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and
 - $$\tau $$ is $$n \times 1$$ vector of joint torques.
 
-This equation provides the relation between the applied forces/torques and the resulting motion of an industrial manipulator. Similar to kinematics, it is possible to also define two "modele":
+This equation provides the relation between the applied forces/torques and the resulting motion of a manipulator. Similar to kinematics, it is also possible to define two dynamics "models":
 
 **Forward model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
 					

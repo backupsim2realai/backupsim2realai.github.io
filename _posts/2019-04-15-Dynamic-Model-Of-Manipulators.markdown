@@ -40,10 +40,10 @@ $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \b
 where $$\psi_i$$ is the non-conservative (external or dissipative) generalised forces performing any work on the joints $$q_i$$. It can be decomposed into:
 
 - $$\tau_i$$, the joint actuator torque.
-- $$J_i^T F_{c_i}$$, the term due to external forces.
+- $$J_i^\top F_{c_i}$$, the term due to external forces.
 - $$d_ii \dot q_i$$, joint friction torque.
 
-Therefore, it can be written as $$\psi_i = \tau_i + J_i^T F_{c_i} - d_{ii}\dot q_i$$. Since the potential energy does not depend on the velocity, the euler-lagrange equation can be further simplied as 
+Therefore, it can be written as $$\psi_i = \tau_i + J_i^\top F_{c_i} - d_{ii}\dot q_i$$. Since the potential energy does not depend on the velocity, the euler-lagrange equation can be further simplied as 
 
 $$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q_i} - \frac{\partial \mathcal{P}}{\partial \dot q_i}$$
 
@@ -63,7 +63,7 @@ $$p_C = \frac{1}{m} \int_{B} p(x, y, z) \rho \hspace{1mm} dx dy dz$$
 
 - The kinectic energy can be then written as:
 
-$$\mathcal{K} = \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
+$$\mathcal{K} = \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
 
 The velocity of a any point $p$ on a body undergoing motion in 3D can be written as 
 
@@ -78,23 +78,23 @@ Therefore, the overall kinetic energy can be re-written as:
 
 $$
 \begin{eqnarray*}
-\mathcal{K}&=& \frac{1}{2} \int_B v^T (x, y, z) v(x, y, z) dm,\\
-		    &=& \frac{1}{2} \int_B (v_C + Sr)^T (v_C + Sr) dm,\\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + \frac{1}{2} \int_B v_C^T Sr dm, \\
-		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^T S^T Sr dm + 0
+\mathcal{K}&=& \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) dm,\\
+		    &=& \frac{1}{2} \int_B (v_C + Sr)^\top (v_C + Sr) dm,\\
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top Sr dm + \frac{1}{2} \int_B v_C^\top Sr dm, \\
+		    &=& \frac{1}{2} \int_B v_C^\top v_C dm +  \frac{1}{2} \int_B r^\top S^\top^\top Sr dm + 0
 \end{eqnarray*}
 $$
 
-The expression $$ \frac{1}{2} \int_B v_C^T Sr \hspace{1mm} dm $$ sums to 0 *i.e.* 
+The expression $$ \frac{1}{2} \int_B v_C^\top Sr \hspace{1mm} dm $$ sums to 0 *i.e.* 
 
-$$ \int_B v_C^T Sr dm  = v_C^T S \int_B r dm = v_C^T S \int_B (p - p_C) dm = 0 $$
+$$ \int_B v_C^\top Sr dm  = v_C^\top S \int_B r dm = v_C^\top S \int_B (p - p_C) dm = 0 $$
 
-Further, using the identity $$a^Tb = Tr(a b^T)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^T S^T Sr dm $$  as:
+Further, using the identity $$a^\topb = Tr(a b^\top)$$, we can rewrite the second term in the kinectic energy $$ \frac{1}{2} \int_B r^\top S^\top Sr dm $$  as:
 
 $$
 \begin{eqnarray*}
-\frac{1}{2} \int_B r^T S^T Sr dm &=& \frac{1}{2} \int_B Tr(Sr r^T S^T) dm = \frac{1}{2} Tr \bigg( S \int_B rr^T dm  S^T\bigg), \\
-							&=& Tr(S E S^T) = \frac{1}{2} \omega^T I \omega
+\frac{1}{2} \int_B r^\top S^\top Sr dm &=& \frac{1}{2} \int_B Tr(Sr r^\top S^\top) dm = \frac{1}{2} Tr \bigg( S \int_B rr^\top dm  S^\top\bigg), \\
+							&=& Tr(S E S^\top) = \frac{1}{2} \omega^\top I \omega
 \end{eqnarray*}
 $$
 
@@ -122,13 +122,13 @@ $$
 
 The kinetic energy can be compactly written as: 
 
-$$\mathcal{K} = \frac{1}{2} m v_C^T v_C + \frac{1}{2}\omega^T I \omega $$
+$$\mathcal{K} = \frac{1}{2} m v_C^\top v_C + \frac{1}{2}\omega^\top I \omega $$
 
 This is also known as [_Konig Theorem_](https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(kinetics)).
 
 Thus, the kinect energy of an n-dof manipulator is 
 
-$$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i $$
+$$\mathcal{K} = \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i $$
 
 where 
 
@@ -178,9 +178,9 @@ $$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \q
 
 $$
 \begin{eqnarray*}
-\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^T v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^T R_i I_i R_i^T \omega_i, \\
-&=& \frac{1}{2}\dot q^T \sum_{i=1}^n \bigg[ m_i {J^i_v(q)}^T J^i_v(q) + {J^i_{\omega}(q)}^T R_i I_i R_i^T {J^i_{\omega}(q)} \bigg] \dot q
-&=& \frac{1}{2}\dot q^T M(q) \dot q
+\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \omega_i^\top R_i I_i R_i^\top \omega_i, \\
+&=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J^i_v(q)}^\top J^i_v(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
+&=& \frac{1}{2}\dot q^\top M(q) \dot q
 &=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_{ij}(q) \dot q_i \dot q_j 
 \end{eqnarray*}
 $$

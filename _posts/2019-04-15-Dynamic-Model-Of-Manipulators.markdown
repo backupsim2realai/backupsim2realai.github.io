@@ -62,7 +62,6 @@ $$m = \int_{B} \rho(x, y, z)\hspace{1mm} dx dy dz$$
 
 where the term $$\rho(x, y, z)$$ denotes the mass density and in some cases can be assumed constant, $$\rho$$. The _center of mass_ (CoM) can be computed as:
 
-$$\mathcal{K} = \frac{1}{2} \int_B v^\top (x, y, z) v(x, y, z) \rho \hspace{1mm}dx dy dz$$
 $$p_C = \frac{1}{m} \int_{B} \mathbf{p}(x, y, z) \rho \hspace{1mm} dx dy dz$$ 
 
 The overall kinectic energy can be then written as:
@@ -176,7 +175,6 @@ $$
 \begin{eqnarray*}
 \mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \omega_i, \\
 &=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J_{bi}(q)}^\top J_{bi}(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
->>>>>>> 81e86b5b6088e642c5295e476c886afbe0416a7a
 &=& \frac{1}{2}\dot q^\top M(q) \dot q
 &=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_{ij}(q) \dot q_i \dot q_j 
 \end{eqnarray*}

@@ -19,17 +19,10 @@ where
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and
 - $$\tau $$ is $$n \times 1$$ vector of joint torques.
 
-This equation can be derived using either Newton-Euler method or using the first principles of Lagrangian mechanics via Euler-Lagrange which is what we do here. 
+This equation provides the relation between the applied forces/torques and the resulting motion of an industrial manipulator. Similar to kinematics, it is possible to also define two "modele":
 
-Robot Dynamics 
-
-Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.
-
-Similarly to kinematics, also for the dynamics it is possible to define two “models”:
-
-
-**Direct model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
-					$$ \ddot q = f (q, \dot q, \tau) $$
+**Forward model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
+					$$ \ddot q = M(q)^{-1}\bigg(\tau - C(q, \dot q) \dot q - g(q, \dot q)\bigg) $$
 and then 
 
 $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
@@ -37,6 +30,16 @@ $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 **Inverse model:** once the joint accelerations, velocities and positions are known, compute the corresponding forces/torques
 
 $$ \tau = f^{-1}(\ddot q, \dot q,  q) = g(\ddot q, \dot q, q) $$
+
+This equation can be derived using either Newton-Euler method or using the first principles of Lagrangian mechanics via Euler-Lagrange which is what we do here. 
+
+
+
+
+
+
+
+
 
 
 From physics we know that it is possible to define: 

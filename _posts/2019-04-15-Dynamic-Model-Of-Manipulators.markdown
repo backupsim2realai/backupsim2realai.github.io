@@ -33,9 +33,7 @@ $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
 $$ \tau = M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) $$
 
-This equation can be derived using either Newton-Euler method or using the Lagrangian mechanics via Euler-Lagrange which is what we do here in this post. The Largrangian mechanics deals with energies of the system  
-
-From physics we know that it is possible to define: 
+This equation can be derived using either Newton-Euler method or using the Lagrangian mechanics via Euler-Lagrange which is what we do here in this post. The Largrangian mechanics deals with energies of the system and from physics we know that it is possible to define: 
 
 - The kinetic energy of the system, $$\mathcal{K}(q, \dot q)$$
 - Potential energy of the system, $$\mathcal{P}(q)$$

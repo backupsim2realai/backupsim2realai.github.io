@@ -15,7 +15,7 @@ where
 - $$\dot q$$ is the first time-derivative (velocity) of $$q$$,
 - $$\ddot q$$ is the second time-derivative (acceleration) of $$q$$,
 - $$M(q)$$ is the $$n \times n$$ inertia matrix,
-- $$C(q, \dot q)$$ is $$n \times n$$ matrix and $$C(q, \dot q) \dot q$$ is $$n \times 1$$ vector of centripetal and Coriolis terms,
+- $$C(q, \dot q)$$ is $$n \times n$$ matrix and $$C(q, \dot q) \dot q$$ is $$n \times 1$$ vector of centripetal and coriolis terms,
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and
 - $$\tau $$ is $$n \times 1$$ vector of joint torques.
 

@@ -19,7 +19,7 @@ where
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and
 - $$\tau $$ is $$n \times 1$$ vector of joint torques.
 
->The equation can derived from the first principles of Lagrangian mechanics below.
+This equation can be derived using either Newton-Euler method or using the first principles of Lagrangian mechanics via Euler-Lagrange which is what we do here. 
 
 Robot Dynamics 
 

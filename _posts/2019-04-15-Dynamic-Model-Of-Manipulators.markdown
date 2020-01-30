@@ -31,17 +31,9 @@ $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
 **Inverse model:** once the joint accelerations, velocities and positions are known, compute the corresponding forces/torques
 
-$$ \tau = f^{-1}(\ddot q, \dot q,  q) = g(\ddot q, \dot q, q) $$
+$$ \tau = M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) $$
 
 This equation can be derived using either Newton-Euler method or using the first principles of Lagrangian mechanics via Euler-Lagrange which is what we do here. 
-
-
-
-
-
-
-
-
 
 
 From physics we know that it is possible to define: 

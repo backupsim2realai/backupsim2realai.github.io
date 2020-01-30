@@ -15,6 +15,8 @@ where
 - $$\dot q$$ is the first time-derivative (velocity) of $$q$$,
 - $$\ddot q$$ is the second time-derivative (acceleration) of $$q$$
 
+>The equation can derived from the first principles of Lagrangian mechanics below.
+
 Robot Dynamics 
 
 Study of the relation between the applied forces/torques and the resulting motion of an industrial manipulator.

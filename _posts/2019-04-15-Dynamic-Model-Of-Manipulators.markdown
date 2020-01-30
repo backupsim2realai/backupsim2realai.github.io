@@ -23,7 +23,8 @@ This equation provides the relation between the applied forces/torques and the r
 
 **Forward model:** once the forces/torques applied to the joints, as well as the joint positions and velocities are known, compute the joint accelerations: 
 					
-					$$ \ddot q = M(q)^{-1}\bigg(\tau - C(q, \dot q) \dot q - g(q, \dot q)\bigg) $$
+$$ \ddot q = M(q)^{-1}\bigg(\tau - C(q, \dot q) \dot q - g(q, \dot q)\bigg) $$
+
 and then 
 
 $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$

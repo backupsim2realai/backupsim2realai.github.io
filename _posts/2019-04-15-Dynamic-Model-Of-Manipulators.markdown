@@ -10,7 +10,7 @@ Physics engines simulate a carefully approximated and idealised version of the r
 
 $$M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) = \tau$$
 
-<center><img src="/assets/img/dynamic_model_manipulator.png" width="70%"></center>
+<center><img src="/assets/img/dynamic_model_drawing.png" width="70%"></center>
 
 where 
 - $$q$$ is the vector of generalized coordinates, for instance the vector of joint-angles for a manipulator,

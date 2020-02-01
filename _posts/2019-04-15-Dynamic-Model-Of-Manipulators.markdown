@@ -176,11 +176,14 @@ $$\boldsymbol{\omega}_{bk} = \sum_{i=1}^{k} \mathbf{z}_i \dot{q}_i$$
 
 Plugging this expression back into the link velocity equation we get 
 
-$$\mathbf{v}_{be} = \sum_{k=1}^{n} \sum_{i=1}^{k} \mathbf{z}_i \dot{q}_i \times \mathbf{r}_{k(k+1)}$$
-
-$$\mathbf{v}_{be} = \sum_{k=1}^{n} \mathbf{z}_k \dot{q}_k \times \sum_{i=k}^{n} \mathbf{r}_{i(i+1)} = \sum_{k=1}^{n} \mathbf{z}_k \dot{q}_k \times \mathbf{r}_{k(n+1)}$$
-
-$$\mathbf{v}_{be}=\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \quad \mathbf{z}_{2} \times \mathbf{r}_{2(n+1)} \quad \ldots \quad \mathbf{z}_{n} \times \mathbf{r}_{n(n+1)}\right]}_{\mathbf{J}_{\mathrm{be}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)$$
+$$
+\begin{eqnarray*}
+\mathbf{v}_{be} &=& \sum_{k=1}^{n} \sum_{i=1}^{k} \mathbf{z}_i \dot{q}_i \times \mathbf{r}_{k(k+1)}
+       &=& \sum_{k=1}^{n} \mathbf{z}_k \dot{q}_k \times \sum_{i=k}^{n} \mathbf{r}_{i(i+1)} 
+		&=& \sum_{k=1}^{n} \mathbf{z}_k \dot{q}_k \times \mathbf{r}_{k(n+1)}
+       &=&\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1(n+1)} \quad \mathbf{z}_{2} \times \mathbf{r}_{2(n+1)} \quad \ldots \quad \mathbf{z}_{n} \times \mathbf{r}_{n(n+1)}\right]}_{\mathbf{J}_{\mathrm{be}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)
+\end{eqnarray*}
+$$
 
 $$
 \begin{eqnarray*}

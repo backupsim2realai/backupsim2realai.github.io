@@ -214,7 +214,7 @@ $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P}(q) = \frac{1}{2}
 
 $$\frac{\partial \mathcal{L}}{\partial \dot q_i} = \frac{\partial \mathcal{K}}{\partial \dot q_i} = \sum_{j=1}^{n} M_{ij}\dot q_j$$
 
-$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg)$$
+$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \bigg(\sum_{i=1}^{n}M_{ij}\frac{d}{dt} q_i + \sum_{i=1}^{n}\frac{d}{dt} M_{ij} q_i \bigg)$$
 
 Talk about total derivative 
 

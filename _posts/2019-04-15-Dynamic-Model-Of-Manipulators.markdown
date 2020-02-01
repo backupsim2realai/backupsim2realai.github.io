@@ -204,6 +204,18 @@ $$P = \sum_{i=1}^{n} \mathbf{g}^\top \mathbf{p}_{C_i} m_i$$
 
 ## Putting together 
 
+Remember that the Euler-Lagrange gives us the following:
+
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
+
+The Lagrangian function is: 
+
+$$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P}(q) = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n M_{ij} \dot q_i \dot q_j - \sum_{i=1}^{n} \mathbf{g}^\top \mathbf{p}_{C_i} m_i$$
+
+$$\frac{\partial \mathcal{L}}{\partial \dot q_i} = \frac{\partial \mathcal{K}}{\partial \dot q_i} = \sum_{j=1}^{n} M_{ij}\dot q_j$$
+
+
+
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
 ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf

@@ -236,7 +236,8 @@ Furthermore
 $$\frac{\partial \mathcal{L}}{\partial q_k} = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j - \frac{\partial \mathcal{P}}{\partial q_k}$$
 
 $$
-\implies \sum_{j=1}^{n}M_{kj} \ddot q_j + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{kj}}{\partial q_i} \dot q_i \dot q_j - \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_k} \dot q_i \dot q_j + \frac{\partial \mathcal{P}}{\partial q_k} = \psi_k, k = 1, 2, \cdots, n 
+\implies \sum_{j=1}^{n}M_{kj} \ddot q_j + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{kj}}{\partial q_i} \dot q_i \dot q_j - \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_k} \dot q_i \dot q_j + \frac{\partial \mathcal{P}}{\partial q_k} = \psi_k, \hspace{3mm} k = 1, 2, \cdots, n \\ 
+\sum_{j=1}^{n}M_{kj} \ddot q_j + \sum_{i=1}^{n} \sum_{j=1}^{n} \bigg[ \frac{\partial M_{kj}}{\partial q_i} \dot q_i \dot q_j - \frac{1}{2} \frac{\partial M_{ij}}{\partial q_k} \bigg] \dot q_i \dot q_j + \frac{\partial \mathcal{P}}{\partial q_k} = \psi_k
 $$
 
 

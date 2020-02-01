@@ -193,6 +193,17 @@ $$
 
 The $$J_{bi}$$ denotes the Jacobian of the $$i^{th}$$ link with respect to the base.
 
+## Computing the Potential Energy 
+A rigid body under the influence of gravity $$g$$ has a potential energy. For any generic link $$i$$ of an n-dof manipulator, it can be expressed as:
+
+$$P_i = \int_{L_i} \mathbf{g}\top \mathbf{p} dm = \mathbf{g}\top \int_{L_i} \mathbf{p} dm = \mathbf{g}\top \mathbf{p}_{C_i} m_i$$
+
+The overall potential energy of the system is therefore 
+
+$$P = \sum_{i=1}^{n} \mathbf{g}\top \mathbf{p}_{C_i} m_i$$
+
+## Putting together 
+
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
 ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf

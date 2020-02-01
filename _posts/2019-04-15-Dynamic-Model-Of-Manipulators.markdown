@@ -217,26 +217,26 @@ The Lagrangian function is:
 
 $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P}(q) = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n M_{ij} \dot q_i \dot q_j - \sum_{i=1}^{n} \mathbf{g}^\top \mathbf{p}_{C_i} m_i$$
 
-$$\frac{\partial \mathcal{L}}{\partial \dot q_i} = \frac{\partial \mathcal{K}}{\partial \dot q_i} = \sum_{j=1}^{n} M_{ij}\dot q_j$$
+$$\frac{\partial \mathcal{L}}{\partial \dot q_k} = \frac{\partial \mathcal{K}}{\partial \dot q_k} = \sum_{j=1}^{n} M_{kj}\dot q_j$$
 
 and 
 
-$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij}\frac{d \dot q_i}{dt} + \sum_{i=1}^{n}\frac{d M_{ij}}{dt}  \dot q_i$$
+$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_k}\bigg) = \sum_{j=1}^{n}M_{kj}\frac{d \dot q_j}{dt} + \sum_{i=1}^{n}\frac{d M_{kj}}{dt}  \dot q_j$$
 
-Recall that $$M_{ij}$$ is a function of $$q(t)$$ and therefore, the time-derivative of $$M_{ij}$$ would require a total derivative _i.e._
+Recall that $$M_{kj}$$ is a function of $$q(t)$$ and therefore, the time-derivative of $$M_{kj}$$ would require a total derivative _i.e._
 
-$$\frac{d}{dt} M_{ij} = \sum_{i=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \frac{d q_i}{dt}$$
+$$\frac{d}{dt} M_{kj} = \sum_{i=1}^{n} \frac{\partial M_{kj}}{\partial q_i} \frac{d q_i}{dt}$$
 
 and therefore
 
-$$\implies \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j$$
+$$\implies \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_k}\bigg) = \sum_{i=1}^{n}M_{kj} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{kj}}{\partial q_i} \dot q_i \dot q_j$$
 
 Furthermore 
 
-$$\frac{\partial \mathcal{L}}{\partial q_i} = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j - \frac{\partial \mathcal{P}}{\partial q_k}$$
+$$\frac{\partial \mathcal{L}}{\partial q_k} = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j - \frac{\partial \mathcal{P}}{\partial q_k}$$
 
 $$
-\implies \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j - \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j + \frac{\partial \mathcal{P}}{\partial q_k} = \psi
+\implies \sum_{j=1}^{n}M_{kj} \ddot q_j + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{kj}}{\partial q_i} \dot q_i \dot q_j - \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_k} \dot q_i \dot q_j + \frac{\partial \mathcal{P}}{\partial q_k} = \psi_k
 $$
 
 

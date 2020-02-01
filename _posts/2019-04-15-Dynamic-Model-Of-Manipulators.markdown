@@ -206,7 +206,7 @@ $$P = \sum_{i=1}^{n} \mathbf{g}^\top \mathbf{p}_{C_i} m_i$$
 
 Remember that the Euler-Lagrange gives us the following:
 
-$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
 
 The Lagrangian function is: 
 

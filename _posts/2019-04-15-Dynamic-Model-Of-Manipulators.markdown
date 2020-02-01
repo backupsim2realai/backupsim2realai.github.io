@@ -58,7 +58,7 @@ Let us denote the $$i^{th}$$ joint by $$q_i$$ with $$\psi_i$$ being the non-cons
 
 Therefore, it can be written as $$\psi_i = \tau_i + J_i^\top F_{c_i} - d_{ii}\dot q_i$$. Since the potential energy does not depend on the velocity, the euler-lagrange equation can be further simplied as 
 
-$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\partial \dot q_i} - \frac{\partial \mathcal{P}}{\partial \dot q_i}$$
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{K}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{K}}{\dot q_i} - \frac{\partial \mathcal{P}}{\dot q_i}$$
 
 
 Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \sum_{i=1}^{n}\mathcal{P}_i$$.

@@ -223,7 +223,7 @@ Recall that $$M_{ij}$$ is a function of $$q(t)$$ and therefore, the time-derivat
 $$\frac{d}{dt} M_{ij} = \sum_{i=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \frac{d}{dt} q_i$$
 
 
-$$\rightarrow \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j$$
+$$\implies \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j$$
 
 
 

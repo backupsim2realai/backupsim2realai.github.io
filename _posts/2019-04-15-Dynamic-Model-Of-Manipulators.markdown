@@ -35,7 +35,7 @@ $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
 $$ \tau = M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) $$
 
-This equation can be derived using either Newton-Euler method or the Lagrangian mechanics via Euler-Lagrange which is what we do here in this post. Since the Largrangian mechanics deals with energies of the system and from physics we know that it is possible to define: 
+This equation can be derived using either Newton-Euler method or the Lagrangian mechanics via Euler-Lagrange which is what we do here in this post. The Largrangian mechanics deals with energies of the system and from physics we know that it is possible to define: 
 
 - The kinetic energy of the system, $$\mathcal{K}(q, \dot q)$$
 - Potential energy of the system, $$\mathcal{P}(q)$$
@@ -65,7 +65,7 @@ Where $$\mathcal{K} = \sum_{i=1}^{n}\mathcal{K}_i \hspace{10mm} \mathcal{P} = \s
 
 
 
-**Computing Kinetic Energy** 
+## Computing Kinetic Energy
 
 For any rigid body B, the _mass_ can be computed by integrating the mass density as: 
 
@@ -144,7 +144,7 @@ where
 - $$I_i$$ is the inertial matrix computed in a fixed reference frame $$\mathcal{F}_i$$ attached to the center of the mass.
 - $$R_i$$ is the rotation matrix of the link with respect to the fixed base frame $$\mathcal{F}_0$$.
 
-### Deriving the velocity of the center of mass
+**Deriving the velocity of the center of mass**
 
 Given the kinetic energy expression derived above we'd like to be able to obtain the velocities of center of masses of all the joints of the manipulator. Denoting $$r_{be}$$ as the position of the end effector with respect to the base frame $$b$$ we can obtain the expression for it as a function of forward dynamics and joint angles vector $$q$$  
 

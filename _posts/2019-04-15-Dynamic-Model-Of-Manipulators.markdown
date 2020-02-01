@@ -216,13 +216,14 @@ $$\frac{\partial \mathcal{L}}{\partial \dot q_i} = \frac{\partial \mathcal{K}}{\
 
 and 
 
-$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij}\frac{d}{dt} \dot q_i + \sum_{i=1}^{n}\frac{d}{dt} M_{ij} q_i$$
+$$\frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij}\frac{d}{dt} \dot q_i + \sum_{i=1}^{n}\frac{d}{dt} M_{ij} \dot q_i$$
 
 Recall that $$M_{ij}$$ is a function of $$q(t)$$ and therefore, the time-derivative of $$M_{ij}$$ would require a total derivative _i.e._
 
 $$\frac{d}{dt} M_{ij} = \sum_{i=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \frac{d}{dt} q_i$$
 
-Talk about total derivative 
+
+$$\rightarrow \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j$$
 
 
 

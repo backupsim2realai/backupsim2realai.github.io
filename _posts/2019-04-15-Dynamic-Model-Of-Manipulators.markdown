@@ -226,6 +226,9 @@ and therefore
 
 $$\implies \frac{d}{dt}\bigg(\frac{\partial \mathcal{L}}{\partial \dot q_i}\bigg) = \sum_{i=1}^{n}M_{ij} \ddot q_i + \sum_{i=1}^{n} \sum_{j=1}^{n} \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j$$
 
+Furthermore 
+
+$$\frac{\partial \mathcal{L}}{\partial q_i} = \frac{1}{2}\sum_{i=1}^n \sum_{j=1}^n \frac{\partial M_{ij}}{\partial q_i} \dot q_i \dot q_j - \frac{\partial \mathcal{P}}{\partial q_k}$$
 
 
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/

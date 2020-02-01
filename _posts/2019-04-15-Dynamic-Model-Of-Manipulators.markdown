@@ -48,7 +48,7 @@ The Lagrangian is $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P
 
 The Euler-Lagrange equations are defined as 
 
-$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial \dot q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
+$$\psi_i = \frac{d}{dt} \bigg( \frac{\partial \mathcal{L}}{\partial \dot q_i} \bigg) - \frac{\partial \mathcal{L}}{\partial q_i} \hspace{10mm} i = 1, 2, \cdots, n $$
 
 Let us denote the $$i^{th}$$ joint by $$q_i$$ with $$\psi_i$$ being the non-conservative (external or dissipative) generalised forces performing any work on the joints $$q_i$$. It can be decomposed into:
 

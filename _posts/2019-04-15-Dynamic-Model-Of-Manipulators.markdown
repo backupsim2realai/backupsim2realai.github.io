@@ -246,6 +246,16 @@ $$
 h_{kji}(q) = \frac{\partial M_{kj}(q)}{\partial q_i} - \frac{1}{2} \frac{\partial M_{ij}(q)}{\partial q_k}
 $$
 
+and $$g_k(q)$$ as 
+
+$$g_k(q) = \frac{\partial \mathcal{P}}{\partial q_k}$$
+
+We can then rewrite the above expression as 
+
+$$
+\sum_{j=1}^{n} M_{kj}(q) \ddot q_j + \sum_{i=1}^{n}\sum_{j=1}^{n} h_{kji}(q) \dot q_i \dot q_j + g_k(q) = \psi_k
+$$
+
 
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 

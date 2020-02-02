@@ -8,7 +8,7 @@ img:  # Add image post (optional)
 
 Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators has only increased among machine learning and computer vision practicioners. Being able to forward simulate the evolution of a physical world as a function of time --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks. In this post, we will dive into the underlying maths and derive the fundamental equation that all physics engines implement to simulate dynamic model of an articulated manipulator, _i.e._
 
-$$M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) = \tau$$
+$$M(q)\ddot q + C(q, \dot q) \dot q + g(q) = \tau$$
 
 <center><img src="/assets/img/dynamic_model_drawing.png" width="56%"></center>
 
@@ -33,7 +33,7 @@ $$ \dot q = \int \ddot q dt ,  \hspace{10mm} q = \int \dot q dt $$
 
 **Inverse model:** once the joint accelerations, velocities and positions are known, compute the corresponding forces/torques
 
-$$ \tau = M(q)\ddot q + C(q, \dot q) \dot q + g(q, \dot q) $$
+$$ \tau = M(q)\ddot q + C(q, \dot q) \dot q + g(q) $$
 
 This equation can be derived using either Newton-Euler method or the Lagrangian mechanics via Euler-Lagrange which is what we do here in this post. The Largrangian mechanics deals with energies of the system and from physics we know that it is possible to define: 
 

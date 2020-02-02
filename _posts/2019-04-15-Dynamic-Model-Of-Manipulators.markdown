@@ -256,11 +256,17 @@ $$
 \sum_{j=1}^{n} M_{kj}(q) \ddot q_j + \sum_{i=1}^{n}\sum_{j=1}^{n} h_{kji}(q) \dot q_i \dot q_j + g_k(q) = \psi_k
 $$
 
+
 Rewriting this in matrix form, we get 
 
 $$
 M(q)\ddot q + C(q, \dot q)\dot q + g(q) = \psi
 $$
+
+## What do these terms really mean?
+
+
+ 
 
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
@@ -273,14 +279,4 @@ Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prun
 This is a great resource https://scaron.info/teaching/equations-of-motion.html
 
 Principle of least action: https://www.feynmanlectures.caltech.edu/II_19.html
-
----
-**NOTE**
-
-It works with almost all markdown flavours (the below blank line matters).
-
----
-
-
-> **_NOTE:_**  The note content. $$p_C = 3$$
 

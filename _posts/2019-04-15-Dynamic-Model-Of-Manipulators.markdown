@@ -256,6 +256,11 @@ $$
 \sum_{j=1}^{n} M_{kj}(q) \ddot q_j + \sum_{i=1}^{n}\sum_{j=1}^{n} h_{kji}(q) \dot q_i \dot q_j + g_k(q) = \psi_k
 $$
 
+Rewriting this in matrix form, we get 
+
+$$
+M(q)\ddot q + C(q, \dot q)\dot q + g(q) = \psi
+$$
 
 Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 

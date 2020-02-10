@@ -44,7 +44,6 @@ The Lagrangian is $$\mathcal{L}(q, \dot q) = \mathcal{K}(q, \dot q) - \mathcal{P
 
 >One may think of a physical system, changing as time goes on from one state or configuration to another, as progressing along a particular evolutionary path, and ask, from this point of view, why it selects that particular path out of all the paths imaginable. The answer is that the physical system sums the values of its Lagrangian function for all the points along each imaginable path and then selects that path with the smallest result. The Lagrangian function measures something analogous to increments of distance, in which case one may say, in an abstract way, that physical systems always take the shortest paths. Source: https://www.britannica.com/science/Lagrangian-function
 
->Since the total energy is conserved, kinetic minus potential is a handy measure of how much energy got converted from one form to the other.
 
 The Euler-Lagrange equations are defined as 
 

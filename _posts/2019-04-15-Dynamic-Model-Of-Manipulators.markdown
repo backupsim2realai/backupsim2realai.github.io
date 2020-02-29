@@ -307,3 +307,4 @@ https://scaron.info/teaching/equations-of-motion.html
 
 Principle of least action: https://www.feynmanlectures.caltech.edu/II_19.html
 
+Dynamic model of robot manipulators http://campus.unibo.it/218782/25/FIR_05_Dynamics.pdf, Claudio Melchiorri, Universita di Bologna 

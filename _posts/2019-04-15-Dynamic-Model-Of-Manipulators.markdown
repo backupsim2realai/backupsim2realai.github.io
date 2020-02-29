@@ -16,8 +16,8 @@ $$M(q)\ddot q + C(q, \dot q) \dot q + g(q) = \tau$$
 
 where 
 - $$q$$ is the vector of generalized coordinates, for instance the vector of joint-angles for a manipulator,
-- $$\dot q$$ is the first time-derivative (velocity) of $$q$$,
-- $$\ddot q$$ is the second time-derivative (acceleration) of $$q$$,
+- $$\dot q$$ is the velocity of $$q$$,
+- $$\ddot q$$ is the acceleration of $$q$$,
 - $$M(q)$$ is the $$n \times n$$ inertia matrix,
 - $$C(q, \dot q)$$ is $$n \times n$$ matrix and $$C(q, \dot q) \dot q$$ is $$n \times 1$$ vector of centripetal and coriolis terms,
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and

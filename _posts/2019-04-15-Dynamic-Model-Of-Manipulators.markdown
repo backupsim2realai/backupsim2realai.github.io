@@ -282,20 +282,28 @@ $$
 M(q)\ddot q + C(q, \dot q)\dot q + g(q) = \psi
 $$
 
-## What do these terms really mean?
+## Some explanation of these terms
+
+The terms $$M_{kj}(q), h_{ijk}(q), g_k(q)$$ are only a function of joint positions so they can be pre-computed once the joint manipulator configuration is known. 
+
+$$M_kk$$ is the *moment of inertia* about the k-th joing axis ingoring all other joints while $$M_ij$$ is the inertia coupling, which captures the effect of acceleration of joint $$i$$ on joint $$k$$.
+
+$$h_{kjj}\dot q_j^2$$ accounts for the *centrifugal effect* induced on joint $$k$$ by the velocity of joint $$j$$.
+
+$$h_{kji} \dot q_i \dot q_j$$ is the *coriolis effect* induced on joint $$k$$ by the velocity of joints $$i$$ and $$j$$.
+
+$$g_k$$ represents the torque generated on joint $$k$$ by the gravity force acting on the manipulator in the current configuration.
 
 
- 
+## Acknowledgements 
 
-Blog: https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
+https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 
-ETH Dynamics: https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf
+https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/6-dynamics.pdf
 
 How physics engines work https://www.haroldserrano.com/blog/how-a-physics-engine-works-an-overview
 
-Sweep and Prune: https://github.com/mattleibow/jitterphysics/wiki/Sweep-and-Prune
-
-This is a great resource https://scaron.info/teaching/equations-of-motion.html
+https://scaron.info/teaching/equations-of-motion.html
 
 Principle of least action: https://www.feynmanlectures.caltech.edu/II_19.html
 

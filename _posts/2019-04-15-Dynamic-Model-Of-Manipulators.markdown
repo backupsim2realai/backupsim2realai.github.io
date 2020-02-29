@@ -286,7 +286,7 @@ $$
 
 The terms $$M_{kj}(q), h_{ijk}(q), g_k(q)$$ are only a function of joint positions so they can be pre-computed once the joint manipulator configuration is known. 
 
-$$M_kk$$ is the *moment of inertia* about the k-th joing axis ingoring all other joints while $$M_ij$$ is the inertia coupling, which captures the effect of acceleration of joint $$i$$ on joint $$k$$.
+$$M_{kk}$$ is the *moment of inertia* about the k-th joing axis ingoring all other joints while $$M_{ij}$$ is the inertia coupling, which captures the effect of acceleration of joint $$i$$ on joint $$k$$.
 
 $$h_{kjj}\dot q_j^2$$ accounts for the *centrifugal effect* induced on joint $$k$$ by the velocity of joint $$j$$.
 

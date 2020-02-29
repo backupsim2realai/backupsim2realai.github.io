@@ -153,7 +153,7 @@ $$r_{be} = \texttt{f}(q)$$
 
 Differentiating this we can get velocity of end-effector position as a function of angles vector $$q$$
 
-$$\dot{r}_{be} \approx  \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \texttt{J}_{be} \dot{q}$$
+$$\dot{r}_{be} = \frac{\partial \texttt{f}(q)}{\partial q} \dot{q} = \texttt{J}_{be} \dot{q}$$
 
 Denoting the velocity $$\dot{r}_{be}$$ as $$v_{be}$$, we can express it recursively for any link $$k$$ as 
 

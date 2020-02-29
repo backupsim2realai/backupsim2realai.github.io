@@ -10,6 +10,8 @@ Physics engines simulate a carefully approximated and idealised version of the r
 
 $$M(q)\ddot q + C(q, \dot q) \dot q + g(q) = \tau$$
 
+>How does the applied torque relate to the joint velocity and acceleration given joint properties like mass, friction etc.
+
 <center><img src="/assets/img/dynamic_model_drawing.png" width="56%"></center>
 
 where 

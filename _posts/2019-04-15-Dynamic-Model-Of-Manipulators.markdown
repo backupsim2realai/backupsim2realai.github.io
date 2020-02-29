@@ -6,11 +6,11 @@ description: describing the equations of motions as used in simulators # Add pos
 img:  # Add image post (optional)
 ---
 
-Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators has only increased among machine learning and computer vision practicioners. Being able to forward simulate the evolution of a physical world as a function of time --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks. In this post, we will dive into the underlying maths and derive the fundamental equation that all physics engines implement to simulate dynamic model of an articulated manipulator, _i.e._
+Physics engines simulate a carefully approximated and idealised version of the real world. In recent times, the popularity of physics simulators has only increased among machine learning and computer vision practicioners. Being able to forward simulate the evolution of a physical world as a function of time --- under certain set of assumptions and approximations --- allows for optimising a control policy to carry out tasks. In this post, we will dive into the underlying maths and derive the fundamental equation that all physics engines implement to simulate dynamic model of an articulated manipulator, _i.e._ 
+how does the applied torque relate to the joint velocity and acceleration given joint properties like mass, friction and gravity. It is formulated as:
 
 $$M(q)\ddot q + C(q, \dot q) \dot q + g(q) = \tau$$
 
->How does the applied torque relate to the joint velocity and acceleration given joint properties like mass, friction etc.
 
 <center><img src="/assets/img/dynamic_model_drawing.png" width="56%"></center>
 

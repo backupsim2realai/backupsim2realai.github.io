@@ -198,7 +198,7 @@ Rewriting expression (22) as a vector dot product, we get
 
 $$
 \begin{eqnarray*}
-\mathbf{\omega}_{bi} &=&\underbrace{\left[\mathbf{z}_{1} \quad \mathbf{z}_{2} \ldots \mathbf{z}_{i} \quad \ldots \quad 0 \right]}_{\mathbf{J}_{\mathrm{\omega i}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{i}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)
+\mathbf{\omega}_{bi} &=&\underbrace{\left[\mathbf{z}_{1} \quad \mathbf{z}_{2} \ldots \mathbf{z}_{i} \quad \ldots \quad 0 \right]}_{\mathbf{J}_{\mathrm{\omega}}^i}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{i}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)
 \end{eqnarray*}
 $$
 

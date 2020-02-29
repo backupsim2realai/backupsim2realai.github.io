@@ -295,7 +295,13 @@ $$h_{kji} \dot q_i \dot q_j$$ is the *coriolis effect* induced on joint $$k$$ by
 $$g_k$$ represents the torque generated on joint $$k$$ by the gravity force acting on the manipulator in the current configuration.
 
 
-## Acknowledgements 
+
+#Authors
+
+Ankur Handa 
+
+
+## Bibliography
 
 https://conversationofmomentum.wordpress.com/2014/08/05/euler-lagrange-equations/
 

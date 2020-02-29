@@ -190,7 +190,7 @@ Similarly, the velocity of any joint $$i$$ can be expressed as
 
 $$
 \begin{eqnarray*}
-\mathbf{v}_{bi} &=&\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1i} \quad \mathbf{z}_{2} \times \mathbf{r}_{2i} \mathbf{z}_{i-1} \times \mathbf{r}_{(i-1)i} \quad \ldots \quad 0 \right]}_{\mathbf{J}_{\mathrm{be}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\vdots} \\ {\dot{q}_{n}}\end{array}\right)
+\mathbf{v}_{bi} &=&\underbrace{\left[\mathbf{z}_{1} \times \mathbf{r}_{1i} \quad \mathbf{z}_{2} \times \mathbf{r}_{2i} \mathbf{z}_{i-1} \times \mathbf{r}_{(i-1)i} \quad \ldots \quad 0 \right]}_{\mathbf{J}_{\mathrm{bi}}}\left(\begin{array}{c}{\dot{q}_{1}} \\ {\dot{q}_{2}} \\ {\dot{q}_{i}} {\vdots} \\ {\dot{q}_{n}}\end{array}\right)
 \end{eqnarray*}
 $$
 

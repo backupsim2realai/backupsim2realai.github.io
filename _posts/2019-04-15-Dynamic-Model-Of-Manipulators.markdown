@@ -18,7 +18,7 @@ where
 - $$q$$ is the vector of generalized coordinates, for instance the vector of joint-angles for a manipulator,
 - $$\dot q$$ is the velocity of $$q$$,
 - $$\ddot q$$ is the acceleration of $$q$$,
-- $$M(q)$$ is the $$n \times n$$ inertia matrix,
+- $$M(q)$$ is the $$n \times n$$ generalised inertia matrix,
 - $$C(q, \dot q)$$ is $$n \times n$$ matrix and $$C(q, \dot q) \dot q$$ is $$n \times 1$$ vector of centripetal and coriolis terms,
 - $$g(q, \dot q)$$ is $$n \times 1$$ vector of gravity terms, and
 - $$\tau $$ is $$n \times 1$$ vector of joint torques.
@@ -286,11 +286,9 @@ $$
 
 The terms $$M_{kj}(q), h_{ijk}(q), g_k(q)$$ are only a function of joint positions so they can be pre-computed once the joint manipulator configuration is known. 
 
-$$M_{kk}$$ is the *moment of inertia* about the k-th joing axis ingoring all other joints while $$M_{kj}$$ is the inertia coupling, which captures the effect of acceleration of joint $$i$$ on joint $$k$$.
+$$M_{kk}$$ is the *moment of inertia* about the k-th joint *i.e.* inertia at joint $$k$$ when the joint $$k$$ accelerates. $$M_{kj}$$ is the inertia coupling, which captures the effect of acceleration of joint $$i$$ on joint $$k$$ i.e. the inertia seen at joint $$k$$ when joint $$j$$ accelerates.
 
-$$h_{kjj}\dot q_j^2$$ accounts for the *centrifugal effect* induced on joint $$k$$ by the velocity of joint $$j$$.
-
-$$h_{kji} \dot q_i \dot q_j$$ is the *coriolis effect* induced on joint $$k$$ by the velocity of joints $$i$$ and $$j$$.
+$$h_{kjj}\dot q_j^2$$ accounts for the *centrifugal effect* induced on joint $$k$$ by the velocity of joint $$j$$. $$h_{kji} \dot q_i \dot q_j$$ is the *coriolis effect* induced on joint $$k$$ by the velocity of joints $$i$$ and $$j$$.
 
 $$g_k$$ represents the torque generated on joint $$k$$ by the gravity force acting on the manipulator in the current configuration.
 

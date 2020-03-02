@@ -208,8 +208,8 @@ Therefore, the Kinectic energy can be rewritten as
 
 $$
 \begin{eqnarray*}
-\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i v_{C_i}^\top v_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \omega_i, \\
-&=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {J_{bi}(q)}^\top J_{bi}(q) + {J^i_{\omega}(q)}^\top R_i I_i R_i^\top {J^i_{\omega}(q)} \bigg] \dot q
+\mathcal{K} &=& \frac{1}{2}\sum_{i=1}^n m_i \mathbf{v}_{C_i}^\top \mathbf{v}_{C_i} + \frac{1}{2} \sum_{i=1}^n \boldsymbol{\omega}_i^\top R_i I_i R_i^\top \omega_i, \\
+&=& \frac{1}{2}\dot q^\top \sum_{i=1}^n \bigg[ m_i {\mathbf{J}_{bi}(q)}^\top \mathbf{J}_{bi}(q) + {\mathbf{J}^i_{\omega}(q)}^\top R_i I_i R_i^\top {\mathbf{J}^i_{\omega}(q)} \bigg] \dot q
 &=& \frac{1}{2}\dot q^\top M(q) \dot q
 &=& \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n M_{ij}(q) \dot q_i \dot q_j 
 \end{eqnarray*}

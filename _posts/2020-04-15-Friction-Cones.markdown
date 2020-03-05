@@ -14,3 +14,5 @@ http://www.cs.rpi.edu/~trink/Courses/RobotManipulation/lectures/lecture16.pdf
 https://arxiv.org/pdf/1509.03355.pdf
 
 https://www10.cs.fau.de/publications/theses/2007/Preclik_SA_2007.pdf
+
+LCP related: http://image.diku.dk/kenny/download/erleben.13.siggraph.course.notes.pdf

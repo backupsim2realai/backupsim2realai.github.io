@@ -12,3 +12,5 @@ On the Similarities and Differences Among Contact Models in Robot Simulation
 http://www.cs.rpi.edu/~trink/Courses/RobotManipulation/lectures/lecture16.pdf
 
 https://arxiv.org/pdf/1509.03355.pdf
+
+https://www10.cs.fau.de/publications/theses/2007/Preclik_SA_2007.pdf

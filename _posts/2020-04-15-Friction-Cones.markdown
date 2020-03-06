@@ -16,3 +16,9 @@ https://arxiv.org/pdf/1509.03355.pdf
 https://www10.cs.fau.de/publications/theses/2007/Preclik_SA_2007.pdf
 
 LCP related: http://image.diku.dk/kenny/download/erleben.13.siggraph.course.notes.pdf
+
+https://www.myphysicslab.com/develop/docs/Baraff_Fast_Contact_Force_94.pdf
+
+https://www.cgp-gateway.org/resources/Articles/CD_MM.pdf
+
+http://users.cecs.anu.edu.au/~roy/papers/icra00.pdf

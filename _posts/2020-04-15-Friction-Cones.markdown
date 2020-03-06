@@ -24,3 +24,5 @@ https://www.cgp-gateway.org/resources/Articles/CD_MM.pdf
 http://users.cecs.anu.edu.au/~roy/papers/icra00.pdf
 
 https://projet.liris.cnrs.fr/imagine/pub/proceedings/EUROGRAPHICS2012/stars/pdf/095-134.pdf
+
+http://www.roboticsproceedings.org/rss04/p12.pdf

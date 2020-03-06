@@ -22,3 +22,5 @@ https://www.myphysicslab.com/develop/docs/Baraff_Fast_Contact_Force_94.pdf
 https://www.cgp-gateway.org/resources/Articles/CD_MM.pdf
 
 http://users.cecs.anu.edu.au/~roy/papers/icra00.pdf
+
+https://projet.liris.cnrs.fr/imagine/pub/proceedings/EUROGRAPHICS2012/stars/pdf/095-134.pdf

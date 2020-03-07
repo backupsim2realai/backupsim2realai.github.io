@@ -30,3 +30,6 @@ http://www.roboticsproceedings.org/rss04/p12.pdf
 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.5327
 Contact Handling for Articulated Rigid Bodies Using LCP
 
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.1260&rep=rep1&type=pdf
+An Implicit Time-Stepping Scheme for Rigid Body
+Dynamics with Coulomb Friction

@@ -26,3 +26,7 @@ http://users.cecs.anu.edu.au/~roy/papers/icra00.pdf
 https://projet.liris.cnrs.fr/imagine/pub/proceedings/EUROGRAPHICS2012/stars/pdf/095-134.pdf
 
 http://www.roboticsproceedings.org/rss04/p12.pdf
+
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.296.5327
+Contact Handling for Articulated Rigid Bodies Using LCP
+

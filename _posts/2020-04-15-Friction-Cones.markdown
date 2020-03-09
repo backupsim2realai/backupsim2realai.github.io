@@ -34,3 +34,5 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.1260&rep=rep1&type=p
 An Implicit Time-Stepping Scheme for Rigid Body Dynamics with Coulomb Friction
 
 https://studywolf.wordpress.com/page/3/
+
+ftp://ftp.cis.upenn.edu/pub/evangelo/slides.color.pdf

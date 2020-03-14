@@ -36,3 +36,6 @@ An Implicit Time-Stepping Scheme for Rigid Body Dynamics with Coulomb Friction
 https://studywolf.wordpress.com/page/3/
 
 ftp://ftp.cis.upenn.edu/pub/evangelo/slides.color.pdf
+
+Accurate Markerless Jaw Tracking for Facial Performance Capture 
+http://twvideo01.ubm-us.net/o1/vault/GDC2014/Presentations/Coumans_Erwin_Physics_for_Game.pdf

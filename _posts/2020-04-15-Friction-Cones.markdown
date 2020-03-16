@@ -43,5 +43,5 @@ http://twvideo01.ubm-us.net/o1/vault/GDC2014/Presentations/Coumans_Erwin_Physics
 
 http://www.projectchrono.org/tasora/publications.html
 
-
+Contact Jacobian: https://danielchappuis.ch/download/ConstraintsDerivationRigidBody3D.pdf
 

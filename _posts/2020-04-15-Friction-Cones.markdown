@@ -39,3 +39,9 @@ ftp://ftp.cis.upenn.edu/pub/evangelo/slides.color.pdf
 
 Accurate Markerless Jaw Tracking for Facial Performance Capture 
 http://twvideo01.ubm-us.net/o1/vault/GDC2014/Presentations/Coumans_Erwin_Physics_for_Game.pdf
+
+
+http://www.projectchrono.org/tasora/publications.html
+
+
+

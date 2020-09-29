@@ -45,3 +45,4 @@ http://www.projectchrono.org/tasora/publications.html
 
 Contact Jacobian: https://danielchappuis.ch/download/ConstraintsDerivationRigidBody3D.pdf
 
+Video: https://twitter.com/KErleben/status/1311003899554344963
